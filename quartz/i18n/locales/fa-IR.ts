@@ -54,7 +54,7 @@ export default {
       title: "فهرست",
     },
     contentMeta: {
-      readingTime: ({ minutes }) => `زمان تقریبی مطالعه: ${minutes} دقیقه`,
+      readingTime: ({ minutes }) => `زمان مطالعه: ${minutes} دقیقه`,
     },
   },
   pages: {
@@ -64,7 +64,7 @@ export default {
     },
     error: {
       title: "یافت نشد",
-      notFound: "این صفحه یا خصوصی است یا وجود ندارد",
+      notFound: "این صفحه وجود ندارد",
     },
     folderContent: {
       folder: "پوشه",

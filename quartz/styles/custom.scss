@@ -66,3 +66,17 @@ code {
 	direction: ltr !important;
 }
  
+
+.backlinks {
+border: var(--box-border-width, 1px) solid var(--lightgray);
+border-radius: 6px;
+padding: 12px;
+
+}
+
+.toc {
+border: var(--box-border-width, 1px) solid var(--lightgray);
+border-radius: 6px;
+padding: 12px;
+
+}

@@ -18,7 +18,7 @@ categories:
 <div id="14134028470"><script type="text/JavaScript" src="https://www.aparat.com/embed/b36w7z1?data[rnddiv]=14134028470&data[responsive]=yes"></script></div>
 
 <br/> <br/>
-> [!example] لینک های مورد نیاز 
+> [!abstract] لینک های مورد نیاز 
 > 🎬 [مشاهده ویدئو در آپارات](https://www.aparat.com/v/LJuMz)
 > 
 > 📥 [دانلود نرم‌افزار ](https://obsidian.md/download)
