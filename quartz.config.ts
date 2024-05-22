@@ -12,10 +12,10 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: 'google', tagId: 'G-XJMFYNE6JF',
+      provider: "plausible",
     },
     locale: "fa-IR",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "ifard.ir",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
@@ -35,7 +35,7 @@ const config: QuartzConfig = {
           dark: "#2b2b2b",
           secondary: "#5960cf",
           tertiary: "#828ef4",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          highlight: "#eef1ff",
         },
         darkMode: {
           light: "#161618",

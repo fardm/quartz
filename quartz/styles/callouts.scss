@@ -37,9 +37,9 @@
   }
 
   &[data-callout="abstract"] {
-    --color: #00b0ff;
-    --border: #00b0ff44;
-    --bg: #00b0ff10;
+    --color: #db8942;
+    --border: #db894244;
+    --bg: #db894210;
     --callout-icon: var(--callout-icon-abstract);
   }
 
@@ -101,15 +101,16 @@
   }
 
   &[data-callout="example"] {
-    --color: #828ef4;
-    --border: #aeb9fb;
-    --bg: #eef1ff;
+    --color: #db4242;
+    --border: #db424244;
+    --bg: #db424210;
     --callout-icon: var(--callout-icon-example);
   }
 
   &[data-callout="quote"] {
-    --color: var(--secondary);
-    --border: var(--lightgray);
+    --color: #6b6b6b;
+    --border: var(--gray);
+    --bg: #85858525;
     --callout-icon: var(--callout-icon-quote);
   }
 
