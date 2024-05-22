@@ -15,7 +15,7 @@ categories:
 
 اگر تازه تصمیم گرفتید از نرم افزار استفاده کنید می توانید با مشاهده این ویدئو نصب کمی با رابط کاربری آن آشنا شوید و در پایان یک یادداشت جدید داخل نرم افزار بنویسید.
 <br/> <br/>
-<style>.h_iframe-aparat_embed_frame{position:relative;}.h_iframe-aparat_embed_frame .ratio{display:block;width:100%;height:auto;}.h_iframe-aparat_embed_frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;}</style><div class="h_iframe-aparat_embed_frame"><span style="display: block;padding-top: 57%"></span><iframe src="https://www.aparat.com/video/video/embed/videohash/LJuMz/vt/frame"  allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe></div>
+<div id="14134028470"><script type="text/JavaScript" src="https://www.aparat.com/embed/b36w7z1?data[rnddiv]=14134028470&data[responsive]=yes"></script></div>
 
 <br/> <br/>
 > [!example] لینک های مورد نیاز 

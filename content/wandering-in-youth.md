@@ -32,15 +32,15 @@ tags:
 
 ## به رسمیت شناختن سرگردانی
 
-همین‌طور که روزها و هفته‌ها دنبال جوابی واضح و شفاف برای آن سوال‌ها می‌گشتم، زمزمه‌هایی شنیدم که می‌گفت باید دوران سرگردانی را برای مقطعی به رسمیت شناخت. اولین بار این کلیپ از صحبت‌های رضا امیرخانی را دیدم([+](https://www.aparat.com/v/NGLc2))
+همین‌طور که روزها و هفته‌ها دنبال جوابی واضح و شفاف برای آن سوال‌ها می‌گشتم، زمزمه‌هایی شنیدم که می‌گفت باید دوران سرگردانی را برای مقطعی به رسمیت شناخت. اولین بار این کلیپ از صحبت‌های رضا امیرخانی را دیدم([+](https://s30.picofile.com/d/8474157242/400e0112-5916-44bc-8b1c-3b46b7446272/amirkhani.mp4))
+
 ![[https://s30.picofile.com/d/8474157242/ea1bd2f4-447c-47d6-a66a-9b4e8164087f/amirkhani.mp4]]
 
-<style>.h_iframe-aparat_embed_frame{position:relative;}.h_iframe-aparat_embed_frame .ratio{display:block;width:100%;height:auto;}.h_iframe-aparat_embed_frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;}</style><div class="h_iframe-aparat_embed_frame"><span style="display: block;padding-top: 57%"></span><iframe src="https://www.aparat.com/video/video/embed/videohash/NGLc2/vt/frame"  allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe></div>
-<br/> <br/>
+<br/>
 
-بعد از مدتی هم این قطعه از گفت‌وگوی [محمدرضا شعبانعلی](https://www.shabanali.com/) به آن ضمیمه شد([+](https://www.aparat.com/v/YqELi))
-<style>.h_iframe-aparat_embed_frame{position:relative;}.h_iframe-aparat_embed_frame .ratio{display:block;width:100%;height:auto;}.h_iframe-aparat_embed_frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;}</style><div class="h_iframe-aparat_embed_frame"><span style="display: block;padding-top: 57%"></span><iframe src="https://www.aparat.com/video/video/embed/videohash/YqELi/vt/frame"  allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe></div>
-<br/> <br/>
+بعد از مدتی هم این قطعه از گفت‌وگوی [محمدرضا شعبانعلی](https://www.shabanali.com/) به آن ضمیمه شد([+](https://s30.picofile.com/d/8475861984/0f917f0a-7dca-4341-83d7-4afbfa2e3bd3/mrshabanali_w.mp4))
+
+![[https://s30.picofile.com/d/8475861984/0f917f0a-7dca-4341-83d7-4afbfa2e3bd3/mrshabanali_w.mp4]]
 
 این نگرش دری به‌سوی من گشود و مرا وارد فضایی کرد که در آن احساس آزادی می‌کردم. آزاد شدن از قید و بندهایی که پیش‌ازاین موجب سلب آرامش من شده بود. قبلاً عضویت در «باشگاه جوانان سرگردان» موقتاً باعث می‌شد آن نگرانی‌ها را نادیده بگیرم اما حالا با پذیرفتن این مسأله، دیگر جایی برای نگرانی وجود نداشت.
 
@@ -90,7 +90,6 @@ tags:
 من هم مدتی دچار این وضعیت بودم، مشغول فعالیت‌هایی شدم که تاثیر چندانی در پیدا کردن مسیر زندگی‌ام نداشت. وقتی درگیر کارها بودم متوجه کم‌اهمیت بودنشان نمی‌شدم اما حالا که مدتی از آن گذشته فکر می‌کنم فعالیت اثر گذاری نبوده.
 
 البته چندان پیشمان نیستم و افسوس آن روز ها را نمی‌خورم. چون همین درجازدن‌ها باعث شد شناخت بهتری از مسیر و اهدافم پیدا کنم اما به هر حال میتوانستم انرژی و فرصتم را صرف اموری کنم که بیشترین بهره وری ممکن را داشته باشد و سریع تر به نتیجه برسم.
-<br/>
-<br/>
+<br/> <br/>
 
 
