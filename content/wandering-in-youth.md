@@ -9,6 +9,7 @@ tags:
 ![[cover-wandering.jpg]]
 پیش نوشت: مدتی بود که یک حالت سرگردانی و سردرگمی داشتم. ازیک‌طرف نگران وضعیت معیشتی و جایگاه شغلی بودم، ازطرف‌دیگر تصور روشنی از آیندۀ علمی تحصیلی نداشتم. البته این درد مشترکی بین جوانان است که عموماً در سن ۲۰ تا ۳۰ سالگی به آن مبتلا می‌شوند. من برای گذر از این دوران تلاش‌های زیادی کردم و اکنون به نتیجه‌ای رسیدم که فکر می‌کنم بازگو کردن آن برای هم‌قطاران مفید باشد، شاید گره از ذهن کسی باز کند.
 
+
 ## باشگاه جوانان سرگردان
 
 روزهای اول تصور می‌کردم فقط خودم درگیر این مسأله هستم و هیچکس چنین مشکلی ندارند. وقتی زندگی روزمره دیگران را نگاه می‌کردم وقتی پای گپ و گفت دوستانه می‌نشستم، آثاری از این سرگردانی در کلام و رفتار آنها قابل‌مشاهده نبود. همه روال عادی زندگی خود را داشتند، دریغ از یک نگرانی جزئی در مورد آینده و مسائل حیاتی زندگی.
@@ -32,6 +33,8 @@ tags:
 ## به رسمیت شناختن سرگردانی
 
 همین‌طور که روزها و هفته‌ها دنبال جوابی واضح و شفاف برای آن سوال‌ها می‌گشتم، زمزمه‌هایی شنیدم که می‌گفت باید دوران سرگردانی را برای مقطعی به رسمیت شناخت. اولین بار این کلیپ از صحبت‌های رضا امیرخانی را دیدم([+](https://www.aparat.com/v/NGLc2))
+![[https://s30.picofile.com/d/8474157242/ea1bd2f4-447c-47d6-a66a-9b4e8164087f/amirkhani.mp4]]
+
 <style>.h_iframe-aparat_embed_frame{position:relative;}.h_iframe-aparat_embed_frame .ratio{display:block;width:100%;height:auto;}.h_iframe-aparat_embed_frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;}</style><div class="h_iframe-aparat_embed_frame"><span style="display: block;padding-top: 57%"></span><iframe src="https://www.aparat.com/video/video/embed/videohash/NGLc2/vt/frame"  allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe></div>
 <br/> <br/>
 
