@@ -1,6 +1,7 @@
 ---
-title: گزارش توسعه فردی ۱۴۰۲
-aliases: []
+title: گزارش توسعه فردی 1402
+aliases:
+  - گزارش توسعه فردی 1402
 date: 2024-03-29
 draft: false
 tags:

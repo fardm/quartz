@@ -1,6 +1,7 @@
 ---
 title: آیا ویکی پدیا قابل اعتماد است؟
-aliases: 
+aliases:
+  - آیا ویکی پدیا قابل اعتماد است؟
 date: 2023-09-01
 draft: false
 tags:

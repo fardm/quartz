@@ -1,6 +1,7 @@
 ---
 title: سرگردانی در دوران جوانی
-aliases: 
+aliases:
+  - سرگردانی در دوران جوانی
 date: 2023-08-31
 draft: false
 tags:
