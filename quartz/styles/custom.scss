@@ -68,15 +68,18 @@ code {
  
 
 .backlinks {
-border: var(--box-border-width, 1px) solid var(--lightgray);
-border-radius: 6px;
-padding: 12px;
 
 }
 
+.backlinks>ul {
+    border-radius: 5px;
+    border: 1px solid var(--lightgray);
+    padding: 12px;    
+}
+
 .toc {
-border: var(--box-border-width, 1px) solid var(--lightgray);
-border-radius: 6px;
-padding: 12px;
+    border-radius: 5px;
+    border: 1px solid var(--lightgray);
+    padding: 12px; 
 
 }

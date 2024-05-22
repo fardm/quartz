@@ -23,36 +23,36 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ContentMeta(),
     Component.TagList(),
   ],
-  left: [    
-    Component.DesktopOnly(Component.Graph()),
-    Component.DesktopOnly(Component.Backlinks()),
-     
-    Component.MobileOnly(Component.PageTitle()),
+  left: [  
+    Component.MobileOnly(Component.PageTitle()),  
+    Component.MobileOnly(Component.Spacer()),
     Component.MobileOnly(Component.Darkmode()),
-    
+    Component.Search(),     
+    Component.DesktopOnly(Component.TableOfContents()),  
   ],
   right: [
+    Component.DesktopOnly(Component.PageTitle()),
     Component.DesktopOnly(Component.Darkmode()),
-    Component.DesktopOnly(Component.PageTitle()),  
-    Component.Search(),     
-    Component.DesktopOnly(Component.TableOfContents()),     
-    
-    Component.MobileOnly(Component.Backlinks()),
-    Component.MobileOnly(Component.Graph()),
-    
+    Component.Graph(),
+    Component.MobileOnly(Component.Spacer()),           
+    Component.Backlinks(),
   ],
 }
+
+
  
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
   left: [
     Component.MobileOnly(Component.PageTitle()),
+    Component.MobileOnly(Component.Spacer()),
     Component.MobileOnly(Component.Darkmode()),
+    Component.Search(), 
   ],
   right: [
     Component.DesktopOnly(Component.PageTitle()),    
-    Component.DesktopOnly(Component.Darkmode()),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.DesktopOnly(Component.Darkmode()),  
+    Component.Graph(),  
   ],
 }
