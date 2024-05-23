@@ -5,6 +5,7 @@ aliases:
 date: 2024-03-29
 draft: false
 tags:
+  - 🌿جوانه_زدن
 ---
 ![[cover-report02.svg]]
 
