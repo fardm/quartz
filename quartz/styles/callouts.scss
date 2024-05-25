@@ -43,17 +43,21 @@
     --callout-icon: var(--callout-icon-abstract);
   }
 
-  &[data-callout="info"],
+  &[data-callout="info"] {
+    --color: #808af8;
+    --border: #6871ee36;
+    --bg: #888ff10e;
+    --callout-icon: var(--callout-icon-info);
+  }
+
+
   &[data-callout="todo"] {
     --color: #00b8d4;
     --border: #00b8d444;
     --bg: #00b8d410;
-    --callout-icon: var(--callout-icon-info);
-  }
-
-  &[data-callout="todo"] {
     --callout-icon: var(--callout-icon-todo);
   }
+
 
   &[data-callout="tip"] {
     --color: #00bfa5;
@@ -101,9 +105,9 @@
   }
 
   &[data-callout="example"] {
-    --color: #808af8;
-    --border: #6871ee36;
-    --bg: #888ff10e;
+    --color: #7c7c7c;
+    --border: var(--gray);
+    --bg: #ffffff1f;
     --callout-icon: var(--callout-icon-example);
   }
 
