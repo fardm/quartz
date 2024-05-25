@@ -74,7 +74,9 @@ code {
 .backlinks>ul {
     border-radius: 5px;
     border: 1px solid var(--lightgray);
-    padding: 12px;    
+    list-style: circle;
+    padding-right: 35px;
+    padding-top: 10px; 
 }
 
 .toc {
