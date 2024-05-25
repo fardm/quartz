@@ -1,11 +1,11 @@
 ---
-title: آموزش نرم افزار ابسیدین - نصب و راه اندازی
+title: آموزش نصب و راه اندازی نرم افزار ابسیدین
 aliases:
-  - آموزش نرم افزار ابسیدین - نصب و راه اندازی
+  - آموزش نصب و راه اندازی نرم افزار ابسیدین
 date: 2024-04-07
 draft: false
 tags:
-- 🌿جوانه_زدن
+  - 🌿جوانه_زدن
 ---
 <style>.h_iframe-aparat_embed_frame{position:relative;}.h_iframe-aparat_embed_frame .ratio{display:block;width:100%;height:auto;}.h_iframe-aparat_embed_frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;}</style><div class="h_iframe-aparat_embed_frame"><span style="display: block;padding-top: 57%"></span><iframe src="https://www.aparat.com/video/video/embed/videohash/b36w7z1/vt/frame"  allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe></div>
 
