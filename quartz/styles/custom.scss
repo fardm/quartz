@@ -38,10 +38,18 @@ button#explorer .fold {
     padding-right: .7rem !important;
     padding-left: 0px !important;
 }
+
+#toc-content .depth-0 {
+    list-style: disc;
+    list-style-position: inside;
+
+}
  
 #toc-content .depth-1 {
     padding: 0px !important;
     padding-right: 1rem !important;
+    list-style: circle;
+    list-style-position: inside;
 }
  
 #toc-content .depth-2 {
@@ -74,16 +82,18 @@ code {
 .backlinks>ul {
     border-radius: 5px;
     border: 1px solid var(--lightgray);
-    list-style: circle;
+    list-style: disc;
     padding-right: 35px;
     padding-top: 10px;
     padding-left: 10px;
+    font-size: 0.95rem;
 }
 
 .toc {
     border-radius: 5px;
     border: 1px solid var(--lightgray);
     padding: 12px; 
+    font-size: 0.9rem;
 
 }
 

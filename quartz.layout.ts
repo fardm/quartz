@@ -43,7 +43,6 @@ export const defaultContentPageLayout: PageLayout = {
   }}),
     Component.MobileOnly(Component.Spacer()),
     Component.MobileOnly(Component.Backlinks()),
-    Component.DesktopOnly(Component.RecentNotes({limit: 3})),
     
   ],
 }

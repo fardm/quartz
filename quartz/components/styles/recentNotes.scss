@@ -14,13 +14,14 @@
     border: 1px solid var(--lightgray);
     list-style: circle;
     padding-right: 35px;
+    
 
 
     & > li {
       margin: 1rem 0;
       .section > .desc > h3 > a {
         background-color: transparent;
-        font-size: 0.8em;
+        font-size: 0.75em;
         
 
       }

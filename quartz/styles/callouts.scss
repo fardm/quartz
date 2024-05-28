@@ -88,31 +88,34 @@
   }
 
   &[data-callout="failure"],
-  &[data-callout="danger"],
-  &[data-callout="bug"] {
+  &[data-callout="danger"] {
     --color: #db4242;
     --border: #db424244;
     --bg: #db424210;
     --callout-icon: var(--callout-icon-failure);
   }
 
-  &[data-callout="bug"] {
-    --callout-icon: var(--callout-icon-bug);
-  }
 
   &[data-callout="danger"] {
     --callout-icon: var(--callout-icon-danger);
   }
 
+  &[data-callout="bug"] {
+    --color: #808af8;
+    --border: #6871ee36;
+    --bg: #888ff10e;
+    --callout-icon: var(--callout-icon-bug);
+  }
+
   &[data-callout="example"] {
-    --color: #7c7c7c;
+    --color: var(--darkgray);
     --border: var(--gray);
     --bg: #ffffff1f;
     --callout-icon: var(--callout-icon-example);
   }
 
   &[data-callout="quote"] {
-    --color: #6b6b6b;
+    --color: var(--darkgray);
     --border: var(--gray);
     --bg: #a3a3a31e;
     --callout-icon: var(--callout-icon-quote);
