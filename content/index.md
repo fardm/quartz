@@ -1,8 +1,7 @@
 ---
-title: خانه
-aliases:
-  - خانه
-date: 2024-03-20
+title: وبلاگ فرد
+aliases: 
+date:
 ---
 
 سلام!
