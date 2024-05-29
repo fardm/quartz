@@ -1,9 +1,8 @@
 ---
 title: وبلاگ فرد
-aliases: 
-date:
+date: 
+description: یادداشت‌های حسین فردمحمدی
 ---
-
 سلام!
 
 من [**حسین فردمحمدی**](https://hoseinfm.ir/about-me/) هستم.
