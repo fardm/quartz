@@ -16,9 +16,9 @@ tags:
 <br/> 
 
 > [!info] لینک های مورد نیاز 
-> 📥 [دانلود مخزن آماده ابسیدین](https://ifard.ir/img/journal-and-habit.zip)
+> [<i class="fa-solid fa-download"></i> دانلود مخزن آماده ابسیدین](https://ifard.ir/img/journal-and-habit.zip)
 > 
-> 🎬 [مشاهده ویدئو در آپارات](https://www.aparat.com/v/mpda5p0)
+> [<i class="fa-solid fa-circle-play"></i> مشاهده ویدئو در آپارات](https://www.aparat.com/v/mpda5p0)
 > 
 > <br/>
 
@@ -56,3 +56,4 @@ tags:
 > ![[obsidian|💎 مدخل ابسیدین]]
 
 <br/>
+

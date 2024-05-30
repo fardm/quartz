@@ -16,11 +16,9 @@ export default ((opts?: Options) => {
         <hr />
 
         <ul>
-          {Object.entries(links).map(([text, link]) => (
-            <li>
-              <a href={link}>{text}</a>
-            </li>
-          ))}
+        <a href="https://instagram.com/ifard.ir/"><i class="fa-brands fa-instagram"></i> اینستاگرام</a>
+        <a href="https://t.me/ifard_ir/"><i class="fa-regular fa-paper-plane"></i> تلگرام</a>
+        <a href="https://twitter.com/ifard_ir/"><i class="fa-brands fa-x-twitter"></i> ایکس</a>
         </ul>
         
         <br/>
@@ -33,6 +31,8 @@ export default ((opts?: Options) => {
         <p>
           {year}©        
         </p>
+
+
 
       </footer>
     )
