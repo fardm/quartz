@@ -9,9 +9,9 @@ tags:
 
 |                                   |                                                                          |
 | --------------------------------- | ------------------------------------------------------------------------ |
-| ![[cover-obsidian01.svg\|150]]    | [[obsidian-review\|بررسی و معرفی نرم‌افزار]]                             |
-| ![[cover-obsidian02.svg\|150]]    | [[obsidian-install\|آموزش نصب و راه‌اندازی نرم‌افزار]]                   |
-| ![[cover-journal&habit.svg\|150]] | [[Journaling-and-habit tracking\|ژورنال‌نویسی و ردیابی‌عادت در ابسیدین]] |
+| ![[cover-obsidian01.svg\|150]]    | [[obsidian review|بررسی و معرفی نرم‌افزار]]                             |
+| ![[cover-obsidian02.svg\|150]]    | [[obsidian install|آموزش نصب و راه‌اندازی نرم‌افزار]]                   |
+| ![[cover-journal&habit.svg\|150]] | [[Journaling and habit tracking|ژورنال‌نویسی و ردیابی‌عادت در ابسیدین]] |
 | ![[noimage.svg\|150]]             | `ساخت پایگاه داده در ابسیدین`                                            |
 
 

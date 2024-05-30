@@ -64,7 +64,7 @@ export default {
     },
     error: {
       title: "یافت نشد",
-      notFound: "این صفحه وجود ندارد",
+      notFound: "متاسفانه این صفحه وجود ندارد.",
     },
     folderContent: {
       folder: "پوشه",
