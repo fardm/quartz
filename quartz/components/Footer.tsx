@@ -17,8 +17,8 @@ export default ((opts?: Options) => {
 
         <ul>
         <a href="https://instagram.com/ifard.ir/"><i class="fa-brands fa-instagram"></i> اینستاگرام</a>
-        <a href="https://t.me/ifard_ir/"><i class="fa-regular fa-paper-plane"></i> تلگرام</a>
-        <a href="https://twitter.com/ifard_ir/"><i class="fa-brands fa-x-twitter"></i> ایکس</a>
+        <a href="https://t.me/ifard_ir/"><i class="fa-solid fa-paper-plane"></i> تلگرام</a>
+        <a href="https://twitter.com/ifard_ir/"><i class="fa-brands fa-twitter"></i> توییتر</a>
         </ul>
         
         <br/>

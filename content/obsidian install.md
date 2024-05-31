@@ -16,11 +16,12 @@ tags:
 <br/>
 
 > [!info] لینک های مورد نیاز 
-> 🎬 [مشاهده ویدئو در آپارات](https://www.aparat.com/v/LJuMz)
 > 
-> 📥 [دانلود نرم‌افزار ](https://obsidian.md/download)
+> [<i class="fa-solid fa-download"></i> دانلود نرم‌افزار ابسیدین ](https://obsidian.md/download)
 > 
-> 📋 [داکیومنت راهنمای نرم‌افزار](https://help.obsidian.md/)
+>  [ <i class="fa-solid fa-square-arrow-up-right"></i> سایت Obsidian Help](https://help.obsidian.md/)
+> 
+> [<i class="fa-solid fa-circle-play"></i> مشاهده ویدئو در آپارات](https://www.aparat.com/v/LJuMz)
 > <br/>‌
 
 <br/>
@@ -177,7 +178,7 @@ code
 <br/>
 
 > [!example]+ مطالب مرتبط
-> ![[obsidian|💎 مدخل ابسیدین]]
+> ![[obsidian]]
 
 <br/> 
 
