@@ -34,6 +34,8 @@ export default ((opts?: Options) => {
 
 
 
+
+
       </footer>
     )
   }
@@ -41,3 +43,6 @@ export default ((opts?: Options) => {
   Footer.css = style
   return Footer
 }) satisfies QuartzComponentConstructor
+
+
+

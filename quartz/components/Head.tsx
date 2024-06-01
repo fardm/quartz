@@ -46,6 +46,7 @@ export default (() => {
           .map((res) => JSResourceToScriptElement(res, true))}
 
         <script src="https://kit.fontawesome.com/3c876b0696.js" crossorigin="anonymous"></script>
+        
       </head>
     )
   }

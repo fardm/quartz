@@ -68,6 +68,23 @@ tags:
 مستند جزیره ماهی هم خوب بود. اگر به ناگفته‌های دفاع مقدس علاقه دارید ببینید. ظاهرا چند سالی هم توقیف بوده. کتاب نکته های تاریخی نوشته جعفر شیرعلی‌نیا هم در مورد این ناگفته ها مطالب مفیدی دارد.
 
 <br/> <br/>
+
+## 🎵 موسیقی
+امسال برای اولین بار از اسپاتیفای استفاده کردم. قبلا تجربه استفاده از SoundCloud را داشتم اما در اسپاتیفای موزیک های بهتری شنیدم. هم برای ورزش هم برای کار و مطالعه پلی لیست های خوبی جمع کردم.
+قطعه های ناب و بینظیری شنیدم که اینجا لینکش را میگذارم. بعضی موزیک ها با اینکه اولین بار گوش میدهی اما انگار ریتم آن تکراری است حس جدیدی منتقل نمی کند. اما بعضی ریتم ها به طرز عجیبی منحصر به فرد است. ناگهان تکانت می دهد. تو را به جای دیگر میبرد و رها می کند. این چند مورد که میگذارم این خاصیت را برای من داشت:
+
+آلبوم [Always Present](https://open.spotify.com/album/0E1hf7J3vYj7D6AWlCbX2N?si=HM9dEeP9QIew_6qfGJMAdQ)
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/0E1hf7J3vYj7D6AWlCbX2N?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<br/> <br/>
+
+آهنگ [Yumeji's Theme - Theme from in the Mood for Love](https://open.spotify.com/track/0yVq58uQ2Bp2OVADYlLHNk?si=c6f9506f8a1c491e)
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0yVq58uQ2Bp2OVADYlLHNk?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<br/> <br/>
+
+آهنگ [Breath of Life](https://open.spotify.com/track/5a3NBXDan1GRaNT5bbCU7d?si=3daca8890e9948f4) اثر [سینا بطحایی](https://open.spotify.com/artist/4ZOwX9evB8c6oLayzq2OY8?si=pTXxQUPJQb2CV6yoxcugcg)
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5a3NBXDan1GRaNT5bbCU7d?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<br/> <br/>
 ## 🏋️‍♂️ ورزش
 قصد دارم در یک یادداشت دیگر به طور مفصل در مورد این ماجرا بنویسم اما اجمالا میتوانم بگویم که در سال گذشته از خردادماه ورزش کردن را به طور مستمر شروع کردم. البته وقفه های چند روز و چند هفته‌ای هم داشتم اما سعی کردم استمرار آن را حفظ کنم. نتیجه خوبی هم گرفتم: 11 کیلو کم کردم و 11 سانت از دور شکمم آب شد.
 در نمودار زیر می توانید روزهایی که ورزش کردم و روند کاهش وزن را مشاهده کنید:
@@ -89,22 +106,6 @@ tags:
 این گراف ویو یادداشت‌های من در ابسیدین است. هنوز خیلی جای کار دارد.
 
 ![[1402-graphview.jpg]]
-<br/> <br/>
-## 🎵 موسیقی
-امسال برای اولین بار از اسپاتیفای استفاده کردم. قبلا تجربه استفاده از SoundCloud را داشتم اما در اسپاتیفای موزیک های بهتری شنیدم. هم برای ورزش هم برای کار و مطالعه پلی لیست های خوبی جمع کردم.
-قطعه های ناب و بینظیری شنیدم که اینجا لینکش را میگذارم. بعضی موزیک ها با اینکه اولین بار گوش میدهی اما انگار ریتم آن تکراری است حس جدیدی منتقل نمی کند. اما بعضی ریتم ها به طرز عجیبی منحصر به فرد است. ناگهان تکانت می دهد. تو را به جای دیگر میبرد و رها می کند. این چند مورد که میگذارم این خاصیت را برای من داشت:
-
-آلبوم [Always Present](https://open.spotify.com/album/0E1hf7J3vYj7D6AWlCbX2N?si=HM9dEeP9QIew_6qfGJMAdQ)
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/0E1hf7J3vYj7D6AWlCbX2N?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-<br/> <br/>
-
-آهنگ [Yumeji's Theme - Theme from in the Mood for Love](https://open.spotify.com/track/0yVq58uQ2Bp2OVADYlLHNk?si=c6f9506f8a1c491e)
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0yVq58uQ2Bp2OVADYlLHNk?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-<br/> <br/>
-
-آهنگ [Breath of Life](https://open.spotify.com/track/5a3NBXDan1GRaNT5bbCU7d?si=3daca8890e9948f4) اثر [سینا بطحایی](https://open.spotify.com/artist/4ZOwX9evB8c6oLayzq2OY8?si=pTXxQUPJQb2CV6yoxcugcg)
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5a3NBXDan1GRaNT5bbCU7d?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
 <br/> <br/>
 
 ## 📋 ارزیابی نهایی
