@@ -172,15 +172,24 @@ code
 فاصله‌هایی که بین سطرها با اینتر ایجاد می‌کنید فقط در حالت Editing view قابل مشاهده هستند به همین خاطر در حالت reading view یا زمانی که از فایل خروجی می‌گیرید فاصله‌ها حذف می‌شوند.
 
 برای رفع این مشکل می توانید از عبارت `<br/>` استفاده کنید. هر `<br/>` یک فاصله مخفی برای شما ایجاد می‌کند که هنگام خروجی و حالت reading view حذف نمی‌شود.
-<br/><br/><br/><br/><br/>
+
+
+<br/><br/><br/><br/>
 
 ---
+
+> [!links] مطالب مرتبط
+> نوشته‌های مرتبط با این موضوع را می‌توانید در [[obsidian|🔮 مدخل ابسیدین]] مشاهده کنید.
+> 
+> <br/>
+
 <br/>
 
-> [!example]+ مطالب مرتبط
-> ![[obsidian]]
+> [!comments] دیدگاه‌ها 
+> <div id="disqus_thread"></div>
+> <script> (function() { 	var d = document, s = d.createElement('script'); s.src = 'https://ifardmim.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s); })(); </script>
+> <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
-<br/> 
 
 
 

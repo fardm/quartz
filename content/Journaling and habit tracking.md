@@ -47,13 +47,20 @@ tags:
 
 ۵. برای استفاده از گزارش‌های هفتگی و ماهانه لازم است پس از ایجاد فایل جدید، تاریخ شروع و پایان را ویرایش کنید. برای اینکار می‌توانید از بخش Replace استفاده کنید. کلمه `شروع` را سرچ کنید و تاریخ شروع را به میلادی وارد کنید. همین کار را برای کلمه `پایان` تکرار کنید.
 
-<br/><br/><br/><br/><br/>
+
+<br/><br/><br/><br/>
 
 ---
+
+> [!links] مطالب مرتبط
+> نوشته‌های مرتبط با این موضوع را می‌توانید در [[obsidian|🔮 مدخل ابسیدین]] مشاهده کنید.
+> 
+> <br/>
+
 <br/>
 
-> [!example]+ مطالب مرتبط
-> ![[obsidian]]
-
-<br/>
+> [!comments] دیدگاه‌ها
+> <div id="disqus_thread"></div>
+> <script> (function() { 	var d = document, s = d.createElement('script'); s.src = 'https://ifardmim.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s); })(); </script>
+> <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
