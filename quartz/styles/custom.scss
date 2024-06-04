@@ -70,10 +70,6 @@ div.search.mobile-only {
     padding-right: 10px !important;
 }
  
-code { 
-	direction: ltr !important;
-}
- 
 
 .backlinks {
 
@@ -102,8 +98,26 @@ a.internal.tag-link {
     color: var(--darkgray);
 }
 
-.code.mermaid {
+
+
+code { 
+	direction: ltr !important;
+}
+
+.mermaid {
+    direction: rtl !important;
+
+}
+
+pre:has(>code.mermaid) {
+    background-color: rgba(255, 255, 255, 0);
+
+}
+
+.nodeLabel {
     font-family: var(--bodyFont);
 }
 
-
+pre:has(>code.mermaid) .clipboard-button {
+    display: none;
+}

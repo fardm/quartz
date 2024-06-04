@@ -34,64 +34,6 @@ tags:
 
 <br/> <br/>
 
-## فهرست مطالب
-یک بوردر به فهرست اضافه کردم که ظاهرش بهتر بشه و از محتوای اصلی بیشتر تفکیک بشه. استایل لیست دایره ای هم بهش اضافه کردم که زیبا تر بشه. کد رو به انتهای این فایل اضافه کنید:
-
-فایل: `quartz\styles\custom.scss`
-
-کد:
-```
-.toc {
-    border-radius: 5px;
-    border: 1px solid var(--lightgray);
-    padding: 12px; 
-    font-size: 0.9rem;
-}
-
-#toc-content .depth-0 {
-    list-style: disc;
-    list-style-position: inside;
-}
- 
-#toc-content .depth-1 {
-    padding: 0px !important;
-    padding-right: 1rem !important;
-    list-style: circle;
-    list-style-position: inside;
-}
-
-#toc-content .depth-2 {
-    padding: 0px !important;
-    padding-right: 2rem !important;
-}
- 
-#toc-content .depth-3 {
-    padding: 0px !important;
-    padding-right: 3rem !important;
-}
-```
-
-<br/> <br/>
-## بک لینک
-به بک لینک هم یه بوردر اضافه کردم و استایلش رو گذاشتم روی لیست دایره ای.
-این کد رو به انتهای این فایل اضافه کنید:
-
-فایل: `quartz\styles\custom.scss`
-
-کد:
-```
-.backlinks>ul {
-    border-radius: 5px;
-    border: 1px solid var(--lightgray);
-    list-style: disc;
-    padding-right: 35px;
-    padding-top: 10px;
-    padding-left: 10px;
-    font-size: 0.95rem;
-}
-```
-
-<br/> <br/>
 
 ## کلمه home در مسیر سایت
 نمی دونم چرا با اینکه همه چیز معادل فارسی داشت اما این کلمه به خانه تغییر پیدا نکرده بود. از فایل زیر کلمه home رو سرچ کنید به جاش کلمه خانه یا صفحه اصلی رو بنویسید.
@@ -101,50 +43,6 @@ tags:
 به این شکل:
 ```
 rootName: "خانه"
-```
-
-<br/> <br/>
-
-## بلوک نقل قول
-برای تفکیک بهتر یک بک گراند بهش اضافه کردم.
-
-فایل: `quartz\styles\base.scss`
-
-کد:
-```
-.blockquote {
-    background-color: #5960cf0a;
-    padding: 15px;
-    border-radius: 10px;
-}
-```
-
-<br/> <br/>
-## وسط چین کردن فوتر
-من ترجیح دادم که متن فوتر وسط چین باشه. فایل زیر رو باز کنید و `text-align` رو بذارید روی `center`.
-بعد از `flex-direction` هم `justify-content: center` رو اضافه کنید.
-
-فایل: `quartz\components\styles\footer.scss`
-
-به این شکل:
-```
-footer {
-  text-align: center;
-  margin-bottom: 4rem;
-  opacity: 0.7;
-
-  & ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 1rem;
-    margin-top: -1rem;
-
-  }
-}
 ```
 
 <br/> <br/>
@@ -184,11 +82,146 @@ footer {
 
 <br/> <br/>
 ## مسیر یابی SPA
- توی حالت پیش فرض وقتی روی لینک های داخلی کلیک می کنید صفحات به صورت کامل لود نمیشن. به همین خاطر کامنت‌ها و آیکون ها مشاهده نمیشن و کاربر باید صفحه رو رفرش کنه.([+](https://github.com/jackyzha0/quartz/issues/1103)) برای اینکه این مشکل بر طرف بشه باید مسیر یابی SPA رو غیر فعال کنید.
+ توی حالت پیش فرض وقتی روی لینک‌های داخلی کلیک می‌کنید صفحات به صورت کامل لود نمیشن. به همین خاطر کامنت‌ها و آیکون‌ها هم دیده نمیشن و کاربر باید صفحه رو رفرش کنه.([+](https://github.com/jackyzha0/quartz/issues/1103)) برای اینکه این مشکل بر طرف بشه باید مسیر یابی SPA رو غیر فعال کنید.
  
 برید سراغ فایل `quartz.config.ts` و فیلد `enableSPA` رو بذارید روی `false`.([+](https://quartz.jzhao.xyz/features/SPA-Routing))
 
+<br/> <br/>
 
+## ظاهر سایت
+این تنظیمات مربوطبه استایل ظاهری سایته. ببینید کدومش به کارتون میاد ازش استفاده کنید.
+
+### فهرست مطالب
+یک بوردر به فهرست اضافه کردم که ظاهرش بهتر بشه و از محتوای اصلی بیشتر تفکیک بشه. استایل لیست دایره ای هم بهش اضافه کردم که زیبا تر بشه. کد رو به انتهای این فایل اضافه کنید:
+
+فایل: `quartz\styles\custom.scss`
+
+کد:
+```
+.toc {
+    border-radius: 5px;
+    border: 1px solid var(--lightgray);
+    padding: 12px; 
+    font-size: 0.9rem;
+}
+
+#toc-content .depth-0 {
+    list-style: disc;
+    list-style-position: inside;
+}
+ 
+#toc-content .depth-1 {
+    padding: 0px !important;
+    padding-right: 1rem !important;
+    list-style: circle;
+    list-style-position: inside;
+}
+
+#toc-content .depth-2 {
+    padding: 0px !important;
+    padding-right: 2rem !important;
+}
+ 
+#toc-content .depth-3 {
+    padding: 0px !important;
+    padding-right: 3rem !important;
+}
+```
+
+<br/> <br/>
+### بک لینک
+به بک لینک هم یه بوردر اضافه کردم و استایلش رو گذاشتم روی لیست دایره ای.
+این کد رو به انتهای این فایل اضافه کنید:
+
+فایل: `quartz\styles\custom.scss`
+
+کد:
+```
+.backlinks>ul {
+    border-radius: 5px;
+    border: 1px solid var(--lightgray);
+    list-style: disc;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 0.95rem;
+}
+```
+
+<br/> <br/>
+
+### بلوک نقل قول
+برای تفکیک بهتر یک بک گراند بهش اضافه کردم.
+
+فایل: `quartz\styles\base.scss`
+
+کد:
+```
+.blockquote {
+    background-color: #5960cf0a;
+    padding: 15px;
+    border-radius: 10px;
+}
+```
+
+<br/> <br/>
+### وسط چین کردن فوتر
+من ترجیح دادم که متن فوتر وسط چین باشه. فایل `footer.scss` رو باز کنید و `text-align` رو بذارید روی `center`.
+بعد از `flex-direction` هم `justify-content: center` رو اضافه کنید.
+
+فایل: `quartz\components\styles\footer.scss`
+
+به این شکل:
+```
+footer {
+  text-align: center;
+  margin-bottom: 4rem;
+  opacity: 0.7;
+
+  & ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: -1rem;
+
+  }
+}
+```
+
+<br/> <br/>
+### دیاگرام
+یک سری تنظیمات هم برای دیاگرام تعریف کردم که استایل بهتری داشته باشه.
+- دایرکشن رو گذاشتم روی rtl. چون معمولا از فارسی استفاده می کنم راستچین باشه بهتره.
+- برای بهتر دیده شدن پس‌زمینه رو شفاف کردم. (چون بک گراند بلوک code رو خاکستری کرده بودم، دیاگرام هم خاکستری شده بود)
+- برای خوانایی بهتر فونتش رو گذاشتم روی body font که در واقع همون فونت وزیره.
+- آیکون «کپی در کلیپ بورد» هم مخفی کردم. اینطوری کاربر فکر میکنه این دیاگرام یه تصویره نه یه قطعه کد.
+
+فایل: `quartz\styles\custom.scss`
+
+کد:
+```
+.mermaid {
+    direction: rtl !important;
+
+}
+
+pre:has(>code.mermaid) {
+    background-color: rgba(255, 255, 255, 0);
+
+}
+
+.nodeLabel {
+    font-family: var(--bodyFont);
+}
+
+pre:has(>code.mermaid) .clipboard-button {
+    display: none;
+}
+```
 
 <br/><br/><br/><br/>
 
