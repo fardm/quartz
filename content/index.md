@@ -30,13 +30,13 @@ description: یادداشت‌های حسین فردمحمدی
 > click B1 "note-taking"
 > click B2 "obsidian"
 > 
-> classDef default fill:#fff,stroke:gray, stroke-width:1px;
+> classDef default fill:#fff,stroke:gray, stroke-width:1px,color:#282828;
 > linkStyle default stroke:gray,stroke-width:1px;
 > 
 > ```
 > <br/> <br/>
 > 
-> <i class="fa-solid fa-circle-info"></i>  برای مشاهده نوشته‌های مرتبط با این موضوعات روی آن‌ها کلیک کنید.
+> <i class="fa-solid fa-circle-info"></i>  با کلیک روی هر مدخل می توانید نوشته‌های مرتبط با این موضوعات را مشاهده کنید.
 > 
 > <br/>
 
@@ -57,6 +57,7 @@ description: یادداشت‌های حسین فردمحمدی
 ## 🎯 توسعه فردی
 
 - [[wandering in youth|سرگردانی در دوران جوانی]]
+- 
 <br/> <br/>
 
 ## 🗒 روزنوشته‌ها
@@ -65,7 +66,6 @@ description: یادداشت‌های حسین فردمحمدی
 - `تجربه من از یک سال ورزش و تغذیه سالم`
 
 %%
-
 
 
 
