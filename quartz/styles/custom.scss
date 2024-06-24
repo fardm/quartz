@@ -61,6 +61,11 @@ button#explorer .fold {
     padding: 0px !important;
     padding-right: 3rem !important;
 }
+
+#toc-content ul>li>a {
+    margin-right: -12px;
+}
+
  
 li:has(> .folder-outer:not(.open)) > .folder-container > svg {
     transform: rotate(90deg) !important;
@@ -120,4 +125,12 @@ pre:has(>code.mermaid) {
 
 pre:has(>code.mermaid) .clipboard-button {
     display: none;
+}
+
+.page>#quartz-body .sidebar.left {
+    padding-left: 45px;
+}
+
+.search {
+    max-width: none;
 }
