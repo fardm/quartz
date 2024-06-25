@@ -102,6 +102,7 @@ tags:
 
 - [Chromatically](https://publish.obsidian.md/chromatically/publish+homepage)
 - [Alexis Rondeau](https://publish.obsidian.md/alexisrondeau/Welcome+to+my+digital+garden)
+- [Fork My Brain](https://notes.nicolevanderhoeven.com/Fork+My+Brain)
 
 خوشبختانه بازهم ترفندهایی برای انتشار رایگان نوشته‌ها وجود دارد. اگر مهارت لازم برای راه‌اندازی سایت استاتیک دارید می‌توانید بدون پرداخت هزینه، سایت‌هایی مشابه ابسیدین راه‌اندازی کرده و نوشته‌های خود را به‌راحتی منتشر کنید. مثلا تم [Quartz](https://quartz.jzhao.xyz/) کاملاً شبیه ابسیدین طراحی شده و از اکثر قابلیت‌های آن پشتیبانی می‌کند. همین صفحه هم که الان رو به روی شماست با کوارتز ساخته شده. (برای ساختن سایت با کوارتز می توانید از [این ویدئو](https://www.aparat.com/v/iebc8b2) استفاده کنید)
 

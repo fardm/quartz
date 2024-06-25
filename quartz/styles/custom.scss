@@ -39,6 +39,15 @@ button#explorer .fold {
     padding-left: 0px !important;
 }
 
+.toc {
+    border-radius: 5px;
+    border: 1px solid var(--lightgray);
+    padding: 12px; 
+    font-size: 0.9rem;
+    background-color: #80808017;
+}
+
+
 #toc-content .depth-0 {
     list-style: disc;
     list-style-position: inside;
@@ -88,14 +97,11 @@ div.search.mobile-only {
     padding-top: 10px;
     padding-left: 10px;
     font-size: 0.95rem;
+    background-color: #80808017;
 }
 
-.toc {
-    border-radius: 5px;
-    border: 1px solid var(--lightgray);
-    padding: 12px; 
-    font-size: 0.9rem;
-
+ul.overflow:after,ol.overflow:after {
+    display: none;
 }
 
 a.internal.tag-link {
