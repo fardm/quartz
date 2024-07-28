@@ -17,6 +17,7 @@ tags:
 
 > [<i class="fa-solid fa-download"></i> دانلود تمپلیت Habit Tracker](https://ifard.ir/img/Habit-Tracker.zip)
 
+[[Habit-Tracker.zip]]
 <br/>
 
 ## نحوه استفاده
