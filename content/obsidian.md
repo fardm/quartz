@@ -11,6 +11,6 @@ tags:
 | --------------------------------- | ------------------------------------------------------------------------ |
 | ![[cover-obsidian01.svg\|150]]    | [[obsidian review\|بررسی و معرفی نرم افزار ابسیدین]]                     |
 | ![[cover-obsidian02.svg\|150]]    | [[obsidian install\|آموزش نصب و راه اندازی نرم افزار ابسیدین]]           |
-| ![[cover-journal&habit.svg\|150]] | [[Journaling and habit tracking\|ژورنال نویسی و ردیابی عادت در ابسیدین]] |
+| ![[cover-habit-tracker.svg\|150]] | [[habit tracker in obsidian\|ژورنال نویسی و ردیابی عادت در ابسیدین]] |
 
 
