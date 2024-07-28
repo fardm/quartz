@@ -17,12 +17,11 @@ tags:
 
 > [<i class="fa-solid fa-download"></i> دانلود تمپلیت Habit Tracker](https://ifard.ir/img/Habit-Tracker.zip)
 
-[[Habit-Tracker.zip]]
 <br/>
 
 ## نحوه استفاده
 
-۱. ابتدا [تمپلیت Habit Tracker](https://ifard.ir/img/journal-and-habit.zip) را دانلود کنید.
+۱. ابتدا [تمپلیت Habit Tracker](https://ifard.ir/img/Habit-Tracker.zip) را دانلود کنید.
 <br/><br/>
 ۲. فایل زیپ را از حالت فشرده خارج کرده و با نرم‌افزار ابسیدین از بخش open folder باز کنید.
 <br/><br/>
