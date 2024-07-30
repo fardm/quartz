@@ -15,13 +15,14 @@ tags:
 اگر شما هم می‌خواهید از ابسیدین برای پیگیری فعالیت‌های‌تان استفاده کنید می‌توانید با استفاده از تمپلیتی که برای شما آماده کردم هبیت ترکر مخصوص خودتان را در این نرم افزار بسازید. 
 از لینک زیر می توانید این تمپلیت را دانلود کنید. آموزش استفاده از آن را هم در ادامه توضیح دادم.
 
-> [<i class="fa-solid fa-download"></i> دانلود تمپلیت Habit Tracker](https://ifard.ir/img/Habit-Tracker.zip)
+> [<i class="fa-solid fa-download"></i> دانلود تمپلیت Habit Tracker](https://ifard.ir/img/Habit-Tracker-20240729.zip)
 
 <br/>
 
+![[Habit-Tracker-20240729.zip]]
 ## نحوه استفاده
 
-۱. ابتدا [تمپلیت Habit Tracker](https://ifard.ir/img/Habit-Tracker.zip) را دانلود کنید.
+۱. ابتدا [تمپلیت Habit Tracker](https://ifard.ir/img/Habit-Tracker-20240729.zip) را دانلود کنید.
 <br/><br/>
 ۲. فایل زیپ را از حالت فشرده خارج کرده و با نرم‌افزار ابسیدین از بخش open folder باز کنید.
 <br/><br/>
