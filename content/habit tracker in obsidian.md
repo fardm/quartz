@@ -1,7 +1,8 @@
 ---
 title: ساخت هبیت ترکر در نرم افزار ابسیدین
-aliases: 
-date: 2024-05-24
+aliases:
+  - ساخت هبیت ترکر در نرم افزار ابسیدین
+date: 2024-05-23
 draft: false
 tags:
   - 🌱نهال
@@ -20,6 +21,8 @@ tags:
 <br/>
 
 ## نحوه استفاده
+
+<div id="21489789551"><script type="text/JavaScript" src="https://www.aparat.com/embed/aevm2m1?data[rnddiv]=21489789551&data[responsive]=yes"></script></div>
 
 ۱. ابتدا [تمپلیت Habit Tracker](https://ifard.ir/img/Habit-Tracker-20240729.zip) را دانلود کنید.
 <br/><br/>
