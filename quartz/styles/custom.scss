@@ -81,9 +81,7 @@ li:has(> .folder-outer:not(.open)) > .folder-container > svg {
     transform: rotate(90deg) !important;
 }
  
-div.search.mobile-only {
-    padding-right: 10px !important;
-}
+
  
 
 .backlinks {
@@ -129,10 +127,6 @@ pre:has(>code.mermaid) {
 
 pre:has(>code.mermaid) .clipboard-button {
     display: none;
-}
-
-.page>#quartz-body .sidebar.left {
-    padding-left: 45px;
 }
 
 .search {
