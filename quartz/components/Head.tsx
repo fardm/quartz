@@ -43,10 +43,7 @@ export default (() => {
         ))}
         {js
           .filter((resource) => resource.loadTime === "beforeDOMReady")
-          .map((res) => JSResourceToScriptElement(res, true))}
-
-        <script src="https://kit.fontawesome.com/3c876b0696.js" crossorigin="anonymous"></script>
-        
+          .map((res) => JSResourceToScriptElement(res, true))}        
       </head>
     )
   }
