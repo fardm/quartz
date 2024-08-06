@@ -1,147 +1,208 @@
 @use "./base.scss";
   
-// put your custom CSS here!
 
-html {
-    font-family: Vazirmatn, sans-serif !important;
-}
+// تنظیمات پیشنهادی کریستالین
+
+    html {
+        font-family: Vazirmatn, sans-serif !important;
+    }
+    
+    .breadcrumb-element p {
+        margin: 0 .5rem 0 0;
+        padding: 0;
+        line-height: normal;
+    }
+    
+    button#explorer .fold {
+        opacity: .8;
+        margin-left: 0 !important;
+        margin-right: 0.5rem !important;
+        transition: transform .3s;
+    }
+    
+    .content-meta[show-comma="true"] > span:not(:last-child) {
+        margin-left: 8px !important;
+        margin-right: 0px !important;
+    }
+    
+    .tags {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    
+    .folder-icon {
+        margin-right: 0px !important;
+        margin-left: 5px !important;
+    }
+    
+    #explorer-content ul {
+        padding-right: .7rem !important;
+        padding-left: 0px !important;
+    }
+
+    li:has(> .folder-outer:not(.open)) > .folder-container > svg {
+        transform: rotate(90deg) !important;
+    }
+
+    // تغییر متن پانوشت
+    h2#footnote-label{
+        visibility: hidden;
+    }
+    
+    h2#footnote-label::after{
+        content: "پانوشت‌ها";
+        visibility: visible;
+        display: block;
+    }
+    
+
+
+// فهرست مطالب
+
+    .toc {
+        border-radius: 5px;
+        border: 1px solid var(--lightgray);
+        padding: 12px; 
+        font-size: 0.9rem;
+        background-color: #80808017;
+    }
+
+    #toc-content .depth-0 {
+        list-style: disc;
+        list-style-position: inside;
+
+    }
+    
+    #toc-content .depth-1 {
+        padding: 0px !important;
+        padding-right: 1rem !important;
+        list-style: circle;
+        list-style-position: inside;
+    }
+    
+    #toc-content .depth-2 {
+        padding: 0px !important;
+        padding-right: 2rem !important;
+    }
+    
+    #toc-content .depth-3 {
+        padding: 0px !important;
+        padding-right: 3rem !important;
+    }
+
+    #toc-content ul>li>a {
+        margin-right: -12px;
+        opacity: .45;
+    }
+
  
-.breadcrumb-element p {
-    margin: 0 .5rem 0 0;
-    padding: 0;
-    line-height: normal;
-}
- 
-button#explorer .fold {
-    opacity: .8;
-    margin-left: 0 !important;
-    margin-right: 0.5rem !important;
-    transition: transform .3s;
-}
- 
-.content-meta[show-comma="true"] > span:not(:last-child) {
-    margin-left: 8px !important;
-    margin-right: 0px !important;
-}
- 
-.tags {
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-}
- 
-.folder-icon {
-    margin-right: 0px !important;
-    margin-left: 5px !important;
-}
- 
-#explorer-content ul {
-    padding-right: .7rem !important;
-    padding-left: 0px !important;
-}
+// بک لینک
 
-.toc {
-    border-radius: 5px;
-    border: 1px solid var(--lightgray);
-    padding: 12px; 
-    font-size: 0.9rem;
-    background-color: #80808017;
-}
+    .backlinks>ul {
+        border-radius: 5px;
+        border: 1px solid var(--lightgray);
+        list-style: disc;
+        padding-right: 35px;
+        padding-top: 10px;
+        padding-left: 10px;
+        font-size: 0.95rem;
+        background-color: #80808017;
+    }
 
-
-#toc-content .depth-0 {
-    list-style: disc;
-    list-style-position: inside;
-
-}
- 
-#toc-content .depth-1 {
-    padding: 0px !important;
-    padding-right: 1rem !important;
-    list-style: circle;
-    list-style-position: inside;
-}
- 
-#toc-content .depth-2 {
-    padding: 0px !important;
-    padding-right: 2rem !important;
-}
- 
-#toc-content .depth-3 {
-    padding: 0px !important;
-    padding-right: 3rem !important;
-}
-
-#toc-content ul>li>a {
-    margin-right: -12px;
-    opacity: .45;
-}
-
- 
-li:has(> .folder-outer:not(.open)) > .folder-container > svg {
-    transform: rotate(90deg) !important;
-}
- 
-
- 
-
-.backlinks {
-
-}
-
-.backlinks>ul {
-    border-radius: 5px;
-    border: 1px solid var(--lightgray);
-    list-style: disc;
-    padding-right: 35px;
-    padding-top: 10px;
-    padding-left: 10px;
-    font-size: 0.95rem;
-    background-color: #80808017;
-}
-
-ul.overflow:after,ol.overflow:after {
-    display: none;
-}
+    ul.overflow:after,ol.overflow:after {
+        display: none;
+    }
 
 
 
+// دیاگرام
+
+    .mermaid {
+        direction: rtl !important;
+    }
+
+    pre:has(>code.mermaid) {
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    .nodeLabel {
+        font-family: var(--bodyFont);
+    }
+
+    pre:has(>code.mermaid) .clipboard-button {
+        display: none;
+    }
 
 
-code { 
-	direction: ltr !important;
-}
+// جستجو
 
-.mermaid {
-    direction: rtl !important;
-
-}
-
-pre:has(>code.mermaid) {
-    background-color: rgba(255, 255, 255, 0);
-
-}
-
-.nodeLabel {
-    font-family: var(--bodyFont);
-}
-
-pre:has(>code.mermaid) .clipboard-button {
-    display: none;
-}
-
-.search {
-    max-width: none;
-}
+    .search {
+        max-width: none;
+    }
 
 
-/* تغییر متن پانوشت */
-h2#footnote-label{
-    visibility: hidden;
-}
-  
-  
-h2#footnote-label::after{
-    content: "پانوشت‌ها";
-    visibility: visible;
-    display: block;
-}
+// تایپو گرافی
+
+    p {
+        line-height: 2rem;
+        font-size: 1.1em;
+    }
+    
+    h2 {
+        font-size: 1.6rem;
+        margin-top: 1.9rem;
+        margin-bottom: 0.5rem;
+    }
+
+    h3 {
+        font-size: 1.35rem;
+        margin-top: 1.62rem;
+        margin-bottom: 0.5rem;
+    }
+
+    h4,
+    h5,
+    h6 {
+      font-size: 1rem;
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+
+// بلوک کد
+
+    pre {
+        border: 1px solid var(--gray);
+        background: var(--lightgray);
+    }
+
+    pre>code {
+        overflow-x: auto;
+    }
+
+    code {
+        direction: ltr !important;
+        font-family: var(--bodyFont);
+    }
+
+
+
+// بلوک نقل قول
+
+    blockquote {
+        background-color: #5960cf0a;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+
+// فوتر
+
+    footer {
+        text-align: center;
+    }
+
+    footer>ul {
+        justify-content: center;
+    }
+

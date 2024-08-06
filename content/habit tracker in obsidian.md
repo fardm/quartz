@@ -21,7 +21,7 @@ tags:
 
 <br/>
 
-## نحوه استفاده
+## راهنمای استفاده
 راهنمای استفاده از تمپلیت را می توانید در [این ویدئو](https://www.aparat.com/v/aevm2m1) مشاهده کنید:
 
 <style>.h_iframe-aparat_embed_frame{position:relative;}.h_iframe-aparat_embed_frame .ratio{display:block;width:100%;height:auto;}.h_iframe-aparat_embed_frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;}</style><div class="h_iframe-aparat_embed_frame"><span style="display: block;padding-top: 57%"></span><iframe src="https://www.aparat.com/video/video/embed/videohash/aevm2m1/vt/frame?recom=self"  allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe></div>
@@ -36,9 +36,10 @@ tags:
 <br/><br/>
 ۳. همه پلاگین‌های مورد نیاز در این فایل نصب شده و تنظیمات آن فعال است. به راحتی می‌توانید با کلیک روی تقویم، یادداشت‌های روزانه بسازید و گزارش‌های هفتگی، ماهانه و سالانه خود را مشاهده کنید.
 <br/><br/>
-۴. برای شخصی‌سازی کافی است فایل‌های موجود در پوشه templates را تغییر دهد. ابتدا فایل new day را باز کرده و از بخش پراپرتی فعالیت‌های خود را وارد کنید. سپس فایل‌های هفتگی، ماهانه و سالانه را بر اساس همین پراپرتی‌ها ویرایش کنید.
+۴. برای شخصی‌سازی کافی است فایل‌های موجود در پوشه template را تغییر دهید. ابتدا فایل `new day` را باز کرده و از بخش پراپرتیز عادت‌های خود را وارد کنید. سپس با کمک فایل `new habit` عادت جدید خود را به گزارش های هفتگی، ماهانه و سالانه اضافه کنید.
 <br/><br/>
-## تصاویر
+## نمونه تصاویر
+در این تمپلیت از سه نمای **تقویم**، **آمار** و **نمودار** برای ردیابی عادت‌ها استفاده شده است:
 
 ![[journal&habit.svg]]
 

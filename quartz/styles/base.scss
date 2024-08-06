@@ -273,9 +273,6 @@ blockquote {
   border-left: 3px solid var(--secondary);
   padding-left: 1rem;
   transition: border-color 0.2s ease;
-  background-color: #5960cf0a;
-  padding: 15px;
-  border-radius: 10px;
 }
 
 h1,
@@ -324,15 +321,15 @@ h1 {
 }
 
 h2 {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   margin-top: 1.9rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 h3 {
-  font-size: 1.35rem;
+  font-size: 1.12rem;
   margin-top: 1.62rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 h4,
@@ -340,7 +337,7 @@ h5,
 h6 {
   font-size: 1rem;
   margin-top: 1.5rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 figure[data-rehype-pretty-code-figure] {
@@ -370,13 +367,10 @@ pre {
   padding: 0 0.5rem;
   border-radius: 5px;
   overflow-x: auto;
-  border: 1px solid var(--gray);
   position: relative;
-  background: var(--lightgray);
 
   &:has(> code.mermaid) {
     border: none;
-
   }
 
   & > code {
@@ -387,7 +381,6 @@ pre {
     counter-increment: line 0;
     display: grid;
     padding: 0.5rem 0;
-    overflow-x: auto;
 
     & [data-highlighted-chars] {
       background-color: var(--highlight);
@@ -428,7 +421,7 @@ pre {
 code {
   font-size: 0.9em;
   color: var(--dark);
-  font-family: var(--bodyFont);
+  font-family: var(--codeFont);
   border-radius: 5px;
   padding: 0.1rem 0.2rem;
   background: var(--lightgray);
@@ -437,8 +430,7 @@ code {
 tbody,
 li,
 p {
-  line-height: 2rem;
-  font-size: 1.1em;
+  line-height: 1.6rem;
 }
 
 .table-container {
