@@ -34,9 +34,7 @@ tags:
 
 متد قیف اطلاعات: [لینک](https://sheridancollege.libguides.com/takingnotesmodule/taking-notes-from-textbooks/information-funnel-method)
 
-<br/><br/><br/><br/>
-
----
+<br/><br/>
 
 > [!links] مطالب مرتبط
 > نوشته‌های مرتبط با این موضوع را می‌توانید در [[note taking|📝 مدخل یادداشت برداری]] مشاهده کنید.

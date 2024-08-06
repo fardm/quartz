@@ -132,3 +132,16 @@ pre:has(>code.mermaid) .clipboard-button {
 .search {
     max-width: none;
 }
+
+
+/* تغییر متن پانوشت */
+h2#footnote-label{
+    visibility: hidden;
+}
+  
+  
+h2#footnote-label::after{
+    content: "پانوشت‌ها";
+    visibility: visible;
+    display: block;
+}
