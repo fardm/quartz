@@ -135,6 +135,14 @@
     --callout-icon: var(--callout-icon-quote);
   }
 
+  &[data-callout="en"] {
+    --color: var(--darkgray);
+    --border: var(--gray);
+    --bg: #a3a3a31e;
+    --callout-icon: var(--callout-icon-quote);
+    direction: ltr;
+  }
+
   &[data-callout="comments"] {
     --color: var(--darkgray);
     --border: var(--gray);
