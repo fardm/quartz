@@ -12,7 +12,7 @@ tags:
 
 
 ## صفحه 404
-ارور صفحه 404 هیچ لینکی به صفحه اصلی نداره و کاربر نمیتونه بقیه صفحات رو ببینه. با این کد لینک بازگشت به صفحه اصلی به این صفحه اضافه میشه. کد رو داخل این فایل قرار بدین:
+صفحه 404 هیچ لینکی به صفحه اصلی نداره و کاربر نمیتونه بقیه صفحات رو ببینه. با این کد لینک بازگشت به صفحه اصلی به این صفحه اضافه میشه. کد رو داخل این فایل قرار بدین:
 
 فایل: `quartz\components\pages\404.tsx`
 
@@ -79,12 +79,12 @@ if (finalResults.length === 0) {
 <br/> <br/>
 
 
-## فهرست مطالب و بک لینک
+## استایل
+از اینجا به بعد در مورد ظاهر سایته. تنظیمات سفارشی می تونید توی فایل `quartz\styles\custom.scss` قرار بدید.
+
+### فهرست مطالب و بک لینک
 برای اینکه از محتوای اصلی بیشتر تفکیک بشه یک بوردر و بک گراند به فهرست و بک لینک اضافه کردم. بولت پوینت هم به اول هر خط اضافه کردم که ظاهرش بهتر بشه.
 
-فایل: `quartz\styles\custom.scss`
-
-کد:
 ```
 .toc {
     border-radius: 5px;
@@ -142,43 +142,35 @@ ul.overflow:after,ol.overflow:after {
 
 <br/> <br/>
 
-## وسط چین کردن فوتر
-من ترجیح دادم که متن فوتر وسط چین باشه. فایل `footer.scss` رو باز کنید و `text-align` رو بذارید روی `center`. بعد از `flex-direction` هم `justify-content: center` رو اضافه کنید.
+### بلوک کد
+بک گراندش رو خاکستری کردم. فونتش رو هم گذاشتم روی بادی فونت.
 
-فایل: `quartz\components\styles\footer.scss`
-
-به این شکل:
 ```
-footer {
-  text-align: center;
-  margin-bottom: 4rem;
-  opacity: 0.7;
+pre {
+	border: 1px solid var(--gray);
+	background: var(--lightgray);
+}
 
-  & ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 1rem;
-    margin-top: -1rem;
+pre>code {
+	overflow-x: auto;
+}
 
-  }
+code {
+	direction: ltr !important;
+	font-family: var(--bodyFont);
 }
 ```
 
 <br/> <br/>
-## دیاگرام
+
+### دیاگرام
+
 یک سری تنظیمات هم برای دیاگرام تعریف کردم که استایل بهتری داشته باشه.
 - دایرکشن رو گذاشتم روی rtl. چون معمولا از فارسی استفاده می کنم راستچین باشه بهتره.
 - برای بهتر دیده شدن پس‌زمینه رو شفاف کردم. (چون بک گراند بلوک code رو خاکستری کرده بودم، دیاگرام هم خاکستری شده بود)
 - برای خوانایی بهتر فونتش رو گذاشتم روی body font که در واقع همون فونت وزیره.
 - آیکون «کپی در کلیپ بورد» هم مخفی کردم. اینطوری کاربر فکر میکنه این دیاگرام یه تصویره نه یه قطعه کد.
 
-فایل: `quartz\styles\custom.scss`
-
-کد:
 ```
 .mermaid {
     direction: rtl !important;
@@ -200,5 +192,17 @@ pre:has(>code.mermaid) .clipboard-button {
 ```
 
 <br/><br/>
+### وسط چین کردن فوتر
+من ترجیح دادم که متن فوتر وسط چین باشه.
 
+```
+footer {
+	text-align: center;
+}
 
+footer>ul {
+	justify-content: center;
+}
+```
+
+<br/> <br/>
