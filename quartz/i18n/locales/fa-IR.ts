@@ -54,7 +54,7 @@ export default {
       title: "فهرست",
     },
     contentMeta: {
-      readingTime: ({ minutes }) => `زمان مطالعه: ${minutes} دقیقه`,
+      readingTime: ({ minutes }) => `⏱ زمان مطالعه: ${minutes} دقیقه`,
     },
   },
   pages: {

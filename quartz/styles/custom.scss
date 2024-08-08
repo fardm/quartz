@@ -220,3 +220,14 @@
     }
 
 
+// متاداده
+    .content-meta>span {
+        background-color: var(--lightgray);
+        border-radius: 4px;
+        padding: 2px 6px 2px 6px;
+        margin: 5px;
+    }
+
+    .content-meta {
+        color: var(--darkgray);
+    }
