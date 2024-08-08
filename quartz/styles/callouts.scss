@@ -143,6 +143,15 @@
     direction: ltr;
   }
 
+  &[data-callout="fa"] {
+    --color: var(--darkgray);
+    --border: transparent;
+    --bg: #00000010;
+    --callout-icon: var(--callout-icon-comments);
+    direction: rtl;
+
+  }
+
   &[data-callout="comments"] {
     --color: var(--darkgray);
     --border: var(--gray);
