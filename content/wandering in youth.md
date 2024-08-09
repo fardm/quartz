@@ -33,15 +33,15 @@ status: 🌿درختچه
 
 ## به رسمیت شناختن سرگردانی
 
-همین‌طور که روزها و هفته‌ها دنبال جوابی واضح و شفاف برای آن سوال‌ها می‌گشتم، زمزمه‌هایی شنیدم که می‌گفت باید دوران سرگردانی را برای مقطعی به رسمیت شناخت. اولین بار این کلیپ از صحبت‌های رضا امیرخانی را دیدم([+](https://s30.picofile.com/d/8474157242/400e0112-5916-44bc-8b1c-3b46b7446272/amirkhani.mp4))
+همین‌طور که روزها و هفته‌ها دنبال جوابی واضح و شفاف برای آن سوال‌ها می‌گشتم، زمزمه‌هایی شنیدم که می‌گفت باید دوران سرگردانی را برای مقطعی به رسمیت شناخت. اولین بار [این کلیپ](https://www.aparat.com/v/e85yq4y) از صحبت‌های رضا امیرخانی را دیدم.
 
-![[https://s30.picofile.com/d/8474157242/ea1bd2f4-447c-47d6-a66a-9b4e8164087f/amirkhani.mp4]]
+<style>.h_iframe-aparat_embed_frame{position:relative;}.h_iframe-aparat_embed_frame .ratio{display:block;width:100%;height:auto;}.h_iframe-aparat_embed_frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;}</style><div class="h_iframe-aparat_embed_frame"><span style="display: block;padding-top: 57%"></span><iframe src="https://www.aparat.com/video/video/embed/videohash/e85yq4y/vt/frame"  allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe></div>
 
 <br/>
 
-بعد از مدتی هم این قطعه از گفت‌وگوی [محمدرضا شعبانعلی](https://www.shabanali.com/) به آن ضمیمه شد([+](https://s30.picofile.com/d/8475861984/0f917f0a-7dca-4341-83d7-4afbfa2e3bd3/mrshabanali_w.mp4))
+بعد از مدتی هم [این قطعه](https://www.aparat.com/v/b49as89) از گفت‌وگوی محمدرضا شعبانعلی به آن ضمیمه شد.
 
-![[https://s30.picofile.com/d/8475861984/0f917f0a-7dca-4341-83d7-4afbfa2e3bd3/mrshabanali_w.mp4]]
+<style>.h_iframe-aparat_embed_frame{position:relative;}.h_iframe-aparat_embed_frame .ratio{display:block;width:100%;height:auto;}.h_iframe-aparat_embed_frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;}</style><div class="h_iframe-aparat_embed_frame"><span style="display: block;padding-top: 57%"></span><iframe src="https://www.aparat.com/video/video/embed/videohash/b49as89/vt/frame"  allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe></div>
 
 این نگرش دری به‌سوی من گشود و مرا وارد فضایی کرد که در آن احساس آزادی می‌کردم. آزاد شدن از قید و بندهایی که پیش‌ازاین موجب سلب آرامش من شده بود. قبلاً عضویت در «باشگاه جوانان سرگردان» موقتاً باعث می‌شد آن نگرانی‌ها را نادیده بگیرم اما حالا با پذیرفتن این مسأله، دیگر جایی برای نگرانی وجود نداشت.
 
