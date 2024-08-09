@@ -234,3 +234,24 @@
         display: flex;
         flex-wrap: wrap;
     }
+
+
+// دکمه
+    .my-button {
+    background-color: var(--tertiary);
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: var(--bodyFont);
+    font-size: 1em;
+    }  
+
+    .my-button:hover {
+        background-color: var(--secondary);
+    }
+
+
+    
