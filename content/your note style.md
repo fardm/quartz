@@ -4,7 +4,7 @@ aliases:
   - شخصیت شما در یادداشت برداری
 date: 2024-07-01
 draft: false
-tags: []
+tags: 
 status: 🌿درختچه
 ---
 ![[cover-character-pkm.jpg]]
