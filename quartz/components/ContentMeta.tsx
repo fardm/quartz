@@ -16,7 +16,7 @@ interface ContentMetaOptions {
 
 const defaultOptions: ContentMetaOptions = {
   showReadingTime: true,
-  showComma: true,
+  showComma: false,
 }
 
 export default ((opts?: Partial<ContentMetaOptions>) => {
@@ -53,10 +53,17 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
         segments.push(displayedTime)
       }
 
+
+      // Display status
+      const status = fileData.frontmatter?.status || "نامشخص";
+      if (status !== "نامشخص") {
+        segments.push(` ${status} `)
+      }
+
       const segmentsElements = segments.map((segment) => <span>{segment}</span>)
 
       return (
-        <p class={classNames(displayClass, "content-meta")}>
+        <p show-comma={options.showComma} class={classNames(displayClass, "content-meta")}>
           {segmentsElements}
         </p>
       )

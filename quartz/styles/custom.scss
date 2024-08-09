@@ -224,10 +224,13 @@
     .content-meta>span {
         background-color: var(--lightgray);
         border-radius: 4px;
-        padding: 2px 6px 2px 6px;
+        padding: 1px 6px 1px 6px;
         margin: 5px;
+        font-size: 0.9em;
     }
 
     .content-meta {
         color: var(--darkgray);
+        display: flex;
+        flex-wrap: wrap;
     }

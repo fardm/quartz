@@ -4,8 +4,8 @@ aliases:
   - گزارش توسعه فردی ۱۴۰۲
 date: 2024-03-29
 draft: false
-tags:
-  - 🌱نهال
+tags: []
+status: 🌱نهال
 ---
 ![[cover-report02.svg]]
 
