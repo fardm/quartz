@@ -1,62 +1,5 @@
 @use "./base.scss";
   
-
-// تنظیمات پیشنهادی کریستالین
-
-    html {
-        font-family: Vazirmatn, sans-serif !important;
-    }
-    
-    .breadcrumb-element p {
-        margin: 0 .5rem 0 0;
-        padding: 0;
-        line-height: normal;
-    }
-    
-    button#explorer .fold {
-        opacity: .8;
-        margin-left: 0 !important;
-        margin-right: 0.5rem !important;
-        transition: transform .3s;
-    }
-    
-    .content-meta[show-comma="true"] > span:not(:last-child) {
-        margin-left: 8px !important;
-        margin-right: 0px !important;
-    }
-    
-    .tags {
-        padding-left: 0px !important;
-        padding-right: 0px !important;
-    }
-    
-    .folder-icon {
-        margin-right: 0px !important;
-        margin-left: 5px !important;
-    }
-    
-    #explorer-content ul {
-        padding-right: .7rem !important;
-        padding-left: 0px !important;
-    }
-
-    li:has(> .folder-outer:not(.open)) > .folder-container > svg {
-        transform: rotate(90deg) !important;
-    }
-
-    // تغییر متن پانوشت
-    h2#footnote-label{
-        visibility: hidden;
-    }
-    
-    h2#footnote-label::after{
-        content: "پانوشت‌ها";
-        visibility: visible;
-        display: block;
-    }
-    
-
-
 // فهرست مطالب
 
     .toc {
@@ -112,10 +55,6 @@
     ul.overflow:after,ol.overflow:after {
         display: none;
     }
-
-
-
-
 
 
 // جستجو
@@ -221,7 +160,19 @@
     }
 
 
-// متاداده
+// تغییر متن پانوشت
+    h2#footnote-label{
+        visibility: hidden;
+    }
+    
+    h2#footnote-label::after{
+        content: "پانوشت‌ها";
+        visibility: visible;
+        display: block;
+    }
+
+
+// کانتنت متا
     .content-meta>span {
         background-color: var(--lightgray);
         border-radius: 4px;
@@ -256,3 +207,45 @@
 
 
     
+    // تنظیمات پیشنهادی کریستالین
+
+    html {
+        font-family: Vazirmatn, sans-serif !important;
+    }
+    
+    .breadcrumb-element p {
+        margin: 0 .5rem 0 0;
+        padding: 0;
+        line-height: normal;
+    }
+    
+    button#explorer .fold {
+        opacity: .8;
+        margin-left: 0 !important;
+        margin-right: 0.5rem !important;
+        transition: transform .3s;
+    }
+    
+    .content-meta[show-comma="true"] > span:not(:last-child) {
+        margin-left: 8px !important;
+        margin-right: 0px !important;
+    }
+    
+    .tags {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    
+    .folder-icon {
+        margin-right: 0px !important;
+        margin-left: 5px !important;
+    }
+    
+    #explorer-content ul {
+        padding-right: .7rem !important;
+        padding-left: 0px !important;
+    }
+
+    li:has(> .folder-outer:not(.open)) > .folder-container > svg {
+        transform: rotate(90deg) !important;
+    }
