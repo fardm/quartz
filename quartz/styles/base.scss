@@ -367,6 +367,7 @@ pre {
   padding: 0 0.5rem;
   border-radius: 5px;
   overflow-x: auto;
+  border: 1px solid var(--lightgray);
   position: relative;
 
   &:has(> code.mermaid) {
@@ -381,6 +382,7 @@ pre {
     counter-increment: line 0;
     display: grid;
     padding: 0.5rem 0;
+    overflow-x: scroll;
 
     & [data-highlighted-chars] {
       background-color: var(--highlight);
