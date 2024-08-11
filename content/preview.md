@@ -1,7 +1,7 @@
 ---
 title: پیش نمایش
 aliases: 
-draft: false
+draft: true
 tags:
 ---
 # دکمه

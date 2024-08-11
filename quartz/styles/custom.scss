@@ -1,7 +1,22 @@
 @use "./base.scss";
+
+// کانتنت متا
+.content-meta>span {
+    background-color: var(--lightgray);
+    border-radius: 4px;
+    padding: 1px 6px 1px 6px;
+    margin: 5px;
+    font-size: 0.9em;
+}
+
+.content-meta {
+    color: var(--darkgray);
+    display: flex;
+    flex-wrap: wrap;
+}
+
   
 // فهرست مطالب
-
     .toc {
         border-radius: 5px;
         border: 1px solid var(--lightgray);
@@ -40,7 +55,6 @@
 
  
 // بک لینک
-
     .backlinks>ul {
         border-radius: 5px;
         border: 1px solid var(--lightgray);
@@ -57,15 +71,8 @@
     }
 
 
-// جستجو
-
-    .search {
-        max-width: none;
-    }
-
 
 // تایپو گرافی
-
    body {
         font-size: 1.1em;
     }
@@ -105,8 +112,8 @@
     }
 
 
-// بلوک کد
 
+// بلوک کد
     pre {
         background: #afafaf1a;
     }
@@ -121,8 +128,8 @@
     }
 
 
-// دیاگرام
 
+// دیاگرام
     .mermaid {
         direction: rtl !important;
     }
@@ -139,15 +146,6 @@
         display: none;
     }
 
-
-
-// بلوک نقل قول
-
-    blockquote {
-        background-color: #5960cf0a;
-        padding: 15px;
-        border-radius: 10px;
-    }
 
 
 // فوتر
@@ -173,21 +171,6 @@
     }
 
 
-// کانتنت متا
-    .content-meta>span {
-        background-color: var(--lightgray);
-        border-radius: 4px;
-        padding: 1px 6px 1px 6px;
-        margin: 5px;
-        font-size: 0.9em;
-    }
-
-    .content-meta {
-        color: var(--darkgray);
-        display: flex;
-        flex-wrap: wrap;
-    }
-
 
 // دکمه
     .my-button {
@@ -205,4 +188,21 @@
     .my-button:hover {
         background-color: var(--secondary);
     }
+
+
+// بلوک نقل قول
+
+blockquote {
+    background-color: #5960cf0a;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+
+// جستجو
+
+.search {
+    max-width: none;
+}
 
