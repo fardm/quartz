@@ -59,17 +59,17 @@ if (text) {
 
 ```
 .content-meta>span {
-	background-color: var(--lightgray);
-	border-radius: 4px;
-	padding: 1px 6px 1px 6px;
-	margin: 5px;
-	font-size: 0.9em;
+    background-color: var(--lightgray);
+    border-radius: 4px;
+    padding: 1px 6px 1px 6px;
+    font-size: 0.9em;
 }
 
 .content-meta {
-	color: var(--darkgray);
-	display: flex;
-	flex-wrap: wrap;
+    color: var(--darkgray);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
 }
 ```
 
@@ -327,21 +327,6 @@ pre:has(>code.mermaid) .clipboard-button {
 
 <br/>
 
-### وسط چین کردن فوتر
-ترجیح دادم بخش فوتر وسط چین باشد.
-
-```
-footer {
-	text-align: center;
-}
-
-footer>ul {
-	justify-content: center;
-}
-```
-
-<br/>
-
 ### چرخش آیکون >
 این آیکون در قسمت های مختلف مثل فهرست، اکسپلور و کالوت استفاده شده. جهت این آیکون در حالت بسته باید سمت چپ باشد در حالی که به سمت راست است. برای چرخش آن باید مقدار `rotateZ` را در فایل های مربوط به هر کدام از منفی90 به مثبت90 تغییر دهید.[^4] به این شکل:
 ```
@@ -417,7 +402,7 @@ h6 {
 <p>بازگشت به <a href="/">صفحه اصلی</a></p>
 ```
 
-<iframe width="100%" height="290px" style="border: none;" src="https://ifard.ir/img/before-after-404e.html"></iframe>
+<iframe width="100%" height="290px" style="border: none;" src="https://ifard.ir/img/before-after-404z.html"></iframe>
 
 <br/> <br/>
 
@@ -432,7 +417,21 @@ h6 {
   )
 ```
 
-برای بخش لینک‌ها در فوتر هم همین کار را انجام دادم. کد SVG آیکون را به `quartz\components\Footer.tsx` اضافه کردم.
+برای بخش لینک‌ها در فوتر هم همین کار را انجام دادم. کد SVG آیکون را به `quartz\components\Footer.tsx` اضافه کردم. علاوه بر این یک دکمه برگشت به بالا هم اضافه کردم. (برای طولانی نشدن کد های svg را در اینجا پاک کردم)
+
+```
+  <footer class={`${displayClass ?? ""}`}>
+	<hr />
+	<ul>
+	  <div >
+		<a href="https://instagram.com/ifard.ir/"><svg></svg> اینستاگرام</a>
+		<a href="https://t.me/ifard_ir/"><svg></svg> تلگرام</a>
+		<a href="https://twitter.com/ifard_ir/"><svg></svg> توییتر</a>
+	  </div>
+	  <a href="#" title="برگشت به بالا"><svg</svg></a>
+	</ul>
+  </footer>
+```
 
 <br/> <br/>
 
