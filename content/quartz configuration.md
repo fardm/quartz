@@ -297,31 +297,15 @@ footer>ul {
 <br/> <br/>
 
 ## چهار) لینک بازگشت در صفحه 404
-صفحه 404 هیچ لینکی به صفحه اصلی ندارد و کاربر نمیتواند به سایت برگردد.
+<iframe width="100%" height="290px" style="border: none;" src="https://ifard.ir/img/before-after-404.html"></iframe>
 
-
-<iframe width="100%" height="100%" src="https://ifard.ir/img/before-after-404.html"></iframe>
-
-
-با اضافه کردن کد زیر لینک بازگشت به صفحه اصلی به این صفحه اضافه می‌شود.
+صفحه 404 هیچ لینکی به صفحه اصلی ندارد و کاربر نمیتواند به سایت برگردد. با اضافه کردن کد زیر لینک بازگشت به صفحه اصلی به این صفحه اضافه می‌شود.
 
 فایل: `quartz\components\pages\404.tsx`
 
-کد: 
+این کد باید بعد از `<p>{i18n(cfg.locale).pages.error.notFound}</p>` قرار بگیرد:
 ```
 <p>بازگشت به <a href="/">صفحه اصلی</a></p>
-```
-
-
-به این شکل:
-```
-  return (
-    <article class="popover-hint">
-      <h1>404</h1>
-      <p>{i18n(cfg.locale).pages.error.notFound}</p>
-      <p>بازگشت به <a href="/">صفحه اصلی</a></p>
-    </article>
-  )
 ```
 
 
