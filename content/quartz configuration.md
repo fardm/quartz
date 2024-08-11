@@ -297,9 +297,9 @@ footer>ul {
 <br/> <br/>
 
 ## چهار) لینک بازگشت در صفحه 404
-<iframe width="100%" height="290px" style="border: none;" src="https://ifard.ir/img/before-after-404.html"></iframe>
+<iframe width="100%" height="290px" style="border: none;" src="https://ifard.ir/img/before-after-404e.html"></iframe>
 
-صفحه 404 هیچ لینکی به صفحه اصلی ندارد و کاربر نمیتواند به سایت برگردد. با اضافه کردن کد زیر لینک بازگشت به صفحه اصلی به این صفحه اضافه می‌شود.
+صفحه 404 لینک بازگشتی به سایت ندارد و کاربر نمی‌تواند به سایت برگردد. با اضافه کردن کد زیر لینک بازگشت به صفحه اصلی در این صفحه نمایش داده می‌شود.
 
 فایل: `quartz\components\pages\404.tsx`
 
@@ -307,7 +307,6 @@ footer>ul {
 ```
 <p>بازگشت به <a href="/">صفحه اصلی</a></p>
 ```
-
 
 <br/> <br/>
 
