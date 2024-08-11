@@ -47,8 +47,15 @@ tags:
 
 
 
+
 # کالوت ها
 > [!quote] 
+
+> [!en] en
+
+> [!fa] fa
+
+
 
 > [!links]
 
