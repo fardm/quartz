@@ -75,7 +75,7 @@
    } 
 
    li {
-        line-height: 2rem; // برای اصلاح فاصله بین خطوط بولت پوینت ها
+        line-height: 2rem; // برای اصلاح فاصله بین خطوط لیست ها مثل بولت پوینت
     }
 
    sup {
@@ -120,7 +120,8 @@
         font-family: var(--bodyFont);
     }
 
-    // دیاگرام
+
+// دیاگرام
 
     .mermaid {
         direction: rtl !important;
@@ -205,47 +206,3 @@
         background-color: var(--secondary);
     }
 
-
-    
-    // تنظیمات پیشنهادی کریستالین
-
-    html {
-        font-family: Vazirmatn, sans-serif !important;
-    }
-    
-    .breadcrumb-element p {
-        margin: 0 .5rem 0 0;
-        padding: 0;
-        line-height: normal;
-    }
-    
-    button#explorer .fold {
-        opacity: .8;
-        margin-left: 0 !important;
-        margin-right: 0.5rem !important;
-        transition: transform .3s;
-    }
-    
-    .content-meta[show-comma="true"] > span:not(:last-child) {
-        margin-left: 8px !important;
-        margin-right: 0px !important;
-    }
-    
-    .tags {
-        padding-left: 0px !important;
-        padding-right: 0px !important;
-    }
-    
-    .folder-icon {
-        margin-right: 0px !important;
-        margin-left: 5px !important;
-    }
-    
-    #explorer-content ul {
-        padding-right: .7rem !important;
-        padding-left: 0px !important;
-    }
-
-    li:has(> .folder-outer:not(.open)) > .folder-container > svg {
-        transform: rotate(90deg) !important;
-    }
