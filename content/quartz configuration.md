@@ -402,7 +402,7 @@ h6 {
 <p>بازگشت به <a href="/">صفحه اصلی</a></p>
 ```
 
-<iframe width="100%" height="290px" style="border: none; border-radius: 10px;" src="before-after-404-v4.html"></iframe>
+<iframe width="100%" height="290px" style="border: none; border-radius: 10px;" src="before-after-404-v5.html"></iframe>
 
 <br/> <br/>
 
