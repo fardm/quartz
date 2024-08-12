@@ -5,7 +5,7 @@ draft: true
 tags:
 ---
 # اسلایدر
-<iframe width="100%" height="290px" style="border: none; border-radius: 10px;" src="before-after-404-v1.html"></iframe>
+<iframe width="100%" height="290px" style="border: none; border-radius: 10px;" src="before-after-404-v4.html"></iframe>
 
 # دکمه
 
