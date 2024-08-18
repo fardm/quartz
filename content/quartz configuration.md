@@ -427,7 +427,7 @@ h6 {
 <footer class={`${displayClass ?? ""}`}>
 	<hr />
 
-	<ul style="justify-content: space-between; flex-wrap: wrap;">
+	<ul style="justify-content: space-between; flex-wrap: wrap; align-items: baseline;">
 	  <div style="display: flex;	gap: 25px;">
 		<a href="https://instagram.com" title="اینستاگرام"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="1.1em" height="1.1em" fill="currentColor" style="vertical-align: middle;"><path d="M 21.580078 7 C 13.541078 7 7 13.544938 7 21.585938 L 7 42.417969 C 7 50.457969 13.544938 57 21.585938 57 L 42.417969 57 C 50.457969 57 57 50.455062 57 42.414062 L 57 21.580078 C 57 13.541078 50.455062 7 42.414062 7 L 21.580078 7 z M 47 15 C 48.104 15 49 15.896 49 17 C 49 18.104 48.104 19 47 19 C 45.896 19 45 18.104 45 17 C 45 15.896 45.896 15 47 15 z M 32 19 C 39.17 19 45 24.83 45 32 C 45 39.17 39.169 45 32 45 C 24.83 45 19 39.169 19 32 C 19 24.831 24.83 19 32 19 z M 32 23 C 27.029 23 23 27.029 23 32 C 23 36.971 27.029 41 32 41 C 36.971 41 41 36.971 41 32 C 41 27.029 36.971 23 32 23 z"></path></svg></a>
 		<a href="https://telegram.org/" title="تلگرام"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="0.9em" height="0.9em" fill="currentColor" style="vertical-align: middle;"><path d="M498.1 5.6c10.1 7 15.4 19.1 13.5 31.2l-64 416c-1.5 9.7-7.4 18.2-16 23s-18.9 5.4-28 1.6L284 427.7l-68.5 74.1c-8.9 9.7-22.9 12.9-35.2 8.1S160 493.2 160 480l0-83.6c0-4 1.5-7.8 4.2-10.8L331.8 202.8c5.8-6.3 5.6-16-.4-22s-15.7-6.4-22-.7L106 360.8 17.7 316.6C7.1 311.3 .3 300.7 0 288.9s5.9-22.8 16.1-28.7l448-256c10.7-6.1 23.9-5.5 34 1.4z"/></svg></a>
@@ -441,6 +441,8 @@ h6 {
 	</ul>
 </footer>
 ```
+
+یک مورد جذاب هم در فوتر [این سایت](https://quartz.eilleeenz.com) دیدم که با کلیک کردن روی Random Page یک صفحه تصادفی به کاربر نمایش می‌دهد. [از اینجا ](https://quartz.eilleeenz.com/Quartz-customization-log#random-page)می توانید توضیحات آن را مشاهده کنید.
 
 <br/> <br/>
 
