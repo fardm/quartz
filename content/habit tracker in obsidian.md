@@ -6,6 +6,7 @@ date: 2024-05-25
 draft: false
 tags: 
 status: 🌿درختچه
+image: "[[cover-habit-tracker.svg]]"
 ---
 ![[cover-habit-tracker.svg]]
 

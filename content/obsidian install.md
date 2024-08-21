@@ -137,6 +137,9 @@ code
 
 این قابلیت در حالت reading view فعال می شود. ([+](https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax#Footnotes))
 
+متاسفانه خود نرم افزار کلیدمیانبری برای پاورقی ندارد. البته می توانید با نصب پلاگین [footnote shortcut](https://github.com/MichaBrugger/obsidian-footnotes?tab=readme-ov-file) یک شورتکات برای ایجاد پاورقی تعریف کنید. با پلاگین [tidy footnotes](https://github.com/charliecm/obsidian-tidy-footnotes) هم میتوانید ترتیب آن ها را اصلاح کنید.
+
+
 <br/><br/>
 ### ۱۲. پیوست‌ها
 فایل های مختلف مثل تصاویر، ویدئو، صوت، pdf و... را می توانید به راحتی در نرم‌افزار جایگذاری کنید. می توانید فایل ها را کپی پیست کنید یا اینکه بکشید و در محیط نرم‌افزار رها کنید.
