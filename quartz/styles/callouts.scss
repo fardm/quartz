@@ -42,9 +42,9 @@
   }
 
   &[data-callout="abstract"] {
-    --color: #db8942;
-    --border: #db894244;
-    --bg: #db894210;
+    --color: #00b0ff;
+    --border: #00b0ff44;
+    --bg: #19b6ff0c;
     --callout-icon: var(--callout-icon-abstract);
   }
 
@@ -65,16 +65,16 @@
 
 
   &[data-callout="tip"] {
-    --color: #00bfa5;
-    --border: #00bfa544;
-    --bg: #00bfa510;
+    --color: #e75757;
+    --border: #db424244;
+    --bg: #ffbaba0f;
     --callout-icon: var(--callout-icon-tip);
   }
 
   &[data-callout="success"] {
     --color: #09ad7a;
     --border: #09ad7144;
-    --bg: #09ad7110;
+    --bg: #12ad740c;
     --callout-icon: var(--callout-icon-success);
   }
 
@@ -92,40 +92,28 @@
     --callout-icon: var(--callout-icon-warning);
   }
 
-  &[data-callout="failure"] {
+  &[data-callout="failure"],
+  &[data-callout="danger"],
+  &[data-callout="bug"] {
     --color: #db4242;
     --border: #db424244;
     --bg: #db424210;
     --callout-icon: var(--callout-icon-failure);
   }
 
-
-  &[data-callout="danger"] {
-    --color: #e75757;
-    --border: #db424244;
-    --bg: #ffadad0f;
-    --callout-icon: var(--callout-icon-danger);
-  }
-
   &[data-callout="bug"] {
-    --color: #db4242;
-    --border: #db424244;
-    --bg: #db424210;
     --callout-icon: var(--callout-icon-bug);
   }
 
-  &[data-callout="example"] {
-    --color: var(--darkgray);
-    --border: var(--gray);
-    --bg: #ffffff1f;
-    --callout-icon: var(--callout-icon-example);
+  &[data-callout="danger"] {
+    --callout-icon: var(--callout-icon-danger);
   }
 
-  &[data-callout="file"] {
-    --color: var(--darkgray);
-    --border: var(--gray);
-    --bg: #ffffff1f;
-    --callout-icon: var(--callout-icon-file);
+  &[data-callout="example"] {
+    --color: #8a58be;
+    --border: #7a43b544;
+    --bg: #8554b90c;
+    --callout-icon: var(--callout-icon-example);
   }
 
   &[data-callout="quote"] {
@@ -133,6 +121,15 @@
     --border: var(--gray);
     --bg: #a3a3a31e;
     --callout-icon: var(--callout-icon-quote);
+  }
+
+  // new callout
+
+  &[data-callout="file"] {
+    --color: var(--darkgray);
+    --border: var(--gray);
+    --bg: #ffffff1f;
+    --callout-icon: var(--callout-icon-file);
   }
 
   &[data-callout="en"] {
@@ -149,14 +146,6 @@
     --bg: #00000010;
     --callout-icon: var(--callout-icon-comments);
     direction: rtl;
-
-  }
-
-  &[data-callout="comments"] {
-    --color: var(--darkgray);
-    --border: var(--gray);
-    --bg: #afafaf1e;
-    --callout-icon: var(--callout-icon-comments);
   }
 
   &[data-callout="links"] {

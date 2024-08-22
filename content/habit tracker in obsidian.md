@@ -7,6 +7,8 @@ draft: false
 tags: 
 status: 🌿درختچه
 image: "[[cover-habit-tracker.svg]]"
+hierarchy: "[[obsidian|🔮 مدخل ابسیدین]]"
+number: "3"
 ---
 ![[cover-habit-tracker.svg]]
 

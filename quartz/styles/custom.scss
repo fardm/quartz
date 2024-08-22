@@ -190,7 +190,7 @@
 
 blockquote {
     background-color: #5960cf0a;
-    padding: 15px;
+    padding: 1px 20px 1px 20px;
     border-radius: 10px;
 }
 
@@ -246,15 +246,14 @@ p img {
 
     .footer-link {
         display: inline-block;
-        width: 1.4em;
-        height: 1.4em;
+        width: 1.3em;
+        height: 1.3em;
     }
 
     .footer-svg {
         opacity: 0.65;
         filter: grayscale(100%);
         transition: filter 0.3s ease;
-        transition: fill .3s ease;
         transition: scale .3s ease;
     }
 
@@ -262,4 +261,119 @@ p img {
         filter: grayscale(0%);
         scale: 1.1;
         opacity: 1;
+    }
+
+
+
+
+
+// نمای کارتی جدول - حات اسکرول
+
+    // استایل پایه
+    .card-s {
+        tr {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            border: 1px solid #b5b5b526;;
+            background-color: #b5b5b526;
+            border-radius: 8px;
+            padding: 10px;
+            font-size: 0.9em;
+            line-height: 1.5em;
+            overflow: hidden;
+            width: 150px;
+        }
+
+        .table-container>table>* {
+            display: flex;
+            gap: 15px;
+            overflow-x: auto;
+            padding: 10px 0 10px 0;
+            margin: 0;
+        }
+
+        td {
+            text-align: center;
+            white-space: nowrap; // متن شکسته نمی شود و در یک سطر نمایش داده می شود
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .table-container>table td img {
+            margin: 0;
+        }
+
+        .table-container>table>thead {
+            display: none;
+        }
+    }
+    
+    // تنظیم عرض
+    .w100 tr {width: 100px;}
+    .w200 tr {width: 200px;}
+    .w300 tr {width: 300px;}
+    
+
+
+
+
+// نمای کارتی جدول - حات گرید
+
+    // استایل پایه
+    .card-g {
+        tr {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            border: 1px solid #b5b5b526;
+            background-color: #b5b5b526;
+            border-radius: 8px;
+            font-size: 0.9em;
+            line-height: 1.5em;
+            overflow: hidden;
+        }
+
+        .table-container>table>* {
+            display: grid;
+            gap: 15px;
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        td {
+            text-align: center;
+            white-space: nowrap; // متن شکسته نمی شود و در یک سطر نمایش داده می شود
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+
+        .table-container>table td img {
+            margin-bottom: -6px;
+        }
+
+        .table-container>table>thead {
+            display: none;
+        }
+
+    }
+
+    // (c-4) تعداد ستون
+    .c-2 .table-container>table>* {grid-template-columns: repeat(2, 1fr);}
+    .c-3 .table-container>table>* {grid-template-columns: repeat(3, 1fr);}
+    .c-5 .table-container>table>* {grid-template-columns: repeat(5, 1fr);}
+    .c-6 .table-container>table>* {grid-template-columns: repeat(6, 1fr);}
+
+    // ستون ها در تبلت
+    @media (max-width: 768px) {
+        .card-g .table-container>table>* {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
+    // ستون ها در موبایل        
+    @media (max-width: 480px) {
+        .card-g .table-container>table>* {
+            grid-template-columns: repeat(2, 1fr);
+        }
     }

@@ -25,8 +25,37 @@ status: 🌱نهال
 ![[1402-overview.svg]]
 <br/> <br/>
 ## 📚 کتاب
-![[1402-books.jpg]]
+
+<br/>
+
+<div class="card-s">
+
+
+| Poster                                                                                                                                                            | Title                                              |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1481714174i/33385280.jpg)                                               | کی بود کی بود؟                                     |
+| ![](https://s32.picofile.com/file/8478564168/%D8%B4%D8%A7%D9%87%D8%B1%D8%A7%D9%87_%D8%AA%D8%A7%D8%AB%DB%8C%D8%B1%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C.jpg)               | شاهراه تاثیرگذاری                                  |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1588848644i/52120442.jpg)                                               | نیم دانگ پیونگ یانگ                                |
+| ![](https://s32.picofile.com/file/8478564176/%D9%82%D8%AF%D8%B1%D8%AA_%D9%86%D9%88%D8%B4%D8%AA%D9%86.jpg)                                                         | قدرت نوشتن                                         |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1642946094i/60188628.jpg)                                               | اخبار و سایر چرندیات                               |
+| ![](https://s32.picofile.com/file/8478564142/%D8%A7%DB%8C%DA%A9%DB%8C%DA%AF%D8%A7%DB%8C.jpg)                                                                      | ایکیگای                                            |
+| ![](https://s32.picofile.com/file/8478564118/%D8%A7%D8%B3%D8%A8_%D8%B3%DB%8C%D8%A7%D9%87.jpg)                                                                     | اسب سیاه                                           |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1631718344i/59002593.jpg)                                               | وسعت یا عمق                                        |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1722685735i/56970018.jpg)                                               | همه چیز بودن                                       |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1475307169i/25149689.jpg)                                               | کافه اروپا                                         |
+| ![](https://s32.picofile.com/file/8478564242/%D9%86%D8%A7%D9%88%D8%A7%D9%84_%D8%B1%D8%A7%D9%88%DB%8C%DA%A9%D8%A7%D9%86%D8%AA.jpg)                                 | راهنمای خوشبختی و ثروتمندی به روایت ناوال راویکانت |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1696591705i/199296091.jpg)                                              | نکته های تاریخی                                    |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1611404284i/56791325.jpg)                                               | ابوالمشاغل                                         |
+| ![](https://s32.picofile.com/file/8478564150/%D8%AA%D8%B4%DB%8C%D8%B9_%D8%B9%D9%84%D9%88%DB%8C_%D9%88_%D8%AA%D8%B4%DB%8C%D8%B9_%D8%B5%D9%81%D9%88%DB%8C.jpg)      | تشیع علوی و تشیع صفوی                              |
+| ![](https://s32.picofile.com/file/8478564134/%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF%D8%A7%D9%86_%D9%88_%D9%86%D8%A7_%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF%D8%A7%D9%86%D9%85.jpg) | استادان و نااستادانم                               |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1715495482i/34108290.jpg)                                               | هنر شفاف اندیشیدن                                  |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1621171158i/4788482.jpg)                                                | نکته های ویرایش                                    |
+| ![](https://s32.picofile.com/file/8478564184/%DA%A9%D9%84%D8%AB%D9%88%D9%85_%D9%86%D9%86%D9%87.jpg)        | نکته های ویرایش                                    |
+
+</div>
+
 نسبت به سال گذشته امسال مطالعه بیشتر و منظم‌تری داشتم. البته به نظرم فرصت و ظرفیت بیشتری برای مطالعه داشتم اما نتوانستم به خوبی از آن استفاده کنم.
+
 <br/> <br/>
 
 ## 👨‍🏫 دوره‌های آموزشی
@@ -51,43 +80,144 @@ status: 🌱نهال
 
 #### سینمایی
 
-![[1402-movie.jpg]]
+<br/>
 
-امسال آثار جدیدی از کارگردان های معروف اکران شد:
+<div class="card-s">
 
-Killers of the Flower Moon از اسکورسیزی
 
-Oppenheimer از کریستوفر نولان
+| Poster                                                                                                                                          | Title                                 |
+| ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
+| ![](https://m.media-amazon.com/images/M/MV5BMDIzODcyY2EtMmY2MC00ZWVlLTgwMzAtMjQwOWUyNmJjNTYyXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg) | The Truman Show                       |
+| ![](https://m.media-amazon.com/images/M/MV5BMTg0NTIzMjQ1NV5BMl5BanBnXkFtZTcwNDc3MzM5OQ@@._V1_SX300.jpg)                                 | Prisoners                             |
+| ![](https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SX300.jpg) | Parasite                              |
+| ![](https://m.media-amazon.com/images/M/MV5BZWFlYmY2MGEtZjVkYS00YzU4LTg0YjQtYzY1ZGE3NTA5NGQxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg) | The Shining                           |
+| ![](https://m.media-amazon.com/images/M/MV5BMjE4ZTZlNDAtM2Q3YS00YjFhLThjN2UtODg2ZGNlN2E2MWU2XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_SX300.jpg) | Killers of the Flower Moon            |
+| ![](https://m.media-amazon.com/images/M/MV5BMTY4NzcwODg3Nl5BMl5BanBnXkFtZTcwNTEwOTMyMw@@._V1_SX300.jpg)                                 | Eternal Sunshine of the Spotless Mind |
+| ![](https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg) | Forrest Gump                          |
+| ![](https://m.media-amazon.com/images/M/MV5BYzlkZTEyYjUtMTY5NS00ZjU0LTk5OTYtM2M0ZDg1NmNjMzhkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg) | Insomnia                              |
+| ![](https://m.media-amazon.com/images/M/MV5BN2YyZjQ0NTEtNzU5MS00NGZkLTg0MTEtYzJmMWY3MWRhZjM2XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SX300.jpg) | Dunkirk                               |
+| ![](https://m.media-amazon.com/images/M/MV5BZGJkMDUwZWQtYTMzMS00NTg5LWE1ZTYtOTVhMDI4NGI1YjMyXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SX300.jpg) | The Killer                            |
+| ![](https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_SX300.jpg) | Oppenheimer                           |
+| ![](https://m.media-amazon.com/images/M/MV5BMTU0NTU5NTAyMl5BMl5BanBnXkFtZTYwNzYwMDg2._V1_SX300.jpg)                                     | Downfall                              |
+| ![](https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg) | Schindlers List                       |
+| ![](https://m.media-amazon.com/images/M/MV5BOWRiZDIxZjktMTA1NC00MDQ2LWEzMjUtMTliZmY3NjQ3ODJiXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg) | The Pianist                           |
+| ![](https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg) | Pulp Fiction                          |
+| ![](https://m.media-amazon.com/images/M/MV5BMWU4N2FjNzYtNTVkNC00NzQ0LTg0MjAtYTJlMjFhNGUxZDFmXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg) | 12 Angry Men                          |
+| ![](https://m.media-amazon.com/images/M/MV5BMTczNDk4NTQ0OV5BMl5BanBnXkFtZTcwNDAxMDgxNw@@._V1_SX300.jpg)                                 | The Girl with the Dragon Tattoo       |
+| ![](https://m.media-amazon.com/images/M/MV5BMTQwMzQ5Njk1MF5BMl5BanBnXkFtZTcwNjIxNzIxNw@@._V1_SX300.jpg)                                 | Sherlock Holmes A Game of Shadows     |
+| ![](https://m.media-amazon.com/images/M/MV5BMTg0NjEwNjUxM15BMl5BanBnXkFtZTcwMzk0MjQ5Mg@@._V1_SX300.jpg)                                 | Sherlock Holmes                       |
+| ![](https://m.media-amazon.com/images/M/MV5BMTk0MDQ3MzAzOV5BMl5BanBnXkFtZTgwNzU1NzE3MjE@._V1_SX300.jpg)                                 | Gone Girl                             |
+| ![](https://m.media-amazon.com/images/M/MV5BNWQ2ODFhNWItNTA4NS00MzkyLTgyYzUtZjlhYWE5MmEzY2Q1XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg) | The Game                              |
+| ![](https://m.media-amazon.com/images/M/MV5BN2UwNDc5NmEtNjVjZS00OTI5LWE5YjctMWM3ZjBiZGYwMGI2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg) | Zodiac                                |
+| ![](https://m.media-amazon.com/images/M/MV5BNmY4ZGFjYTYtMDNmYi00ZDM4LWFjYTgtNmNlZjBmMzg0MzQ3XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg) | Panic Room                            |
+| 23 فیلم | 53.7 ساعت                       |
 
-و The Killer از دیوید فینچر.
-<br/> <br/> 
-از دیوید فینچر قبلا سون و فایت کلاب را دیده بودم. تصمیم گرفتم بقیه کارهایش را هم ببینم. فیلم the Game و Zodiac فوق العاده بود. فیلم Panic Room هرچند امتیاز پایینی داشت اما برای من جذاب بود.
+</div>
 
-امسال وقتی The Killer از نتفلیکیس منتشر شد بلافاصله نگاه کردم اما به شدت کسل کننده و حوصله سر بر بود. من همان ژانرهای معمایی‌اش را بیشتر می پسندم.
+
+امسال آثار جدیدی از کارگردان های معروف اکران شد: Killers of the Flower Moon از اسکورسیزی، Oppenheimer از کریستوفر نولان و The Killer از دیوید فینچر.    
+
+از دیوید فینچر قبلا سون و فایت کلاب را دیده بودم. تصمیم گرفتم بقیه کارهایش را هم ببینم. فیلم the Game و Zodiac فوق العاده بود. فیلم Panic Room هرچند امتیاز پایینی داشت اما برای من جذاب بود. امسال وقتی The Killer از نتفلیکیس منتشر شد بلافاصله نگاه کردم اما به شدت کسل کننده و حوصله سر بر بود. من همان ژانرهای معمایی‌اش را بیشتر می پسندم.  
+  
+The Pianist و Schindler’s List هم بالاخره بعد از مدتها دید. تاثیرگذار و پر از احساس بود.
+
 <br/> <br/>
-The Pianist و Schindler's List  هم بالاخره بعد از مدتها دید. تاثیرگذار و پر از احساس بود.
 
-<br/> <br/>
 #### سریال
 
-![[1402-series.jpg]]
+
+<br/>
+
+<div class="card-s">
+
+
+
+| Poster                                                                                                                                          | Title         |
+| ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
+| ![](https://m.media-amazon.com/images/M/MV5BOTk2NzUyOTctZDdlMS00MDJlLTgzNTEtNzQzYjFhNjA0YjBjXkEyXkFqcGdeQXVyMjg1NDcxNDE@._V1_SX300.jpg) | Dark          |
+| ![](https://m.media-amazon.com/images/M/MV5BMzdiYzRjZjctZDE0ZC00MGQ4LWEwYzAtZDEyNzJiYzI2YjM2XkEyXkFqcGdeQXVyMDc5ODIzMw@@._V1_SX300.jpg) | Bodies        |
+| ![](https://m.media-amazon.com/images/M/MV5BNTkzMGQ4NTMtZGY2Ny00YjgyLTk2MGMtYjhkNDQ2OGRjMzczXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_SX300.jpg) | Berlin        |
+| ![](https://m.media-amazon.com/images/M/MV5BMTc2MjA4MTM2OV5BMl5BanBnXkFtZTcwMTYzMzA1Mg@@._V1_SX300.jpg)                                 | Lie to Me     |
+| ![](https://m.media-amazon.com/images/M/MV5BYzhjMDIwOTgtYmMwNC00ZDIyLWJiMzUtMDM0YTY3M2VmOWNiXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_SX300.jpg) | Shrinking     |
+| ![](https://m.media-amazon.com/images/M/MV5BMTdmZjBjZjQtY2JiNS00Y2ZlLTg2NzgtMjUzMGY2OTVmOWJiXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg) | Ted Lasso     |
+| ![](https://m.media-amazon.com/images/M/MV5BNjBjZWM3M2UtOWZkYS00ZmFjLTk4ZTItZmNhZjE3OGIxZmY1XkEyXkFqcGdeQXVyMTk0MTczMDI@._V1_SX300.jpg) | The Lion Skin |
+| 7 سریال | 123.1 ساعت                       |
+
+
+</div>
+
 
 سریال Ted Lasso دوست داشتنی بود و حس و حال خوبی داشت فقط فصل دومش مقداری کسل کننده بود. مینی سریال Shrinking را هم عوامل همین تدلاسو ساخته بودند. سریال بدی نبود اما تدلاسو داستان درگیر کننده تری داشت.
-<br/> <br/>
+
 سریال Lie to Me هم خوب بود. هرچند علاقه‌ی زیادی به سریال های آنتولوژی (هر قسمت یک داستان دارد) ندارم با این حال سریال تعلیق خوبی داشت و تمایل داشتم داستانش را دنبال کنم. اولین بار اسم سریال را در [فایل صوتی یادگیری کریستالی درمورد دروغگویی](https://motamem.org/%D9%81%D8%A7%DB%8C%D9%84-%D8%B5%D9%88%D8%AA%DB%8C-%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87-%DB%8C%D8%A7%D8%AF%DA%AF%DB%8C%D8%B1%DB%8C-%DA%A9%D8%B1%DB%8C%D8%B3%D8%AA%D8%A7%D9%84%DB%8C-%D9%85%D8%A7%D8%AC/) از محمدرضا شعبانعلی شنیدم. دکتر لایتمن و همکارانش متخصص زبان بدن هستند و می توانند با زیر نظر گرفتن حرکات بدن، صورت، احساسات و واکنش ها پی ببرند که چه کسی دروغ میگوید.
-<br/> <br/>
+
 سریال Berlin به نظرم خوب نبود و نتوانست یادآور مناسبی برای Money Heist باشد.
-<br/> <br/>
+
 سریال Dark هم تا فصل دوم خوب بود. مینی سریال Bodies هم به خاطر شباهتش با دارک نگاه کردم. البته که به پای جذابیت و پیچیدگی دارک نمی رسید. علاوه بر اینکه سریال دارک تلاش میکرد با مفاهیم فلسفی و علمی بعد زمانی را طوری تفسیر کند که داستان فیلم باور پذیر باشد اما در مینی سریال Bodies انگار با یک پدیده آخر الزمانی مواجهیم.
 
 <br/> <br/>
+
 #### فیلم کوتاه
-![[1402-shortfilm.jpg]]
+
+
+<br/>
+
+<div class="card-s">
+
+| Poster                                                                                                                                          | Title             |
+| ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- |
+| ![](https://m.media-amazon.com/images/M/MV5BMTdmY2NkNzktZjIwMS00ZDg2LWFmYWMtMjg3MGY5MmI5ZmZmXkEyXkFqcGdeQXVyMTQxMjgwNzc@._V1_SX300.jpg) | Timber            |
+| ![](https://m.media-amazon.com/images/M/MV5BYjRmYjMwYzEtNTBmZS00NDBiLWJhZTctZjJhYjJmNmNhNDNkXkEyXkFqcGdeQXVyMTUyMzYxMzU@._V1_SX300.jpg) | Some Thing        |
+| ![](https://m.media-amazon.com/images/M/MV5BMjA2Njc2NzkyMV5BMl5BanBnXkFtZTgwNjE3NzgyNzE@._V1_SX300.jpg)                                 | Snack Attack      |
+| ![](https://m.media-amazon.com/images/M/MV5BNTk2MjhlNTAtYmI3Yi00ZGRlLTgxMTQtZWU1Zjg2M2NmZTdiXkEyXkFqcGdeQXVyMjI1NzEwNg@@._V1_SX300.jpg) | Scrambled         |
+| ![](https://m.media-amazon.com/images/M/MV5BMDM2ZGI2YzQtYjRlYS00MmM3LThmYjktNWZkMzQ5NDRlYjdiXkEyXkFqcGdeQXVyNzMwOTY2NTI@._V1_SX300.jpg) | Kutoja            |
+| ![](https://m.media-amazon.com/images/M/MV5BNmIyNmE4Y2MtNDUxMS00ZjQyLThkNDItMmMwMTNiNDk1NzQ0XkEyXkFqcGdeQXVyMTA5MTg3NzY@._V1_SX300.jpg) | Leaving Home      |
+| ![](https://m.media-amazon.com/images/M/MV5BZGI4MWFhYzEtY2NlMi00ZWIzLTkwNjQtN2RlYWEzODI5NTY5XkEyXkFqcGdeQXVyOTQ4MDE3MDQ@._V1_SX300.jpg) | Benigni           |
+| ![](https://m.media-amazon.com/images/M/MV5BN2EzY2JkM2EtODk2NC00MWIyLWFkYWMtNjk2N2ZjODg1ZjZjXkEyXkFqcGdeQXVyOTg3MjcwMjg@._V1_SX300.jpg) | An Object at Rest |
+| ![](https://m.media-amazon.com/images/M/MV5BOTQwNDcyZjUtMmZhNi00MmYwLWEwNGYtYjU2NGE1OGJiOWY0XkEyXkFqcGdeQXVyNzMwOTY2NTI@._V1_SX300.jpg) | Alarm             |
+| ![](https://m.media-amazon.com/images/M/MV5BNDY2NzBiZjQtODFmYi00Y2JkLTliNjAtYTQxNDMxNTEzNDFhXkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_SX300.jpg) | Purl              |
+| ![](https://m.media-amazon.com/images/M/MV5BOWMzMDcxNjAtYTk5OC00ZTUyLTgxMGQtYmM3M2E5MWM5YzAxXkEyXkFqcGdeQXVyMzM4NjcxOTc@._V1_SX300.jpg) | Runaway           |
+| ![](https://m.media-amazon.com/images/M/MV5BNDc2OTI4ZWYtNGQ0Mi00NjUzLThkZTEtZjBiNmU5OTQyNzcxXkEyXkFqcGdeQXVyMTAwMzM3NDI3._V1_SX300.jpg) | Mr Indifferent    |
+| ![](https://m.media-amazon.com/images/M/MV5BOGI0NTBlZTItMDgzZi00YjRiLTllZTAtNjRjMWJlNGI3ZjdkXkEyXkFqcGdeQXVyNDE4OTY5NzI@._V1_SX300.jpg) | Heavenly Appeals  |
+| ![](https://m.media-amazon.com/images/M/MV5BMDExZTc4YWItZmZkMS00NWEzLTk0NTEtOGViY2Q2OWM0MzE4XkEyXkFqcGdeQXVyMjExNjgyMTc@._V1_SX300.jpg) | El empleo         |
+| ![](https://m.media-amazon.com/images/M/MV5BYzI4YmZlMDktNzUzNC00ZTRiLTkzZmMtMTU1YjEwNjYyZjE1XkEyXkFqcGdeQXVyNTU1ODI5NjI@._V1_SX300.jpg) | Walter            |
+| ![](https://m.media-amazon.com/images/M/MV5BNzYzNjM2MzQtMzQ5Zi00MDFmLWJjNDktYzQxYmY0NGMyYmFjXkEyXkFqcGdeQXVyODY5OTI0NDc@._V1_SX300.jpg) | The Angler        |
+| 16 فیلم  | 1.8 ساعت                       |
+
+</div>
+
 من علاقه خاصی به فیلم‌ها و انیمیشن‌های کوتاه دارم. امسال برنامه خاصی برای دیدن این موارد نداشتم، به طور اتفاقی یکی دو مورد را در یوتیوب دیدم، باقی موارد را یوتیوب پیشنهاد می‌کرد و من هم اگر حوصله داشتم نگاه می‌کردم. Timber و Kutoja تاثیرگذار و قابل تأمل بودند.
 
 <br/> <br/> 
+
 ## 🎥 مستند
-![[1402-documentary.jpg]]
+
+<br/>
+
+<div class="card-s">
+
+
+| Poster                                                                                                                                                                 | Title                |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
+| ![name \| 100](https://m.media-amazon.com/images/M/MV5BMjgyZDE4YzQtN2QxNi00MTQ3LWFhZjEtYzZmZjM1YTdiNDhhXkEyXkFqcGdeQXVyODY3Nzc0OTk@._V1_SX300.jpg)                     | Room 237             |
+| ![name \| 100](https://m.media-amazon.com/images/M/MV5BMzhlOTQyYTYtYTY5Yy00ZDkxLTkwYTYtMjQzOGE1ODllZjhjXkEyXkFqcGdeQXVyMTAyMjQ3NzQ1._V1_SX300.jpg)                     | Beyond Utopia        |
+| ![name \| 100](https://m.media-amazon.com/images/M/MV5BYTU3ZjUxM2MtZWQ5OS00NDQxLTlhZDMtYzY3OTE4ZDY0NWM1XkEyXkFqcGdeQXVyMTc2NDg4MTU@._V1_SX300.jpg)                     | AlphaGo              |
+| ![name \| 100](https://s32.picofile.com/file/8478551968/%D8%AC%D8%B2%DB%8C%D8%B1%D9%87_%D9%85%D8%A7%D9%87%DB%8C.jpg)                                                   | جزیره ماهی           |
+| ![name \| 100](https://s32.picofile.com/file/8478551950/%D8%B1%D9%88%D8%B2%DA%AF%D8%A7%D8%B1_%DA%AF%D9%84_%D8%A2%D9%82%D8%A7%DB%8C%DB%8C.jpg)                          | روزگار گل آقایی      |
+| ![name \| 100](https://s32.picofile.com/file/8478551942/%D8%B4%DA%A9%D9%88%D9%81%D9%87_%D9%87%D8%A7%DB%8C_%D8%B2%D9%85%D8%B3%D8%AA%D8%A7%D9%86.jpg)                    | شکوفه های زمستان     |
+| ![name \| 100](https://m.media-amazon.com/images/M/MV5BZjljOGQwYjAtYTVjYS00MWEyLTk2ZGYtM2I2OGFjNmIzZDljL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMjYxMzY2NDk@._V1_SX300.jpg)     | رویاهای دم صبح       |
+| ![name \| 100](https://s32.picofile.com/file/8478551868/%D9%84%D8%A7%D8%AA%D8%A7%D8%B1%DB%8C%D9%86%D9%88.jpg)                                                          | لاتارینو             |
+| ![name \| 100](https://s32.picofile.com/file/8478551876/%D8%AC%D9%88%D8%A7%D9%86_%D9%85%D8%B1%DA%AF.jpg)                                                               | جوان مرگ             |
+| ![name \| 100](https://s32.picofile.com/file/8478551900/%D8%A8%D8%B1%D8%A7%DB%8C_%D9%BE%D8%B3_%D8%A7%D8%B2_%D9%85%D8%B1%DA%AF%D9%85.jpg)                               | برای پس از مرگم      |
+| ![name \| 100](https://s32.picofile.com/file/8478551842/%D8%A7%D8%AA%D8%A7%D9%82_%D8%AC%D9%86%DA%AF.jpg)                                                               | اتاق جنگ             |
+| ![name \| 100](https://s32.picofile.com/file/8478552100/%D8%A8%D9%87%D8%AA%D8%A7%D9%86_%D8%A8%D8%B1%D8%A7%DB%8C_%D8%AD%D9%81%D8%B8_%D9%86%D8%B8%D8%A7%D9%85.jpg)       | بهتان برای حفظ نظام  |
+| ![name \| 100](https://s32.picofile.com/file/8478552118/%D8%AC%D8%A7%D9%85_%D8%B2%D9%87%D8%B1.jpg)                                                                     | جام زهر              |
+| ![name \| 100](https://s32.picofile.com/file/8478551884/%D9%82%D9%85%D8%A7%D8%B1.jpg)                                                                                  | قمار                 |
+| ![name \| 100](https://s32.picofile.com/file/8478552126/%DA%A9%D9%88%D8%AF%D8%AA%D8%A7%DB%8C_%D8%AE%D8%B2%D9%86%D8%AF%D9%87_%D8%AF%D8%B1_%D8%B3%D9%BE%D8%A7%D9%87.jpg) | کودتای خزنده در سپاه |
+
+
+</div>
+
 مستند Room 237 را دوست داشتم. مستند در مورد فیلم The Shining است و حقایق پنهان فیلم را بررسی میکند. فکر نمی کردم فیلم اینقدر نکته های فنی ریز و نامحسوس داشته باشد خصوصا فیلمی که در سال 1980 ساخته شده.
 
 مستند AlphaGo هم جذاب بود. خصوصا الان که بحث هوش مصنوعی بالا گرفته دیدن این مستند خالی از لطف نیست.
