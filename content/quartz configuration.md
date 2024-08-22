@@ -488,6 +488,156 @@ h6 {
   )
 ```
 
+<br/>
+
+### نمای کارتی برای جداول
+این تنظیم استایل جدول ها را به حالت کارت تبدیل میکند. مشابه حالتی که تم مینیمال برای جدول های دیتاویو میسازد.
+```
+// نمای کارتی جدول - حات گرید
+
+    // استایل پایه
+    .card-g {
+        tr {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            border: 1px solid #b5b5b526;
+            background-color: #b5b5b526;
+            border-radius: 8px;
+            font-size: 0.9em;
+            line-height: 1.5em;
+            overflow: hidden;
+        }
+
+        .table-container>table>* {
+            display: grid;
+            gap: 15px;
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        td {
+            text-align: center;
+            white-space: nowrap; // متن شکسته نمی شود و در یک سطر نمایش داده می شود
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+
+        .table-container>table td img {
+            margin-bottom: -6px;
+        }
+
+        .table-container>table>thead {
+            display: none;
+        }
+
+    }
+
+    // (c-4) تعداد ستون
+    .c-2 .table-container>table>* {grid-template-columns: repeat(2, 1fr);}
+    .c-3 .table-container>table>* {grid-template-columns: repeat(3, 1fr);}
+    .c-5 .table-container>table>* {grid-template-columns: repeat(5, 1fr);}
+    .c-6 .table-container>table>* {grid-template-columns: repeat(6, 1fr);}
+
+    // ستون ها در تبلت
+    @media (max-width: 768px) {
+        .card-g .table-container>table>* {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
+    // ستون ها در موبایل        
+    @media (max-width: 480px) {
+        .card-g .table-container>table>* {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+```
+
+یک حالت دیگر هم اضافه کردم که فقط کارت ها در یک ردیف نمایش داده می شوند و با اسکرول کردن میتوان باقی موارد را مشاهده کرد. برای زمانی که تعداد کارت ها زیاد است به کار می آید.
+
+```
+// نمای کارتی جدول - حات اسکرول
+
+    // استایل پایه
+    .card-s {
+        tr {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            border: 1px solid #b5b5b526;;
+            background-color: #b5b5b526;
+            border-radius: 8px;
+            padding: 10px;
+            font-size: 0.9em;
+            line-height: 1.5em;
+            overflow: hidden;
+            width: 150px;
+        }
+
+        .table-container>table>* {
+            display: flex;
+            gap: 15px;
+            overflow-x: auto;
+            padding: 10px 0 10px 0;
+            margin: 0;
+        }
+
+        td {
+            text-align: center;
+            white-space: nowrap; // متن شکسته نمی شود و در یک سطر نمایش داده می شود
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .table-container>table td img {
+            margin: 0;
+        }
+
+        .table-container>table>thead {
+            display: none;
+        }
+    }
+    
+    // تنظیم عرض
+    .w100 tr {width: 100px;}
+    .w200 tr {width: 200px;}
+    .w300 tr {width: 300px;}
+
+```
+
+بعد از اضافه کردن این کد ها به فایل `custom.scs` کافی است جدول خود را در تگ div قرار داده و کلاس `card-g` یا `card-s` را برای آن تعریف کنید. تعداد ستون یا عرض کارت را هم می توانید مشخص کنید. به این شکل:
+```
+<div class="card-g c-2">
+| class  | description  |
+| ------ | ------------ |
+| card-g | grid style   |
+| card-s | scroll style |
+</div>
+```
+
+
+کلاس های مربوط به حالت گرید
+
+| class  | description                            |
+| ------ | -------------------------------------- |
+| card-g | یک نمای کارتی در ردیف های متعدد میسازد |
+| c-2    | نمایش کارت ها در 2 ستون                |
+| c-3    | نمایش کارت ها در 3 ستون                |
+| c-5    | نمایش کارت ها در 5 ستون                |
+| c-6    | نمایش کارت ها در 6 ستون                |
+
+کلاس های مربوط به حالت اسکرول
+
+| class  | description                         |
+| ------ | ----------------------------------- |
+| card-s | یک نمای کارتی فقط در یک ردیف میسازد |
+| w100   | تنظیم عرض کارت روی 100px            |
+| w200   | تنظیم عرض کارت روی 200px            |
+| w300   | تنظیم عرض کارت روی 300px            |
+
+
+
 
 <br/><br/>
 
