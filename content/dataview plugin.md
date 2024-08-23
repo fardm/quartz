@@ -295,6 +295,11 @@ table without id
 	file.link as Title
 ```
 
+برای تنظیم عرض هم میتونید از این استفاده کنید:
+```
+embed(link(image, "200"))
+```
+
 <br/>
 
 ### حالت سوم: ترکیب خارجی و داخلی
@@ -304,6 +309,8 @@ table without id EmbededCover, file.link
 FLATTEN choice(typeof(cover)="link", embed(link(meta(choice(typeof(cover)="link", cover, this.file.link ) ).path)), "![](" + cover + ")") AS EmbededCover
 ```
 این یک تابع شرطی است که مقادیر موجود در فیلد cover رو بررسی میکنه. اگر لینک داخلی باشه دستور `embed(link(meta(...).path))` اجرا میشه. اگر لینک خارجی باشه دستور `"![](" + cover + ")` اجرا میشه.
+
+
 
 <br/> <br/>
 

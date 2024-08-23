@@ -1,9 +1,8 @@
 ---
-title: 🔮 مدخل ابسیدین
-aliases:
-  - 🔮 مدخل ابسیدین
-date: 2024-05-25
-draft: false
+title: مدخل جدید
+aliases: 
+date: 
+draft: true
 tags:
 ---
 
@@ -56,6 +55,26 @@ tags:
 		}
 		
 </style>
+
+## ساخت مدخل عادی
+
+<!-- QueryToSerialize: TABLE WITHOUT ID embed(link(image)) as "image", "[[" + file.name + "|" + title + "]]" as "title" WHERE draft = false AND hierarchy = [[obsidian|🔮 مدخل ابسیدین]] SORT number ASC -->
+<!-- SerializedQuery: TABLE WITHOUT ID embed(link(image)) as "image", "[[" + file.name + "|" + title + "]]" as "title" WHERE draft = false AND hierarchy = [[obsidian|🔮 مدخل ابسیدین]] SORT number ASC -->
+
+| image                                                     | title                                                              |
+| --------------------------------------------------------- | ------------------------------------------------------------------ |
+| ![[img/cover-obsidian01.svg\|cover-obsidian01.svg]]       | [[obsidian review\|بررسی و معرفی نرم افزار ابسیدین]]               |
+| ![[img/cover-obsidian02.svg\|cover-obsidian02.svg]]       | [[obsidian install\|آموزش نصب و راه اندازی نرم افزار ابسیدین]]     |
+| ![[img/cover-habit-tracker.svg\|cover-habit-tracker.svg]] | [[habit tracker in obsidian\|ساخت هبیت ترکر در نرم افزار ابسیدین]] |
+| \-                                                        | [[add remove properties\|حذف و اضافه دسته جمعی پراپرتی]]           |
+| \-                                                        | [[dataview plugin\|نمونه های کاربردی پلاگین دیتاویو]]              |
+| \-                                                        | [[quartz configuration\|تنظیمات من برای کوارتز]]                   |
+<!-- SerializedQuery END -->
+
+
+<br/><br/>
+
+## اضافه کردن تصویر به پست‌های بدون تصویر
 
 
 <!-- QueryToSerialize: table without id EmbededCover, "[[" + file.name + "|" + title + "]]" as title FLATTEN choice(typeof(image)="link", embed(link(choice(typeof(image)="link", image, this.file.link))), "![](https://ifard.ir/img/noimage.svg)") AS EmbededCover WHERE draft = false AND hierarchy = [[obsidian|🔮 مدخل ابسیدین]] SORT number ASC -->
