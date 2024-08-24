@@ -263,75 +263,24 @@ p img {
         opacity: 1;
     }
 
-
-
-
-
-// نمای کارتی جدول - حات اسکرول
-
-    // استایل پایه
-    .card-s {
-        tr {
-            display: flex;
-            justify-content: space-between;
-            flex-direction: column;
-            border: 1px solid #b5b5b526;;
-            background-color: #b5b5b526;
-            border-radius: 8px;
-            padding: 10px;
-            font-size: 0.9em;
-            line-height: 1.5em;
-            overflow: hidden;
-            width: 150px;
-        }
-
-        .table-container>table>* {
-            display: flex;
-            gap: 15px;
-            overflow-x: auto;
-            padding: 10px 0 10px 0;
-            margin: 0;
-        }
-
-        td {
-            text-align: center;
-            white-space: nowrap; // متن شکسته نمی شود و در یک سطر نمایش داده می شود
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-
-        .table-container>table td img {
-            margin: 0;
-        }
-
-        .table-container>table>thead {
-            display: none;
-        }
-    }
-    
-    // تنظیم عرض
-    .w100 tr {width: 100px;}
-    .w200 tr {width: 200px;}
-    .w300 tr {width: 300px;}
     
 
 
 
-
-// نمای کارتی جدول - حات گرید
+// نمای کارتی جدول - حالت گرید
 
     // استایل پایه
     .card-g {
         tr {
             display: flex;
-            justify-content: space-between;
             flex-direction: column;
             border: 1px solid #b5b5b526;
-            background-color: #b5b5b526;
+            background-color: #b5b5b518;
             border-radius: 8px;
             font-size: 0.9em;
             line-height: 1.5em;
             overflow: hidden;
+            padding-bottom: 10px;
         }
 
         .table-container>table>* {
@@ -342,14 +291,11 @@ p img {
 
         td {
             text-align: center;
-            white-space: nowrap; // متن شکسته نمی شود و در یک سطر نمایش داده می شود
-            overflow: hidden;
-            text-overflow: ellipsis;
         }
 
 
         .table-container>table td img {
-            margin-bottom: -6px;
+            margin-bottom: 0;
         }
 
         .table-container>table>thead {
@@ -358,7 +304,7 @@ p img {
 
     }
 
-    // (c-4) تعداد ستون
+    // تعداد ستون
     .c-2 .table-container>table>* {grid-template-columns: repeat(2, 1fr);}
     .c-3 .table-container>table>* {grid-template-columns: repeat(3, 1fr);}
     .c-5 .table-container>table>* {grid-template-columns: repeat(5, 1fr);}
@@ -377,3 +323,85 @@ p img {
             grid-template-columns: repeat(2, 1fr);
         }
     }
+
+
+// نمای کارتی جدول - حالت اسکرول
+
+    // استایل پایه
+    .card-s {
+        tr {
+            display: flex;
+            flex-direction: column;
+            border: 1px solid #b5b5b526;;
+            background-color: #b5b5b518;
+            border-radius: 8px;
+            padding: 10px;
+            font-size: 0.9em;
+            line-height: 1.5em;
+            overflow: hidden;
+            width: 150px;
+        }
+
+        .table-container>table>* {
+            display: flex;
+            gap: 15px;
+            overflow-x: auto;
+            padding: 10px 0 10px 0;
+            margin: 0;
+        }
+
+        td {
+            text-align: center;
+            padding: 0;
+        }
+
+        .table-container>table td img {
+            margin: 0;
+        }
+
+        .table-container>table>thead {
+            display: none;
+        }
+    }
+    
+    // تنظیم عرض
+    .w100 tr {width: 100px;}
+    .w200 tr {width: 200px;}
+    .w300 tr {width: 300px;}
+
+
+
+// استایل های سفارشی مشترک: هم گرید اسکرول
+
+    // نمایش متن در یک سطر و مخفی کردن کاراکترهای اضافی
+    .nowarp td {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    // نمایش متن در دو سطر و مخفی کردن کاراکترهای اضافی
+    .nowarp2 td {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 2;
+    }
+
+    // نسبت تصویر
+    .c1-1 .table-container>table td img {
+        aspect-ratio: 1 / 1;
+        object-fit: contain;
+    }
+
+    .c16-9 .table-container>table td img {
+        aspect-ratio: 16 / 9;
+        object-fit: contain;
+    }
+
+
+
+
+
+    

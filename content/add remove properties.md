@@ -6,8 +6,8 @@ date: 2024-07-04
 draft: false
 tags: 
 status: 🌱نهال
-hierarchy: "[[obsidian|🔮 مدخل ابسیدین]]"
-number: "999"
+parent: "[[obsidian|🔮 مدخل ابسیدین]]"
+hierarchy: "999"
 ---
 
 

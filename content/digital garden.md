@@ -6,6 +6,9 @@ date: 2024-05-23
 draft: false
 tags: 
 status: 🌳همیشه‌سبز
+parent: "[[note taking|📝 مدخل یادداشت برداری]]"
+hierarchy: "1"
+image: "[[cover-dgarden.svg]]"
 ---
 
 ![[cover-dgarden.svg]]

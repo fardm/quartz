@@ -6,6 +6,9 @@ date: 2024-05-29
 draft: false
 tags: 
 status: 🌱نهال
+parent: "[[note taking|📝 مدخل یادداشت برداری]]"
+hierarchy: "2"
+image: "[[cover-note-min.webp]]"
 ---
 ![[cover-note-min.webp]]
 

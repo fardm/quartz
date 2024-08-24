@@ -4,62 +4,19 @@ aliases:
   - 🔮 مدخل ابسیدین
 date: 2024-05-25
 draft: false
-tags:
+tags: 
+cssclasses:
+  - card-g
+  - c-3
 ---
-
 <style>
-	/*card view*/
-		 tr {
-			display: flex;
-			flex-direction: column;
-			border: 1px solid #b5b5b526;
-			background-color: #b5b5b526;
-			border-radius: 8px;
-			font-size: 0.9em;
-			line-height: 1.5em;
-			overflow: hidden;
-			}
-	        
-	    table>* {
-			display: grid;
-			gap: 15px;
-			grid-template-columns: repeat(3, 1fr);
-	        }
-	        
-		td {
-			text-align: center;
-	        }
-	        
-	    table td img {
-			margin-bottom: -6px;
-	        }
-	        
-	    table>thead {
-			display: none;
-	        }
-	        
-	    @media (max-width: 768px) {
-		    table>* { grid-template-columns: repeat(3, 1fr); }
-		    }
-		    
-	    @media (max-width: 480px) {
-		    table>* { grid-template-columns: repeat(2, 1fr); }
-		    }
-	    
-	/*hidden comment*/
-		.giscus {
-			display: none;
-			}
-			
-		footer > hr {
-			display: none;
+	.giscus {
+		display: none;
 		}
-		
 </style>
 
-
-<!-- QueryToSerialize: table without id EmbededCover, "[[" + file.name + "|" + title + "]]" as title FLATTEN choice(typeof(image)="link", embed(link(choice(typeof(image)="link", image, this.file.link))), "![](https://ifard.ir/img/noimage.svg)") AS EmbededCover WHERE draft = false AND hierarchy = [[obsidian|🔮 مدخل ابسیدین]] SORT number ASC -->
-<!-- SerializedQuery: table without id EmbededCover, "[[" + file.name + "|" + title + "]]" as title FLATTEN choice(typeof(image)="link", embed(link(choice(typeof(image)="link", image, this.file.link))), "![](https://ifard.ir/img/noimage.svg)") AS EmbededCover WHERE draft = false AND hierarchy = [[obsidian|🔮 مدخل ابسیدین]] SORT number ASC -->
+<!-- QueryToSerialize: table without id EmbededCover, "[[" + file.name + "|" + title + "]]" as title FLATTEN choice(typeof(image)="link", embed(link(choice(typeof(image)="link", image, this.file.link))), "![](https://ifard.ir/img/noimage.svg)") AS EmbededCover WHERE draft = false AND parent = [[obsidian|🔮 مدخل ابسیدین]] SORT hierarchy ASC -->
+<!-- SerializedQuery: table without id EmbededCover, "[[" + file.name + "|" + title + "]]" as title FLATTEN choice(typeof(image)="link", embed(link(choice(typeof(image)="link", image, this.file.link))), "![](https://ifard.ir/img/noimage.svg)") AS EmbededCover WHERE draft = false AND parent = [[obsidian|🔮 مدخل ابسیدین]] SORT hierarchy ASC -->
 
 | EmbededCover                                              | title                                                              |
 | --------------------------------------------------------- | ------------------------------------------------------------------ |
