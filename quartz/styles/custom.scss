@@ -340,6 +340,7 @@ p img {
             line-height: 1.5em;
             overflow: hidden;
             width: 150px;
+            justify-content: space-around;
         }
 
         .table-container>table>* {
@@ -393,11 +394,13 @@ p img {
     .c1-1 .table-container>table td img {
         aspect-ratio: 1 / 1;
         object-fit: contain;
+        background-color: #a5a5a526;
     }
 
     .c16-9 .table-container>table td img {
         aspect-ratio: 16 / 9;
         object-fit: contain;
+        background-color: #a5a5a526;
     }
 
 
