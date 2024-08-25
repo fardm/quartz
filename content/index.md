@@ -33,7 +33,11 @@ cssclasses:
 > 
 
 
-
+<style>
+	.card-g .table-container>table td img {
+	    max-width: 60%;
+	}
+</style>
 
 
 

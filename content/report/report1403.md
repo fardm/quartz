@@ -9,7 +9,7 @@ status: 🌱نهال
 cssclasses:
   - card-s
   - nowarp2
-parent: "[[diary|📅 روزنوشته‌ها]]"
+parent: 
 image:
 ---
 

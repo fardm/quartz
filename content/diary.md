@@ -23,6 +23,5 @@ cssclasses:
 | EmbededCover                                    | title                                 |
 | ----------------------------------------------- | ------------------------------------- |
 | ![[img/cover-report02.svg\|cover-report02.svg]] | [[report1402\|گزارش توسعه فردی ۱۴۰۲]] |
-| ![[noimage2.svg]]                               | [[report1403\|گزارش توسعه فردی ۱۴۰۳]] |
 <!-- SerializedQuery END -->
 
