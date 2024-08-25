@@ -289,6 +289,11 @@ p img {
             grid-template-columns: repeat(4, 1fr);
         }
 
+        .table-container>table {
+            margin: 0;
+            width: 100%;
+        }
+
         td {
             text-align: center;
         }

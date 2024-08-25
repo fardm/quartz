@@ -9,11 +9,50 @@ status: 🌱نهال
 cssclasses:
   - card-s
   - nowarp2
+parent: "[[diary|📅 روزنوشته‌ها]]"
+image:
 ---
 
+## بخش اول: ردیابی عادت
+
+### 🏋️‍♂️ ورزش
+<!-- QueryToSerialize: LIST "✅ " + length(filter(rows, (r) => r.🏋️‍♂️exercise = true)) + " روز ورزش کردم" FROM #journal WHERE file.name >= ("2024-03-20") AND file.name <= ("2025-03-20") GROUP BY "" -->
+<!-- SerializedQuery: LIST "✅ " + length(filter(rows, (r) => r.🏋️‍♂️exercise = true)) + " روز ورزش کردم" FROM #journal WHERE file.name >= ("2024-03-20") AND file.name <= ("2025-03-20") GROUP BY "" -->
+- : ✅ 114 روز ورزش کردم
+<!-- SerializedQuery END -->
 
 
-## 📚 کتاب 
+<!-- QueryToSerialize: LIST "❌ " + length(filter(rows, (r) => r.🏋️‍♂️exercise = false)) + " روز ورزش نکردم" FROM #journal WHERE file.name >= ("2024-03-20") AND file.name <= ("2025-03-20") GROUP BY "" -->
+<!-- SerializedQuery: LIST "❌ " + length(filter(rows, (r) => r.🏋️‍♂️exercise = false)) + " روز ورزش نکردم" FROM #journal WHERE file.name >= ("2024-03-20") AND file.name <= ("2025-03-20") GROUP BY "" -->
+- : ❌ 44 روز ورزش نکردم
+<!-- SerializedQuery END -->
+
+‌<br/>‌<br/>
+
+### 📖 مطالعه
+<!-- QueryToSerialize: LIST round(sum(rows.📚reading)/2) + " ساعت مطالعه کردم" FROM #journal WHERE file.name >= ("2024-03-20") AND file.name <= ("2025-03-20") GROUP BY "" -->
+<!-- SerializedQuery: LIST round(sum(rows.📚reading)/2) + " ساعت مطالعه کردم" FROM #journal WHERE file.name >= ("2024-03-20") AND file.name <= ("2025-03-20") GROUP BY "" -->
+- : 100 ساعت مطالعه کردم
+<!-- SerializedQuery END -->
+
+‌<br/>‌<br/>
+
+### 📱 سوشال مدیا
+
+<!-- QueryToSerialize: LIST round(sum(rows.📱social)) + " ساعت در سوشال مدیا بودم" FROM #journal WHERE file.name >= ("2024-03-20") AND file.name <= ("2025-03-20") GROUP BY "" -->
+<!-- SerializedQuery: LIST round(sum(rows.📱social)) + " ساعت در سوشال مدیا بودم" FROM #journal WHERE file.name >= ("2024-03-20") AND file.name <= ("2025-03-20") GROUP BY "" -->
+- : 265 ساعت در سوشال مدیا بودم
+<!-- SerializedQuery END -->
+
+‌<br/>‌<br/>
+
+
+
+
+## بخش دوم: مصرف محتوا
+
+
+### 📚 کتاب 
 
 <!-- QueryToSerialize: table without id ("![](" + cover + ")"), file.name, "`" + pages + " صفحه`" FROM #Book WHERE date >= date("2024-03-20") AND date <= date("2025-03-20") -->
 <!-- SerializedQuery: table without id ("![](" + cover + ")"), file.name, "`" + pages + " صفحه`" FROM #Book WHERE date >= date("2024-03-20") AND date <= date("2025-03-20") -->
@@ -42,7 +81,7 @@ cssclasses:
 
 ‌<br/>‌<br/>
 
-## 👨‍🏫 دوره
+### 👨‍🏫 دوره‌های آموزشی
 <!-- QueryToSerialize: table without id ("![](" + cover + ")"), file.name, "`" + round(length.hours) + " ساعت`" FROM #Course WHERE date >= date("2024-03-20") AND date <= date("2025-03-20") SORT date ASC -->
 <!-- SerializedQuery: table without id ("![](" + cover + ")"), file.name, "`" + round(length.hours) + " ساعت`" FROM #Course WHERE date >= date("2024-03-20") AND date <= date("2025-03-20") SORT date ASC -->
 
@@ -59,7 +98,7 @@ cssclasses:
 
 ‌<br/>‌<br/>
 
-## 🎙 پادکست
+### 🎙 پادکست
 
 <!-- QueryToSerialize: table without id ("![](" + cover + ")"), file.name, "`" + length.minute + " دقیقه`" FROM #Podcast WHERE date >= date("2024-03-20") AND date <= date("2025-03-20") SORT date ASC -->
 <!-- SerializedQuery: table without id ("![](" + cover + ")"), file.name, "`" + length.minute + " دقیقه`" FROM #Podcast WHERE date >= date("2024-03-20") AND date <= date("2025-03-20") SORT date ASC -->
@@ -80,7 +119,7 @@ cssclasses:
 
 ‌<br/>‌<br/>
 
-## ✨ محتوای مفید
+### ✨ محتوای مفید
 
 <!-- QueryToSerialize: table without id ("![](" + cover + ")"), file.name, "`" + length.minute + " دقیقه`" FROM #Media WHERE date >= date("2024-03-20") AND date <= date("2025-03-20") SORT date ASC -->
 <!-- SerializedQuery: table without id ("![](" + cover + ")"), file.name, "`" + length.minute + " دقیقه`" FROM #Media WHERE date >= date("2024-03-20") AND date <= date("2025-03-20") SORT date ASC -->
@@ -96,9 +135,9 @@ cssclasses:
 
 ‌<br/>‌<br/>
 
-## 🍿 فیلم و سریال
+### 🍿 فیلم و سریال
 
-### سینمایی
+#### سینمایی
 <!-- QueryToSerialize: table without id ("![](" + cover + ")"), file.name, "`" + length.minute + " دقیقه`" FROM #Movie WHERE type = "movie" AND date >= date("2024-03-20") AND date <= date("2025-03-20") SORT date ASC -->
 <!-- SerializedQuery: table without id ("![](" + cover + ")"), file.name, "`" + length.minute + " دقیقه`" FROM #Movie WHERE type = "movie" AND date >= date("2024-03-20") AND date <= date("2025-03-20") SORT date ASC -->
 
@@ -120,19 +159,19 @@ cssclasses:
 
 ‌<br/>‌<br/>
 
-### سریال
-<!-- QueryToSerialize: table without id ("![](" + cover + ")"), file.name, "`" + length.minute + " دقیقه`" FROM #Movie WHERE type = "series" AND date >= date("2024-03-20") AND date <= date("2025-03-20") SORT date ASC -->
-<!-- SerializedQuery: table without id ("![](" + cover + ")"), file.name, "`" + length.minute + " دقیقه`" FROM #Movie WHERE type = "series" AND date >= date("2024-03-20") AND date <= date("2025-03-20") SORT date ASC -->
+#### سریال
+<!-- QueryToSerialize: table without id ("![](" + cover + ")"), file.name, "`" + round(length.hours) + " ساعت`" FROM #Movie WHERE type = "series" AND date >= date("2024-03-20") AND date <= date("2025-03-20") SORT date ASC -->
+<!-- SerializedQuery: table without id ("![](" + cover + ")"), file.name, "`" + round(length.hours) + " ساعت`" FROM #Movie WHERE type = "series" AND date >= date("2024-03-20") AND date <= date("2025-03-20") SORT date ASC -->
 
-| ("![](" + cover + ")")                                                                                                                  | file.name     | "`" + length.minute + " دقیقه`" |
-| --------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ------------------------------- |
-| ![](https://m.media-amazon.com/images/M/MV5BZmQ0NDE5NjYtMGU4OS00NGMwLWJmOGYtZjVmYTFhMzA3ZGQ2XkEyXkFqcGdeQXVyMDc5ODIzMw@@._V1_SX300.jpg) | Baby Reindeer | `240 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BZTZkMWVkNTEtYzMxMC00MzQzLTg5NjUtNTNmN2M2NzEwNzI0XkEyXkFqcGdeQXVyMTY3MDE5MDY1._V1_SX300.jpg) | The Sopranos  | `2875 دقیقه`                    |
+| ("![](" + cover + ")")                                                                                                                  | file.name     | "`" + round(length.hours) + " ساعت`" |
+| --------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ------------------------------------ |
+| ![](https://m.media-amazon.com/images/M/MV5BZmQ0NDE5NjYtMGU4OS00NGMwLWJmOGYtZjVmYTFhMzA3ZGQ2XkEyXkFqcGdeQXVyMDc5ODIzMw@@._V1_SX300.jpg) | Baby Reindeer | `4 ساعت`                             |
+| ![](https://m.media-amazon.com/images/M/MV5BZTZkMWVkNTEtYzMxMC00MzQzLTg5NjUtNTNmN2M2NzEwNzI0XkEyXkFqcGdeQXVyMTY3MDE5MDY1._V1_SX300.jpg) | The Sopranos  | `48 ساعت`                            |
 <!-- SerializedQuery END -->
 
 ‌<br/>‌<br/>
 
-### فیلم کوتاه
+#### فیلم کوتاه
 <!-- QueryToSerialize: table without id ("![](" + cover + ")"), file.name, "`" + length.minute + " دقیقه`" FROM #Movie WHERE type = "short" AND date >= date("2024-03-20") AND date <= date("2025-03-20") SORT date ASC -->
 <!-- SerializedQuery: table without id ("![](" + cover + ")"), file.name, "`" + length.minute + " دقیقه`" FROM #Movie WHERE type = "short" AND date >= date("2024-03-20") AND date <= date("2025-03-20") SORT date ASC -->
 
@@ -158,7 +197,7 @@ cssclasses:
 
 ‌<br/>‌<br/>
 
-## 🎥 مستند
+### 🎥 مستند
 
 <!-- QueryToSerialize: table without id ("![](" + cover + ")"), file.name, "`" + length.minute + " دقیقه`" FROM #Documentary WHERE date >= date("2024-03-20") AND date <= date("2025-03-20") SORT date ASC -->
 <!-- SerializedQuery: table without id ("![](" + cover + ")"), file.name, "`" + length.minute + " دقیقه`" FROM #Documentary WHERE date >= date("2024-03-20") AND date <= date("2025-03-20") SORT date ASC -->
@@ -169,4 +208,3 @@ cssclasses:
 | ![](https://m.media-amazon.com/images/M/MV5BNWFkMDY1MjItZmNkOS00MDg2LWFlMjMtZWU3YmM0MmY3MWM3XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg) | American Factory          | `110 دقیقه`                     |
 <!-- SerializedQuery END -->
 
-00

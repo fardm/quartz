@@ -1,7 +1,7 @@
 ---
-title: 📝 مدخل یادداشت برداری
+title: 📝 یادداشت برداری
 aliases:
-  - 📝 مدخل یادداشت برداری
+  - 📝 یادداشت برداری
 date: 2024-05-25
 draft: false
 tags: 
@@ -16,8 +16,8 @@ cssclasses:
 </style>
 
 
-<!-- QueryToSerialize: table without id EmbededCover, "[[" + file.name + "|" + title + "]]" as title FLATTEN choice(typeof(image)="link", embed(link(choice(typeof(image)="link", image, this.file.link))), "![](https://ifard.ir/img/noimage.svg)") AS EmbededCover WHERE draft = false AND parent = [[note taking|📝 مدخل یادداشت برداری]] SORT hierarchy ASC -->
-<!-- SerializedQuery: table without id EmbededCover, "[[" + file.name + "|" + title + "]]" as title FLATTEN choice(typeof(image)="link", embed(link(choice(typeof(image)="link", image, this.file.link))), "![](https://ifard.ir/img/noimage.svg)") AS EmbededCover WHERE draft = false AND parent = [[note taking|📝 مدخل یادداشت برداری]] SORT hierarchy ASC -->
+<!-- QueryToSerialize: table without id EmbededCover, "[[" + file.name + "|" + title + "]]" as title FLATTEN choice(typeof(image)="link", embed(link(choice(typeof(image)="link", image, this.file.link))), "![](https://ifard.ir/img/noimage.svg)") AS EmbededCover WHERE draft = false AND parent = [[note taking|📝 یادداشت برداری]] SORT hierarchy ASC -->
+<!-- SerializedQuery: table without id EmbededCover, "[[" + file.name + "|" + title + "]]" as title FLATTEN choice(typeof(image)="link", embed(link(choice(typeof(image)="link", image, this.file.link))), "![](https://ifard.ir/img/noimage.svg)") AS EmbededCover WHERE draft = false AND parent = [[note taking|📝 یادداشت برداری]] SORT hierarchy ASC -->
 
 | EmbededCover                                              | title                                                                      |
 | --------------------------------------------------------- | -------------------------------------------------------------------------- |

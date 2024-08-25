@@ -9,6 +9,8 @@ status: 🌱نهال
 cssclasses:
   - card-s
   - nowarp2
+parent: "[[diary|📅 روزنوشته‌ها]]"
+image: "[[cover-report02.svg]]"
 ---
 ![[cover-report02.svg]]
 

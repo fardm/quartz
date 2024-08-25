@@ -1,7 +1,7 @@
 ---
-title: 🔮 مدخل ابسیدین
+title: 🔮 نرم‌افزار ابسیدین
 aliases:
-  - 🔮 مدخل ابسیدین
+  - 🔮 نرم‌افزار ابسیدین
 date: 2024-05-25
 draft: false
 tags: 
@@ -16,8 +16,8 @@ cssclasses:
 </style>
 
 
-<!-- QueryToSerialize: table without id EmbededCover, "[[" + file.name + "|" + title + "]]" as title FLATTEN choice(typeof(image)="link", embed(link(choice(typeof(image)="link", image, this.file.link))), "![[noimage2.svg]]") AS EmbededCover WHERE draft = false AND parent = [[obsidian|🔮 مدخل ابسیدین]] SORT hierarchy ASC -->
-<!-- SerializedQuery: table without id EmbededCover, "[[" + file.name + "|" + title + "]]" as title FLATTEN choice(typeof(image)="link", embed(link(choice(typeof(image)="link", image, this.file.link))), "![[noimage2.svg]]") AS EmbededCover WHERE draft = false AND parent = [[obsidian|🔮 مدخل ابسیدین]] SORT hierarchy ASC -->
+<!-- QueryToSerialize: table without id EmbededCover, "[[" + file.name + "|" + title + "]]" as title FLATTEN choice(typeof(image)="link", embed(link(choice(typeof(image)="link", image, this.file.link))), "![[noimage2.svg]]") AS EmbededCover WHERE draft = false AND parent = [[obsidian|🔮 نرم‌افزار ابسیدین]] SORT hierarchy ASC -->
+<!-- SerializedQuery: table without id EmbededCover, "[[" + file.name + "|" + title + "]]" as title FLATTEN choice(typeof(image)="link", embed(link(choice(typeof(image)="link", image, this.file.link))), "![[noimage2.svg]]") AS EmbededCover WHERE draft = false AND parent = [[obsidian|🔮 نرم‌افزار ابسیدین]] SORT hierarchy ASC -->
 
 | EmbededCover                                              | title                                                              |
 | --------------------------------------------------------- | ------------------------------------------------------------------ |
