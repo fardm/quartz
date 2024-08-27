@@ -525,39 +525,42 @@ h6 {
             gap: 15px;
             grid-template-columns: repeat(4, 1fr);
         }
-        
-		.table-container>table {
+
+        .table-container>table {
             margin: 0;
             width: 100%;
         }
-        
+
         td {
             text-align: center;
+            padding: .2rem;
         }
-        
+
+
         .table-container>table td img {
-            margin-bottom: 0;
+            margin: .7rem .7rem 0 .7rem;
+            
         }
-        
+
         .table-container>table>thead {
             display: none;
         }
-        
+
     }
-    
+
     // تعداد ستون
     .c-2 .table-container>table>* {grid-template-columns: repeat(2, 1fr);}
     .c-3 .table-container>table>* {grid-template-columns: repeat(3, 1fr);}
     .c-5 .table-container>table>* {grid-template-columns: repeat(5, 1fr);}
     .c-6 .table-container>table>* {grid-template-columns: repeat(6, 1fr);}
-    
+
     // ستون ها در تبلت
     @media (max-width: 768px) {
         .card-g .table-container>table>* {
             grid-template-columns: repeat(3, 1fr);
         }
     }
-    
+
     // ستون ها در موبایل        
     @media (max-width: 480px) {
         .card-g .table-container>table>* {
@@ -581,8 +584,9 @@ h6 {
             line-height: 1.5em;
             overflow: hidden;
             width: 150px;
+            justify-content: space-around;
         }
-        
+
         .table-container>table>* {
             display: flex;
             gap: 15px;
@@ -590,16 +594,16 @@ h6 {
             padding: 10px 0 10px 0;
             margin: 0;
         }
-        
+
         td {
             text-align: center;
             padding: 0;
         }
-        
+
         .table-container>table td img {
             margin: 0;
         }
-        
+
         .table-container>table>thead {
             display: none;
         }
@@ -620,7 +624,7 @@ h6 {
         overflow: hidden;
         text-overflow: ellipsis;
     }
-    
+
     // نمایش متن در دو سطر و مخفی کردن کاراکترهای اضافی
     .nowarp2 td {
         display: -webkit-box;
@@ -634,13 +638,14 @@ h6 {
     .c1-1 .table-container>table td img {
         aspect-ratio: 1 / 1;
         object-fit: contain;
+        background-color: #a5a5a526;
     }
 
     .c16-9 .table-container>table td img {
         aspect-ratio: 16 / 9;
         object-fit: contain;
+        background-color: #a5a5a526;
     }
-
 ```
 
 برای اعمال این استایل می‌توانید از دو روش استفاده کنید:
@@ -698,6 +703,19 @@ cssclasses: card-g c-3
 > 
 > ![[calsshelp.jpg|400]]
 > 
+
+<br/><br/>
+
+## ۶. مشکل تنظیم slug
+تنها مشکل من با کوارتز این است که نمی توانم slug را تنظیم کنم. در حالت عادی اسلاگ بر اساس اسم فایل انتخاب می شود. من قبلا از hugo استفاده می‌کردم و خیلی راحت با اضافه کردن پراپرتی slug می توانستم url مشخصی را وارد کنم اما اینجا امکانش وجود ندارد.
+
+تنظیم اسلاگ بر اساس عنوان فایل روش بهینه ای نیست. چون عنوان یادداشت های من فارسی است و فارسی بودن اسلاگ باعث می شود هنگام اشتراک گذاری با یک لینک بلند حاوی علائمی چون عدد و درصد مواجه شوم.
+
+علاوه بر این من مدام یادداشت‌ها را آپدیت می‌کنم و ممکن است عنوان فایل را هم دستکاری کنم. با اینکار اسلاگ هم تغییر می‌کند و لینک‌های قبلی که به اشتراک گذاشتم کار نمی‌کنند. همچنین صفحاتی که در گوگل ایندکس شدند نیز با مشکل مواجه می‌شوند. پس من نیاز دارم از یک اسلاگ ثابت و انگلیسی استفاده کنم که متاسفانه کوارتز در حالت عادی امکان آن را فراهم نکرده است و من مجبورم از روش پیچیده تری استفاده کنم. یعنی اسم فایل را انگلیسی وارد می‌کنم تا اسلاگ انگلیسی باشد. از پراپرتی title هم برای اضافه کردن عنوان فارسی به یادداشت استفاده می‌کنم. با این ترفند می توانم اسلاگ و عنوان یادداشت را جداگانه مدیریت کنم.
+
+من از پوشه ها هم استفاده نمی کنم و بخش اکسپلور را از سایدبار مخفی کردم. چون مسیر پوشه‌ها در اسلاگ نیز وارد می شود که هم باعث طولانی شدن اسلاگ می شود هم با تغییر و جابه‌جایی فولدرها، اسلاگ نیز تغییر می‌کند و همان مشکل از کار افتادن لینک‌های قبلی به وجود می‌آید.
+
+مطمئنا راه حلی برای این مشکل وجود دارد اما هنوز روش ساده و راحتی پیدا نکردم. [اینجا](https://discord.com/channels/927628110009098281/1206612920956489780) هم در مورد این مشکل صحبت شده بود که ظاهرا راه حل آن چندان مناسب نیست.
 
 <br/><br/>
 
