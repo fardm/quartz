@@ -169,6 +169,7 @@
 
 
 // دکمه
+    //دیفالت
     .my-button {
     background-color: var(--tertiary);
     color: white;
@@ -184,6 +185,28 @@
     .my-button:hover {
         background-color: var(--secondary);
     }
+
+    // صفحه 404
+    .button2 {
+        background-color: transparent;
+        color: var(--darkgray);
+        padding: 8px 15px;
+        border: 1px solid var(--darkgray);
+        border-radius: 50px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        font-family: var(--bodyFont);
+        font-size: 0.9em;
+        } 
+    
+    .button2:hover {
+        background-color: var(--tertiary);
+        color: white;
+        border: 1px solid var(--secondary);
+        }
+
+    
+
 
 
 // بلوک نقل قول
@@ -204,19 +227,28 @@ blockquote {
 
 
 
+// تصاویر
 
-// اینورت رنگ تصاویر
- 
-[saved-theme="dark"] img.invert {
-    filter: invert(1);
-  }
+    // اینورت رنگ تصاویر 
+    [saved-theme="dark"] img.invert {
+        filter: invert(1);
+    }
 
-// وسطچین کردن تصاویر
-p img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+    // بلند مود multiply : استفاده شده در صفحه 404
+    [saved-theme="light"] img.multiply {
+        mix-blend-mode: multiply;
+    }
+    [saved-theme="dark"] img.multiply {
+        mix-blend-mode: normal;
+    }
+
+
+    // وسطچین کردن تصاویر
+    p img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 
 

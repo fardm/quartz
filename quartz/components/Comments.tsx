@@ -21,6 +21,7 @@ function boolToStringBool(b: boolean): string {
 export default ((opts: Options) => {
   const Comments: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
     if (fileData.slug === "index") { return <></> }
+    if (fileData.slug === "404" || !fileData.slug) { return <></> }
     return <div class="giscus"></div>
   }
 

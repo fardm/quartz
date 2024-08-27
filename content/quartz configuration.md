@@ -136,7 +136,7 @@ h2#footnote-label::after{
 
 <br/><br/>
 
-## ۳) لینک بازگشت در صفحه 404
+## ۳) صفحه 404
 صفحه 404 لینک بازگشتی به سایت ندارد و کاربر نمی‌تواند به سایت برگردد. با اضافه کردن کد زیر لینک بازگشت به صفحه اصلی در این صفحه نمایش داده می‌شود.
 
 فایل: `quartz\components\pages\404.tsx`
@@ -147,6 +147,14 @@ h2#footnote-label::after{
 ```
 
 <iframe width="100%" height="290px" style="border: none; border-radius: 10px;" src="before-after-404-v5.html"></iframe>
+
+اگر قابلیت کامنت را فعال کرده باشید برای این صفحات هم کامنت نمایش داده می شود. با اضافه کردن کد زیر به فایل `quartz/components/Comments.tsx` می توانید نمایش آن را غیرفعال کنید:
+```
+if (fileData.slug === "404" || !fileData.slug) { return <></> }
+```
+
+باید بعد از این خط وارد شود:
+`const Comments: QuartzComponent = ({ displayClass, cfg, fileData }: QuartzComponentProps) => {`
 
 <br/><br/>
 
