@@ -390,9 +390,14 @@ blockquote {
             margin: 0;
         }
 
+        .table-container>table {
+            margin: 0;
+        }
+
         td {
             text-align: center;
             padding: 0;
+            margin-bottom: 0.5em;
         }
 
         .table-container>table td img {
@@ -408,6 +413,7 @@ blockquote {
     .w100 tr {width: 100px;}
     .w200 tr {width: 200px;}
     .w300 tr {width: 300px;}
+    .full tr {width: 100%;}
 
 
 
@@ -443,7 +449,20 @@ blockquote {
     }
 
 
+// نمای کارتی - برای در یک نگاه
 
+    .overview {
+        display: grid;
+        column-gap: 20px;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+    }
+
+    @media (max-width: 480px) {
+        .overview  {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
 
 
     
