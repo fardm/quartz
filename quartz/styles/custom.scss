@@ -462,3 +462,52 @@ blockquote {
             grid-template-columns: repeat(2, 1fr);
         }
     }
+
+
+
+
+
+
+
+
+
+// تب
+
+    .tabs {
+        width: 100%;
+        margin: 0 auto;
+        border: 1px solid var(--lightgray);
+        border-radius: 8px;
+    }
+
+    .tab-header {
+        display: flex;
+        border-bottom: 1px solid var(--lightgray);
+    }
+
+    .tab-link {
+        padding: 14px 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .tab-link:hover {
+        background-color: var(--lightgray);
+    }
+
+    .tab-link.active {
+        border-bottom: 2px solid var(--tertiary);
+        font-weight: bold;
+    }
+
+    .tab-content {
+        padding: 16px;
+    }
+
+    .tab-pane {
+        display: none;
+    }
+
+    .tab-pane.active {
+        display: block;
+    }

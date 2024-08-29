@@ -4,12 +4,42 @@ aliases:
 draft: true
 tags:
 ---
+## تب
+
+<br/>
+
+<div class="tabs">
+    <div class="tab-header">
+        <div class="tab-link active" data-tab="tab1">تب ۱</div>
+        <div class="tab-link" data-tab="tab2">تب ۲</div>
+        <div class="tab-link" data-tab="tab3">تب ۳</div>
+    </div>    
+    <div class="tab-content">        
+        <div class="tab-pane active" id="tab1">
+	        <p>این محتوای تب ۱ است</p>
+        </div>        
+        <div class="tab-pane" id="tab2">
+            <p>این محتوای تب ۲ است.</p>
+        </div>        
+        <div class="tab-pane" id="tab3">
+            <p>این محتوای تب ۳ است.</p>
+        </div>        
+    </div>
+</div>
+
+
+<script src="/img/tab-script.js"></script>
+
+<br/><br/>
+
 ## اسلایدر
 
 <iframe width="100%" height="290px" style="border: none; border-radius: 10px;" src="before-after-404-v5.html"></iframe>
 
+<br/><br/>
+
 ## دکمه
-باز کردن در تب جدید
+**باز کردن در تب جدید**
 
 <div style="text-align: center;">
 <button 
@@ -18,7 +48,7 @@ tags:
 </button>
 </div>
 
-باز کردن در تب فعلی
+**باز کردن در تب فعلی**
 
 <button 
 	class="my-button"	onclick="location.href='/';">
@@ -27,6 +57,7 @@ tags:
 </button>
 
 
+<br/><br/>
 
 ## دیاگرام
 
@@ -58,11 +89,6 @@ tags:
 
 <br/><br/>
 
-## نقل قول
-
->  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از [صنعت چاپ](https://x.com)، و با استفاده[طراحان گرافیک](/) است.  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از [صنعت چاپ](https://x.com)، و با استفاده از [طراحان گرافیک](/) است.
-
-<br/><br/>
 
 ## کالوت ها
 > [!quote] نقل قول
@@ -82,20 +108,20 @@ tags:
 
 
 
-> [!example]- مثال
-> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از [صنعت چاپ](https://x.com)، و با استفاده از [طراحان گرافیک](/) است.
+> [!example] مثال
+> 
 
 
 > [!info] اطلاعات
-> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از [صنعت چاپ](https://x.com)، و با استفاده از [طراحان گرافیک](/) است.
+> 
 
 
 > [!NOTE] یادداشت
-> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از [صنعت چاپ](https://x.com)، و با استفاده از [طراحان گرافیک](/) است.
+> 
 
 
 > [!abstract] خلاصه
-> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از [صنعت چاپ](https://x.com)، و با استفاده از [طراحان گرافیک](/) است.
+> 
 
 
 <br/><br/>
@@ -117,7 +143,7 @@ tags:
 <br/><br/>
 
 > [!tip] نکته
-> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از [صنعت چاپ](https://x.com)، و با استفاده از [طراحان گرافیک](/) است.
+> 
 
 > [!failure]
 
