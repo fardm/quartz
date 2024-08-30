@@ -107,7 +107,7 @@
     h3 {
         font-size: 1.30rem;
         margin-top: 1rem;
-        margin-bottom: -0.8rem;
+        margin-bottom: -0.2rem;
     }
 
     h4,
@@ -115,7 +115,7 @@
     h6 {
       font-size: 1.1rem;
       margin-top: 1rem;
-      margin-bottom: -0.8rem;
+      margin-bottom: -0.2rem;
     }
 
 
@@ -450,15 +450,22 @@ blockquote {
 
 
 // نمای کارتی - برای در یک نگاه
-    .overview {
+    .overview-3 {
         display: grid;
         column-gap: 20px;
         grid-template-columns: repeat(3, 1fr);
         justify-items: center;
     }
 
+    .overview-4 {
+        display: grid;
+        column-gap: 20px;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+    }
+
     @media (max-width: 480px) {
-        .overview  {
+        .overview-3, .overview-4  {
             grid-template-columns: repeat(2, 1fr);
         }
     }

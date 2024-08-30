@@ -20,10 +20,10 @@ cssclasses:
 
 به ذهنم رسید مثل بعضی از دوستان متممی که گزارش ماهانه و سالانه توسعه فردی شان را می نویسند من هم این گزارش را اینجا منتشر کنم.
 <br/> <br/>
-## 📊 در یک نگاه
+## در یک نگاه
 همانطور که گفتم با کمک ابسیدین توانستم آمار و ارقام خوبی از فعالیت های سال گذشته جمع آوری کنم. در واقع از محتواهایی که مصرف میکردم مثل کتاب، پادکست، دوره و... یک پایگاه داده ساختم و جزئیات آن مثل تعداد صفحات یا مدت زمان را در متاداده ها وارد کردم. بعد یک صفحه را اختصاص دادم به استخراج این جزئیات و با استفاده از پلاگین دیتا ویو آن ها را جمع زدم:
 
-<div class="overview">
+<div class="overview-3">
 <!-- QueryToSerialize: TABLE WITHOUT ID "📚" as icon, length(rows) + " جلد کتاب" as count, "`" + sum(rows.pages) + " صفحه`" as sum FROM #Book WHERE date >= date("2023-03-21") AND date <= date("2024-03-19") GROUP BY "" -->
 <!-- SerializedQuery: TABLE WITHOUT ID "📚" as icon, length(rows) + " جلد کتاب" as count, "`" + sum(rows.pages) + " صفحه`" as sum FROM #Book WHERE date >= date("2023-03-21") AND date <= date("2024-03-19") GROUP BY "" -->
 
@@ -82,7 +82,9 @@ cssclasses:
 
 <br/> <br/>
 
-## 📚 کتاب
+## بخش اول: مصرف محتوا
+
+### 📚 کتاب
 
 <br/>
 
@@ -116,7 +118,7 @@ cssclasses:
 
 <br/> <br/>
 
-## 👨‍🏫 دوره‌های آموزشی
+### 👨‍🏫 دوره‌های آموزشی
 <br/>
 <!-- QueryToSerialize: table without id ("![](" + cover + ")"), file.name, "`" + round(length.hours) + " ساعت`" FROM #Course WHERE date >= date("2023-03-21") AND date <= date("2024-03-19") SORT rating DESC -->
 <!-- SerializedQuery: table without id ("![](" + cover + ")"), file.name, "`" + round(length.hours) + " ساعت`" FROM #Course WHERE date >= date("2023-03-21") AND date <= date("2024-03-19") SORT rating DESC -->
@@ -124,8 +126,8 @@ cssclasses:
 | ("![](" + cover + ")")                                               | file.name                         | "`" + round(length.hours) + " ساعت`" |
 | -------------------------------------------------------------------- | --------------------------------- | ------------------------------------ |
 | ![](https://s32.picofile.com/file/8478596818/think.jpg)              | دوره صوتی تفکر سیستمی             | `6 ساعت`                             |
-| ![](https://s32.picofile.com/file/8478596650/khodkhan.jpg)           | کارگاه زبان خودخوان               | `5 ساعت`                             |
 | ![](https://s32.picofile.com/file/8478596350/7kar.jpg)               | هفت کار (معرفی اثربخش)            | `5 ساعت`                             |
+| ![](https://s32.picofile.com/file/8478596650/khodkhan.jpg)           | کارگاه زبان خودخوان               | `5 ساعت`                             |
 | ![](https://s32.picofile.com/file/8478596442/ensan2.jpg)             | روایت انسان (فصل 2)               | `17 ساعت`                            |
 | ![](https://s32.picofile.com/file/8478596850/worperess_to_hugo.jpg)  | Migrate from WordPress to Hugo    | `6 ساعت`                             |
 | ![](https://s32.picofile.com/file/8478596600/karnakon_estekhdam.jpg) | چگونه استخدام شویم؟               | `5 ساعت`                             |
@@ -143,7 +145,7 @@ cssclasses:
 
 <br/> <br/>
 
-## 🎙 پادکست
+### 🎙 پادکست
 
 
 
@@ -180,7 +182,7 @@ cssclasses:
 
 <br/> <br/>
 
-## ✨ محتوای مفید
+### ✨ محتوای مفید
 
 <br/>
 <!-- QueryToSerialize: table without id ("![](" + cover + ")"), file.name, "`" + length.minute + " دقیقه`" FROM #Media WHERE date >= date("2023-03-21") AND date <= date("2024-03-19") SORT date DESC -->
@@ -211,7 +213,7 @@ cssclasses:
 این بخش شامل محتواهای مختلفی است. مثل مثل وبینار، لایو، سخنرانی، تدتاک، جلسات و غیره.
 
 <br/> <br/>
-## 🍿 فیلم و سریال
+### 🍿 فیلم و سریال
 
 #### سینمایی
 
@@ -317,7 +319,7 @@ The Pianist و Schindler’s List هم بالاخره بعد از مدتها د�
 
 <br/> <br/> 
 
-## 🎥 مستند
+### 🎥 مستند
 
 <br/>
 
@@ -331,8 +333,8 @@ The Pianist و Schindler’s List هم بالاخره بعد از مدتها د�
 | ![](https://s32.picofile.com/file/8478551968/%D8%AC%D8%B2%DB%8C%D8%B1%D9%87_%D9%85%D8%A7%D9%87%DB%8C.jpg)                                                   | جزیره ماهی           | `78 دقیقه`                      |
 | ![](https://s32.picofile.com/file/8478551900/%D8%A8%D8%B1%D8%A7%DB%8C_%D9%BE%D8%B3_%D8%A7%D8%B2_%D9%85%D8%B1%DA%AF%D9%85.jpg)                               | برای پس از مرگم      | `70 دقیقه`                      |
 | ![](https://s32.picofile.com/file/8478551842/%D8%A7%D8%AA%D8%A7%D9%82_%D8%AC%D9%86%DA%AF.jpg)                                                               | اتاق جنگ             | `86 دقیقه`                      |
-| ![](https://m.media-amazon.com/images/M/MV5BMzhlOTQyYTYtYTY5Yy00ZDkxLTkwYTYtMjQzOGE1ODllZjhjXkEyXkFqcGdeQXVyMTAyMjQ3NzQ1._V1_SX300.jpg)                     | Beyond Utopia        | `115 دقیقه`                     |
 | ![](https://m.media-amazon.com/images/M/MV5BYTU3ZjUxM2MtZWQ5OS00NDQxLTlhZDMtYzY3OTE4ZDY0NWM1XkEyXkFqcGdeQXVyMTc2NDg4MTU@._V1_SX300.jpg)                     | AlphaGo              | `90 دقیقه`                      |
+| ![](https://m.media-amazon.com/images/M/MV5BMzhlOTQyYTYtYTY5Yy00ZDkxLTkwYTYtMjQzOGE1ODllZjhjXkEyXkFqcGdeQXVyMTAyMjQ3NzQ1._V1_SX300.jpg)                     | Beyond Utopia        | `115 دقیقه`                     |
 | ![](https://s32.picofile.com/file/8478552126/%DA%A9%D9%88%D8%AF%D8%AA%D8%A7%DB%8C_%D8%AE%D8%B2%D9%86%D8%AF%D9%87_%D8%AF%D8%B1_%D8%B3%D9%BE%D8%A7%D9%87.jpg) | کودتای خزنده در سپاه | `47 دقیقه`                      |
 | ![](https://m.media-amazon.com/images/M/MV5BZjljOGQwYjAtYTVjYS00MWEyLTk2ZGYtM2I2OGFjNmIzZDljL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMjYxMzY2NDk@._V1_SX300.jpg)     | رویاهای دم صبح       | `76 دقیقه`                      |
 | ![](https://s32.picofile.com/file/8478551876/%D8%AC%D9%88%D8%A7%D9%86_%D9%85%D8%B1%DA%AF.jpg)                                                               | جوان مرگ             | `86 دقیقه`                      |
@@ -353,35 +355,15 @@ The Pianist و Schindler’s List هم بالاخره بعد از مدتها د�
 
 <br/> <br/>
 
-## 🎵 موسیقی
-امسال چند قطعه‌ی فوق العاده شنیدم. بعضی از موزیک‌ها را با اینکه اولین بار گوش میکنم اما حس تازه ای نسبت به آن ندارم، انگار ریتم آن تکراری است و حس جدیدی منتقل نمی کند. اما بعضی قطعه ها به طرز عجیبی خاص و متفاوت هستند. به محض شنیدن ناگهان تکان میخورم به مکان دیگری میروم و رها می شوم. قطعه های زیر مشابه این حس را برای من داشتند:
+## بخش دوم: ردیابی عادت
 
-آلبوم [Always Present](https://open.spotify.com/album/0E1hf7J3vYj7D6AWlCbX2N?si=HM9dEeP9QIew_6qfGJMAdQ)
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/0E1hf7J3vYj7D6AWlCbX2N?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-<br/> <br/>
-
-آهنگ [Yumeji's Theme - Theme from in the Mood for Love](https://open.spotify.com/track/0yVq58uQ2Bp2OVADYlLHNk?si=c6f9506f8a1c491e)
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0yVq58uQ2Bp2OVADYlLHNk?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-<br/> <br/>
-
-آهنگ [Breath of Life](https://open.spotify.com/track/5a3NBXDan1GRaNT5bbCU7d?si=3daca8890e9948f4) اثر [سینا بطحایی](https://open.spotify.com/artist/4ZOwX9evB8c6oLayzq2OY8?si=pTXxQUPJQb2CV6yoxcugcg)
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5a3NBXDan1GRaNT5bbCU7d?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-<br/> <br/>
-
-قطعه [Nocturne](https://open.spotify.com/track/2MSgFefjK0T7Iwjvr3OKqV?si=de8aaeb085f148df) اثر فردریک شوپن(یکی از آهنگ‌های فیلم پیانیست)
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2MSgFefjK0T7Iwjvr3OKqV?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-[ریمیکس](https://open.spotify.com/track/2JGOtqIA0i5aFkK03Ktt8Z?si=30443170f1a84dfb) آهنگ قبلی از [Bor Pro](https://open.spotify.com/artist/65lW8r4HhdzMjwLih4AuWR?si=E2gnGQL0SfOjvnSR8iWJFg) هم جذاب است:
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2JGOtqIA0i5aFkK03Ktt8Z?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<br/> <br/>
-## 🏋️‍♂️ ورزش
+### 🏋️‍♂️ ورزش
 قصد دارم در یک یادداشت دیگر به طور مفصل در مورد این ماجرا بنویسم اما اجمالا میتوانم بگویم که در سال گذشته از خردادماه ورزش کردن را به طور مستمر شروع کردم. البته وقفه های چند روز و چند هفته‌ای هم داشتم اما سعی کردم استمرار آن را حفظ کنم. نتیجه خوبی هم گرفتم: 11 کیلو کم کردم و 11 سانت از دور شکمم آب شد. از همان ابتدا روزهایی که ورزش کردم به همراه وزن داخل فایل اکسل ثبت کردم. نمودار زیر نتیجه این یکسال ورزش و روند کاهش وزن را نشان می‌دهد.
 
 ![[1402-kg.svg]]
 <br/> <br/>
 
-## 📋 ارزیابی نهایی
+## ارزیابی نهایی
 اگر بخواهم خودم را نسبت به سال قبل مقایسه کنم عملکرد بهتری داشتم اما اگه بخواهم نسبت به ظرفیت خودم مقایسه کنم انصافا کم کاری کردم. فرصت خوبی داشتم و می توانستم بیشتر تلاش کنم. اهمال کاری زیادی داشتم و همش دنبال راه فراری بودم که به کارهای اصلیم نرسم.
 
 برای سال جدید این جمله را هر روز با خودم مرور می کنم: «پس کی میری سر اصل مطلب؟!»
