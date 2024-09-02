@@ -19,9 +19,9 @@ cssclasses:
 <!-- QueryToSerialize: TABLE WITHOUT ID "📚" as icon, length(rows) + " جلد کتاب" as count, "`" + sum(rows.pages) + " صفحه`" as sum FROM #Book WHERE pages !=null GROUP BY "" -->
 <!-- SerializedQuery: TABLE WITHOUT ID "📚" as icon, length(rows) + " جلد کتاب" as count, "`" + sum(rows.pages) + " صفحه`" as sum FROM #Book WHERE pages !=null GROUP BY "" -->
 
-| icon | count       | sum         |
-| ---- | ----------- | ----------- |
-| 📚   | 40 جلد کتاب | `8438 صفحه` |
+| icon | count       | sum          |
+| ---- | ----------- | ------------ |
+| 📚   | 47 جلد کتاب | `10351 صفحه` |
 <!-- SerializedQuery END -->
 
 
@@ -83,6 +83,7 @@ cssclasses:
 
 | ("![](" + cover + ")")                                                                                                                                            | file.name                                          | "`" + pages + " صفحه`" |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- | ---------------------- |
+| ![](https://s32.picofile.com/file/8478794884/Visual_Hammer.jpg)                                                                                                   | چکش بصری                                           | `183 صفحه`             |
 | ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1512139215i/36696980.jpg)                                               | دروغ‌های مسلح                                      | `344 صفحه`             |
 | ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1354312096i/15858089.jpg)                                               | The Sketchnote Handbook                            | `224 صفحه`             |
 | ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1595319091i/54622169.jpg)                                               | دیگر اخبار نخوانید                                 | `152 صفحه`             |
@@ -123,6 +124,12 @@ cssclasses:
 | ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1563829745l/50003923.jpg)                                               | اصول فریلنسینگ موفق                                | `242 صفحه`             |
 | ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1627556737i/58655142.jpg)                                               | واقع بینی                                          | `71 صفحه`              |
 | ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1557043739i/45456933.jpg)                                               | اصل گرایی                                          | `242 صفحه`             |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1549966353i/43972080.jpg)                                               | نخل و نارنج                                        | `226 صفحه`             |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1575109816i/49014843.jpg)                                               | مبانی طراحی گرافیک                                 | `467 صفحه`             |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1588894671i/53346969.jpg)                                               | سیری در نهج البلاغه                                | `319 صفحه`             |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1483021275i/3304788.jpg)                                                | آزادی معنوی                                        | `278 صفحه`             |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1259681122i/7234896.jpg)                                                | منطق کاربردی                                       | `272 صفحه`             |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1246267626i/1552441.jpg)                                                | جاذبه و دافعه علی                                  | `168 صفحه`             |
 <!-- SerializedQuery END -->
 
 ‌<br/>‌<br/>
@@ -161,8 +168,8 @@ cssclasses:
 | ![](https://s32.picofile.com/file/8478596692/masir_asli.jpg)              | فایل صوتی افزایش عزت نفس - مسیر اصلی  | `3 ساعت`                             |
 | ![](https://s32.picofile.com/file/8478596734/photophan.jpg)               | فوتوفن - آموزش نرم افزار فتوشاپ       | `40 ساعت`                            |
 | ![](https://s32.picofile.com/file/8478596400/doketab_asl.png)             | دوکتاب اصل گرایی                      | `12 ساعت`                            |
-| ![](https://s32.picofile.com/file/8478596492/ensan5.jpg)                  | روایت انسان (فصل 5)                   | `15 ساعت`                            |
 | ![](https://s32.picofile.com/file/8478596518/ensan6.jpg)                  | روایت انسان (فصل 6)                   | `15 ساعت`                            |
+| ![](https://s32.picofile.com/file/8478596492/ensan5.jpg)                  | روایت انسان (فصل 5)                   | `15 ساعت`                            |
 <!-- SerializedQuery END -->
 
 ‌<br/>‌<br/>
@@ -236,8 +243,8 @@ cssclasses:
 | ![](https://static.cdn.asset.aparat.com/avt/48775280-3123-b__9693.jpg)                                                                                                                                     | علل رواج حرف مفت در جامعه                                                 | `28 دقیقه`                      |
 | ![](https://s32.picofile.com/file/8478604050/jado.jpg)                                                                                                                                                     | طراحی مسیر شغلی و جادوی اینترنت                                           | `105 دقیقه`                     |
 | ![](https://s32.picofile.com/file/8478603984/daramad.jpg)                                                                                                                                                  | یادگیری مهارت و کسب درآمد                                                 | `70 دقیقه`                      |
-| ![](https://s32.picofile.com/file/8478604042/job.jpg)                                                                                                                                                      | طراحی مسیر شغلی و اشتباهات رایج در آن                                     | `90 دقیقه`                      |
 | ![](https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/d5d00454-d7aa-434c-8fae-ff2bc97c5f02/TimUrban_2016-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82w=640)      | درون ذهن استاد اهمال کار                                                  | `14 دقیقه`                      |
+| ![](https://s32.picofile.com/file/8478604042/job.jpg)                                                                                                                                                      | طراحی مسیر شغلی و اشتباهات رایج در آن                                     | `90 دقیقه`                      |
 | ![](https://s32.picofile.com/file/8478603968/araste.jpg)                                                                                                                                                   | گفت و گو درباره سبک زندگی                                                 | `120 دقیقه`                     |
 | ![](https://s32.picofile.com/file/8478604026/game.jpg)                                                                                                                                                     | آشنایی با گیمیفیکیشن                                                      | `180 دقیقه`                     |
 <!-- SerializedQuery END -->
@@ -500,11 +507,11 @@ cssclasses:
 | ![](https://s32.picofile.com/file/8478551868/%D9%84%D8%A7%D8%AA%D8%A7%D8%B1%DB%8C%D9%86%D9%88.jpg)                                                          | لاتارینو                  | `76 دقیقه`                      |
 | ![](https://s32.picofile.com/file/8478551876/%D8%AC%D9%88%D8%A7%D9%86_%D9%85%D8%B1%DA%AF.jpg)                                                               | جوان مرگ                  | `86 دقیقه`                      |
 | ![](https://s32.picofile.com/file/8478551900/%D8%A8%D8%B1%D8%A7%DB%8C_%D9%BE%D8%B3_%D8%A7%D8%B2_%D9%85%D8%B1%DA%AF%D9%85.jpg)                               | برای پس از مرگم           | `70 دقیقه`                      |
-| ![](https://s32.picofile.com/file/8478552126/%DA%A9%D9%88%D8%AF%D8%AA%D8%A7%DB%8C_%D8%AE%D8%B2%D9%86%D8%AF%D9%87_%D8%AF%D8%B1_%D8%B3%D9%BE%D8%A7%D9%87.jpg) | کودتای خزنده در سپاه      | `47 دقیقه`                      |
 | ![](https://s32.picofile.com/file/8478551884/%D9%82%D9%85%D8%A7%D8%B1.jpg)                                                                                  | قمار                      | `75 دقیقه`                      |
+| ![](https://s32.picofile.com/file/8478552126/%DA%A9%D9%88%D8%AF%D8%AA%D8%A7%DB%8C_%D8%AE%D8%B2%D9%86%D8%AF%D9%87_%D8%AF%D8%B1_%D8%B3%D9%BE%D8%A7%D9%87.jpg) | کودتای خزنده در سپاه      | `47 دقیقه`                      |
 | ![](https://s32.picofile.com/file/8478552118/%D8%AC%D8%A7%D9%85_%D8%B2%D9%87%D8%B1.jpg)                                                                     | جام زهر                   | `56 دقیقه`                      |
-| ![](https://s32.picofile.com/file/8478552100/%D8%A8%D9%87%D8%AA%D8%A7%D9%86_%D8%A8%D8%B1%D8%A7%DB%8C_%D8%AD%D9%81%D8%B8_%D9%86%D8%B8%D8%A7%D9%85.jpg)       | بهتان برای حفظ نظام       | `150 دقیقه`                     |
 | ![](https://s32.picofile.com/file/8478551842/%D8%A7%D8%AA%D8%A7%D9%82_%D8%AC%D9%86%DA%AF.jpg)                                                               | اتاق جنگ                  | `86 دقیقه`                      |
+| ![](https://s32.picofile.com/file/8478552100/%D8%A8%D9%87%D8%AA%D8%A7%D9%86_%D8%A8%D8%B1%D8%A7%DB%8C_%D8%AD%D9%81%D8%B8_%D9%86%D8%B8%D8%A7%D9%85.jpg)       | بهتان برای حفظ نظام       | `150 دقیقه`                     |
 | ![](https://m.media-amazon.com/images/M/MV5BYTYyNzVkZDQtYTYxYy00MDBhLTg1ZmItMWE1NjlhNTM3Njg0XkEyXkFqcGdeQXVyNTMyNjAzMDU@._V1_SX300.jpg)                     | Xsunami                   | `96 دقیقه`                      |
 | ![](https://m.media-amazon.com/images/M/MV5BMWE2MTdhOGQtZTljOS00N2MyLTk0N2EtNTNkODQ0YzdiMmM1L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMjQxMTA1NDM@._V1_SX300.jpg)     | Shabnaameh                | `98 دقیقه`                      |
 <!-- SerializedQuery END -->
