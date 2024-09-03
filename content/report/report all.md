@@ -41,7 +41,7 @@ cssclasses:
 
 | icon | count     | sum         |
 | ---- | --------- | ----------- |
-| 🎙   | 31 پادکست | `75.5 ساعت` |
+| 🎙   | 32 پادکست | `76.5 ساعت` |
 <!-- SerializedQuery END -->
 
 
@@ -181,6 +181,7 @@ cssclasses:
 
 | ("![](" + cover + ")")                                                                                                                                     | file.name                              | "`" + length.minute + " دقیقه`" |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- | ------------------------------- |
+| ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/amirmousavi_yprnuq.jpg)                                                                      | گفتگو با امیر موسوی تور لیدر           | `60 دقیقه`                      |
 | ![](https://assets.pippa.io/shows/623ee6e745754c001233a890/1714562705175-493bcfd80fd419fd3ac250ec8eb4aeee.jpeg)                                            | حسین کلهر                              | `70 دقیقه`                      |
 | ![](https://assets.pippa.io/shows/623ee6e745754c001233a890/1723832715268-786aa403-420d-4f81-a6e5-ea92f8349905.jpeg)                                        | درباره‌ی جادی                          | `115 دقیقه`                     |
 | ![](https://s32.picofile.com/file/8478577776/%D8%AC%D8%A7%D9%81%DA%A9%D8%B1%DB%8C_%D9%81%D8%B5%D9%84_20.jpg)                                               | جافکری فصل 20                          | `143 دقیقه`                     |
@@ -243,8 +244,8 @@ cssclasses:
 | ![](https://static.cdn.asset.aparat.com/avt/48775280-3123-b__9693.jpg)                                                                                                                                     | علل رواج حرف مفت در جامعه                                                 | `28 دقیقه`                      |
 | ![](https://s32.picofile.com/file/8478604050/jado.jpg)                                                                                                                                                     | طراحی مسیر شغلی و جادوی اینترنت                                           | `105 دقیقه`                     |
 | ![](https://s32.picofile.com/file/8478603984/daramad.jpg)                                                                                                                                                  | یادگیری مهارت و کسب درآمد                                                 | `70 دقیقه`                      |
-| ![](https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/d5d00454-d7aa-434c-8fae-ff2bc97c5f02/TimUrban_2016-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82w=640)      | درون ذهن استاد اهمال کار                                                  | `14 دقیقه`                      |
 | ![](https://s32.picofile.com/file/8478604042/job.jpg)                                                                                                                                                      | طراحی مسیر شغلی و اشتباهات رایج در آن                                     | `90 دقیقه`                      |
+| ![](https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/d5d00454-d7aa-434c-8fae-ff2bc97c5f02/TimUrban_2016-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82w=640)      | درون ذهن استاد اهمال کار                                                  | `14 دقیقه`                      |
 | ![](https://s32.picofile.com/file/8478603968/araste.jpg)                                                                                                                                                   | گفت و گو درباره سبک زندگی                                                 | `120 دقیقه`                     |
 | ![](https://s32.picofile.com/file/8478604026/game.jpg)                                                                                                                                                     | آشنایی با گیمیفیکیشن                                                      | `180 دقیقه`                     |
 <!-- SerializedQuery END -->
@@ -507,11 +508,11 @@ cssclasses:
 | ![](https://s32.picofile.com/file/8478551868/%D9%84%D8%A7%D8%AA%D8%A7%D8%B1%DB%8C%D9%86%D9%88.jpg)                                                          | لاتارینو                  | `76 دقیقه`                      |
 | ![](https://s32.picofile.com/file/8478551876/%D8%AC%D9%88%D8%A7%D9%86_%D9%85%D8%B1%DA%AF.jpg)                                                               | جوان مرگ                  | `86 دقیقه`                      |
 | ![](https://s32.picofile.com/file/8478551900/%D8%A8%D8%B1%D8%A7%DB%8C_%D9%BE%D8%B3_%D8%A7%D8%B2_%D9%85%D8%B1%DA%AF%D9%85.jpg)                               | برای پس از مرگم           | `70 دقیقه`                      |
-| ![](https://s32.picofile.com/file/8478551884/%D9%82%D9%85%D8%A7%D8%B1.jpg)                                                                                  | قمار                      | `75 دقیقه`                      |
 | ![](https://s32.picofile.com/file/8478552126/%DA%A9%D9%88%D8%AF%D8%AA%D8%A7%DB%8C_%D8%AE%D8%B2%D9%86%D8%AF%D9%87_%D8%AF%D8%B1_%D8%B3%D9%BE%D8%A7%D9%87.jpg) | کودتای خزنده در سپاه      | `47 دقیقه`                      |
+| ![](https://s32.picofile.com/file/8478551884/%D9%82%D9%85%D8%A7%D8%B1.jpg)                                                                                  | قمار                      | `75 دقیقه`                      |
 | ![](https://s32.picofile.com/file/8478552118/%D8%AC%D8%A7%D9%85_%D8%B2%D9%87%D8%B1.jpg)                                                                     | جام زهر                   | `56 دقیقه`                      |
-| ![](https://s32.picofile.com/file/8478551842/%D8%A7%D8%AA%D8%A7%D9%82_%D8%AC%D9%86%DA%AF.jpg)                                                               | اتاق جنگ                  | `86 دقیقه`                      |
 | ![](https://s32.picofile.com/file/8478552100/%D8%A8%D9%87%D8%AA%D8%A7%D9%86_%D8%A8%D8%B1%D8%A7%DB%8C_%D8%AD%D9%81%D8%B8_%D9%86%D8%B8%D8%A7%D9%85.jpg)       | بهتان برای حفظ نظام       | `150 دقیقه`                     |
+| ![](https://s32.picofile.com/file/8478551842/%D8%A7%D8%AA%D8%A7%D9%82_%D8%AC%D9%86%DA%AF.jpg)                                                               | اتاق جنگ                  | `86 دقیقه`                      |
 | ![](https://m.media-amazon.com/images/M/MV5BYTYyNzVkZDQtYTYxYy00MDBhLTg1ZmItMWE1NjlhNTM3Njg0XkEyXkFqcGdeQXVyNTMyNjAzMDU@._V1_SX300.jpg)                     | Xsunami                   | `96 دقیقه`                      |
 | ![](https://m.media-amazon.com/images/M/MV5BMWE2MTdhOGQtZTljOS00N2MyLTk0N2EtNTNkODQ0YzdiMmM1L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMjQxMTA1NDM@._V1_SX300.jpg)     | Shabnaameh                | `98 دقیقه`                      |
 <!-- SerializedQuery END -->
