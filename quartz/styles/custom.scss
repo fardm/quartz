@@ -169,7 +169,7 @@
 
 
 // دکمه
-    //دیفالت
+    //دیفالت - توپر
     .my-button {
     background-color: var(--tertiary);
     color: white;
@@ -186,7 +186,7 @@
         background-color: var(--secondary);
     }
 
-    // صفحه 404
+    // تو خالی
     .button2 {
         background-color: transparent;
         color: var(--darkgray);
@@ -233,15 +233,6 @@ blockquote {
     [saved-theme="dark"] img.invert {
         filter: invert(1);
     }
-
-    // بلند مود multiply : استفاده شده در صفحه 404
-    [saved-theme="light"] img.multiply {
-        mix-blend-mode: multiply;
-    }
-    [saved-theme="dark"] img.multiply {
-        mix-blend-mode: normal;
-    }
-
 
     // وسطچین کردن تصاویر
     p img {
@@ -312,7 +303,7 @@ blockquote {
             font-size: 0.9em;
             line-height: 1.5em;
             overflow: hidden;
-            padding-bottom: 10px;
+            padding: 10px;
         }
 
         .table-container>table>* {
@@ -328,12 +319,13 @@ blockquote {
 
         td {
             text-align: center;
-            padding: .2rem;
+            padding: 0;
         }
 
 
         .table-container>table td img {
-            margin: .7rem .7rem 0 .7rem;
+            margin: 0;
+
             
         }
 
@@ -471,7 +463,10 @@ blockquote {
     }
 
 
-
+// جداول عادی
+.fill-table .table-container>table{
+    width: -webkit-fill-available;
+}
 
 
 
@@ -517,4 +512,22 @@ blockquote {
 
     .tab-pane.active {
         display: block;
+    }
+
+
+
+// صفحه 404
+    div.img-404 {
+        background-image: url(/img/ops.gif);
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        background-position: center;
+        background-size: cover;
+    }
+
+    [saved-theme="light"] div.img-404 {
+        mix-blend-mode: multiply;
+    }
+    [saved-theme="dark"] div.img-404 {
+        mix-blend-mode: normal;
     }

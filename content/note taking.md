@@ -8,6 +8,7 @@ tags:
 cssclasses:
   - card-g
   - c-3
+  - c16-9
 ---
 <style>
 	.giscus {
@@ -15,6 +16,7 @@ cssclasses:
 		}
 </style>
 
+00
 
 <!-- QueryToSerialize: table without id EmbededCover, "[[" + file.name + "|" + title + "]]" as title FLATTEN choice(typeof(image)="link", embed(link(choice(typeof(image)="link", image, this.file.link))), "![](https://ifard.ir/img/noimage.svg)") AS EmbededCover WHERE draft = false AND parent = [[note taking|📝 یادداشت برداری]] SORT hierarchy ASC -->
 <!-- SerializedQuery: table without id EmbededCover, "[[" + file.name + "|" + title + "]]" as title FLATTEN choice(typeof(image)="link", embed(link(choice(typeof(image)="link", image, this.file.link))), "![](https://ifard.ir/img/noimage.svg)") AS EmbededCover WHERE draft = false AND parent = [[note taking|📝 یادداشت برداری]] SORT hierarchy ASC -->

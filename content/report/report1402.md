@@ -126,8 +126,8 @@ cssclasses:
 | ("![](" + cover + ")")                                               | file.name                         | "`" + round(length.hours) + " ساعت`" |
 | -------------------------------------------------------------------- | --------------------------------- | ------------------------------------ |
 | ![](https://s32.picofile.com/file/8478596818/think.jpg)              | دوره صوتی تفکر سیستمی             | `6 ساعت`                             |
-| ![](https://s32.picofile.com/file/8478596650/khodkhan.jpg)           | کارگاه زبان خودخوان               | `5 ساعت`                             |
 | ![](https://s32.picofile.com/file/8478596350/7kar.jpg)               | هفت کار (معرفی اثربخش)            | `5 ساعت`                             |
+| ![](https://s32.picofile.com/file/8478596650/khodkhan.jpg)           | کارگاه زبان خودخوان               | `5 ساعت`                             |
 | ![](https://s32.picofile.com/file/8478596442/ensan2.jpg)             | روایت انسان (فصل 2)               | `17 ساعت`                            |
 | ![](https://s32.picofile.com/file/8478596850/worperess_to_hugo.jpg)  | Migrate from WordPress to Hugo    | `6 ساعت`                             |
 | ![](https://s32.picofile.com/file/8478596600/karnakon_estekhdam.jpg) | چگونه استخدام شویم؟               | `5 ساعت`                             |
@@ -157,10 +157,10 @@ cssclasses:
 | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------- | ------------------------------- |
 | ![](https://s3.castbox.fm/c8/00/6e/34b30664ce6fea0eda96b92f3be28bce66_scaled_v1_400.jpg)                                                               | گفت و گو با نیما قاضی           | `225 دقیقه`                     |
 | ![](https://s3.castbox.fm/8b/a4/6b/c98e8fe7297860325375927ba84fcbd45c_scaled_v1_400.jpg)                                                               | گفت و گو با محمدرضا شعبانعلی    | `320 دقیقه`                     |
-| ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/photo_2018-10-20_20-22-56_vfrf3j.jpg)                                                    | گفت و گو با امین آرامش          | `90 دقیقه`                      |
 | ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/IMG_20220730_153351_-_Copy_h6r4sa.jpg)                                                   | گفت و گو با امیر موسوی جهانگرد  | `160 دقیقه`                     |
-| ![](https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/e6/9c/9a/e69c9aaf-8854-c2aa-95fc-258b71c32a75/mza_12938323960868958472.jpg/500x500bb.webp) | تکامل فردی و مسیر دستیابی به آن | `124 دقیقه`                     |
+| ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/photo_2018-10-20_20-22-56_vfrf3j.jpg)                                                    | گفت و گو با امین آرامش          | `90 دقیقه`                      |
 | ![](https://s32.picofile.com/file/8478577742/%D8%A8%D9%87_%D9%88%D9%82%D8%AA_%D8%AE%D9%88%D8%AF%D8%B4%D9%86%D8%A7%D8%B3%DB%8C.jpg)                     | به وقت خودشناسی                 | `756 دقیقه`                     |
+| ![](https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/e6/9c/9a/e69c9aaf-8854-c2aa-95fc-258b71c32a75/mza_12938323960868958472.jpg/500x500bb.webp) | تکامل فردی و مسیر دستیابی به آن | `124 دقیقه`                     |
 | ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/E1BmeRiX0AAjmlX_jbz5kx.jpg)                                                              | گفت و گو با پیمان فخاریان       | `110 دقیقه`                     |
 | ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/photo_2022-10-04_22-40-58_9qsqgk.jpg)                                                    | گفت و گو با پوریا عالمی         | `180 دقیقه`                     |
 | ![](https://s3.castbox.fm/a6/ab/97/c7af0b443edb047897cf099a8c5cdc7aa5_scaled_v1_400.jpg)                                                               | گفت و گو با حامد بیدی           | `146 دقیقه`                     |
