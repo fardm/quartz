@@ -1,7 +1,7 @@
 ---
-title: تست محتوا
+title: المنت‌ها
 aliases:
-  - تست محتوا
+  - المنت‌ها
 date: 2024-09-06
 draft: false
 status: 
@@ -11,15 +11,19 @@ image:
 tags: 
 description:
 ---
+📁 [فایل اصلی](https://github.com/fardm/quartz/blob/v4/content/test.md)
+
+<br/>
 
 ## مواردی که پشتیبانی می‌کند
-### متن
+### پاراگراف
 لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin.
 
----
+<br/>
 
+### استایل متن
 **متن بولد**
 
 ~~متن خط خورده~~
@@ -28,7 +32,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ==متن هایلایت شده==
 
----
+<br/>
+
+### لینک
 
 [[obsidian publish free|لینک داخلی]]
 

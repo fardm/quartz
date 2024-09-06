@@ -150,7 +150,7 @@ tags:
 |        گراف ویو |              🟩               |                        🟨                        |                            🟩                             |       🟩       |                        🟥                        |
 |           کنواس |              🟥               |                        🟥                        |                            🟩                             |       🟥       |                        🟥                        |
 | پلاگینDataview |              🟥               |                        🟥                        |                            🟩                             |       🟩       |                        🟥                        |
-| پیش‌نمایش | [لینک](https://ifard.ir/test) | [لینک](https://fardm.github.io/hugo-stack/test/) | [لینک](https://fardm.github.io/webpage/content/test.html) |       -        | [لینک](https://obsius.site/6y3x1p4d4a3k0h6h124f) |
+| پیش‌نمایش | [لینک](https://ifard.ir/elements) | [لینک](https://fardm.github.io/hugo-stack/elements/) | [لینک](https://fardm.github.io/webpage/content/elements.html) |       -        | [لینک](https://obsius.site/6y3x1p4d4a3k0h6h124f) |
 
 **راهنما:** <br/>
 🟩 دارد <br/>
