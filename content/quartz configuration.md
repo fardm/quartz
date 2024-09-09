@@ -192,6 +192,7 @@ beforeBody: [
     @media (max-width: 1510px) {
         .page>#quartz-body .sidebar.right {
             align-items: center;
+            flex-wrap: nowrap;
         }
     }
 
@@ -877,23 +878,25 @@ hierarchy: "1"
 ---
 ```
 
-سپس با دستور زیر آن ها را استخراج می کنم:
+سپس با دستور زیر آن ها را استخراج می کنم. اگر یادداشت تصویر داشته باشد همان را نمایش می دهد. اگر نداشته باشد یک تصویر خالی ([[noimage.svg]]) نشان می دهد.
 ```md
-<!-- QueryToSerialize: table without id choice(image=null, ![[noimage2.svg]], embed(link(image))), "[[" + file.name + "|" + title + "]]" From note WHERE draft = false AND parent = [[نرم‌افزار ابسیدین]] SORT hierarchy ASC -->
+<!-- QueryToSerialize: table without id choice(image=null, ![[noimage.svg]], embed(link(image))), "[[" + file.name + "|" + title + "]]" From note WHERE draft = false AND parent = [[نرم‌افزار ابسیدین]] SORT hierarchy ASC -->
 ```
+
+
 
 از روش قبلی هم برای تبدیل جدول به نمای کارتی استفاده می‌کنم. کامنت را هم برای این صفحات غیرفعال کردم. البته با ترفند زیر:
 ```html
 <style>
 	.giscus {
 		display: none;
-		}
+	}
 </style>
 ```
 
 نمونه فهرست هایی که فعلا ایجاد کردم:
 - [[obsidian|🔮 نرم‌افزار ابسیدین]]
-- [[یادداشت برداری]]
+- [[note taking|📝 یادداشت برداری]]
 
 
 <br/><br/>

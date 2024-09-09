@@ -556,6 +556,7 @@ blockquote {
     @media (max-width: 1510px) {
         .page>#quartz-body .sidebar.right {
             align-items: center;
+            flex-wrap: nowrap;
         }
     }
 
