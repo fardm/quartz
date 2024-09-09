@@ -46,7 +46,7 @@ cssclasses:
 
 | icon | count     | sum         |
 | ---- | --------- | ----------- |
-| 🎙   | 12 پادکست | `22.4 ساعت` |
+| 🎙   | 12 پادکست | `23.5 ساعت` |
 <!-- SerializedQuery END -->
 
 
@@ -82,7 +82,7 @@ cssclasses:
 
 | icon   | "`" + length(filter(rows, (r) => r.🏋️‍♂️exercise = true)) + " روز`" | "ورزش کردم" |
 | ------ | -------------------------------------------------------------------- | ----------- |
-| 🏋️‍♂️ | `126 روز`                                                            | ورزش کردم   |
+| 🏋️‍♂️ | `131 روز`                                                            | ورزش کردم   |
 <!-- SerializedQuery END -->
 
 
@@ -92,7 +92,7 @@ cssclasses:
 
 | icon | "`" + round(sum(rows.📚reading)) + " پومودورو`" | "مطالعه کردم" |
 | ---- | ----------------------------------------------- | ------------- |
-| 📖   | `219 پومودورو`                                  | مطالعه کردم   |
+| 📖   | `222 پومودورو`                                  | مطالعه کردم   |
 <!-- SerializedQuery END -->
 
 <!-- QueryToSerialize: TABLE WITHOUT ID "📱" as icon, "`" + round(sum(rows.📱social)) + " ساعت`", "در سوشال‌مدیا بودم" FROM #journal WHERE file.name >= ("2024-03-20") AND file.name <= ("2025-03-20") GROUP BY "" -->
@@ -100,7 +100,7 @@ cssclasses:
 
 | icon | "`" + round(sum(rows.📱social)) + " ساعت`" | "در سوشال‌مدیا بودم" |
 | ---- | ------------------------------------------ | -------------------- |
-| 📱   | `280 ساعت`                                 | در سوشال‌مدیا بودم   |
+| 📱   | `285 ساعت`                                 | در سوشال‌مدیا بودم   |
 <!-- SerializedQuery END -->
 
 
@@ -171,7 +171,7 @@ cssclasses:
 
 | ("![](" + cover + ")")                                                                                                                                     | file.name                              | "`" + length.minute + " دقیقه`" |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- | ------------------------------- |
-| ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/amirmousavi_yprnuq.jpg)                                                                      | گفتگو با امیر موسوی تور لیدر           | `60 دقیقه`                      |
+| ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/amirmousavi_yprnuq.jpg)                                                                      | گفتگو با امیر موسوی تور لیدر           | `128 دقیقه`                     |
 | ![](https://assets.pippa.io/shows/623ee6e745754c001233a890/1714562705175-493bcfd80fd419fd3ac250ec8eb4aeee.jpeg)                                            | حسین کلهر                              | `70 دقیقه`                      |
 | ![](https://assets.pippa.io/shows/623ee6e745754c001233a890/1723832715268-786aa403-420d-4f81-a6e5-ea92f8349905.jpeg)                                        | درباره‌ی جادی                          | `115 دقیقه`                     |
 | ![](https://s32.picofile.com/file/8478577776/%D8%AC%D8%A7%D9%81%DA%A9%D8%B1%DB%8C_%D9%81%D8%B5%D9%84_20.jpg)                                               | جافکری فصل 20                          | `143 دقیقه`                     |
@@ -342,7 +342,7 @@ cssclasses:
 
 | "" | true                | false               |
 | -- | ------------------- | ------------------- |
-|    | ✅ 126 روز ورزش کردم | ❌ 44 روز ورزش نکردم |
+|    | ✅ 131 روز ورزش کردم | ❌ 43 روز ورزش نکردم |
 <!-- SerializedQuery END -->
 
 </div>
@@ -358,7 +358,7 @@ cssclasses:
 
 | Total            | Maximum         | Minimum        | Average           |
 | ---------------- | --------------- | -------------- | ----------------- |
-| 🔘 جمع کل: 219 پ | 🔺 بیشترین: 7 پ | 🔻 کمترین: 0 پ | 📈 میانگین: 1.3 پ |
+| 🔘 جمع کل: 222 پ | 🔺 بیشترین: 7 پ | 🔻 کمترین: 0 پ | 📈 میانگین: 1.3 پ |
 <!-- SerializedQuery END -->
 </div>
 
@@ -372,9 +372,9 @@ cssclasses:
 <!-- QueryToSerialize: table without id "🔘 جمع کل: " + round(sum(rows.📱social)) + " ساعت" as Total, "🔺 بیشترین: " + round(max(rows.📱social),1) + " ساعت" as Maximum, "🔻 کمترین: " + round(min(rows.📱social),1) + " ساعت" as Minimum, "📈 میانگین: " + round(sum(rows.📱social) / length(rows), 1) + " ساعت" as Average FROM #journal WHERE file.name >= ("2024-03-20") AND file.name <= ("2025-03-20") GROUP BY "" -->
 <!-- SerializedQuery: table without id "🔘 جمع کل: " + round(sum(rows.📱social)) + " ساعت" as Total, "🔺 بیشترین: " + round(max(rows.📱social),1) + " ساعت" as Maximum, "🔻 کمترین: " + round(min(rows.📱social),1) + " ساعت" as Minimum, "📈 میانگین: " + round(sum(rows.📱social) / length(rows), 1) + " ساعت" as Average FROM #journal WHERE file.name >= ("2024-03-20") AND file.name <= ("2025-03-20") GROUP BY "" -->
 
-| Total               | Maximum            | Minimum           | Average              |
-| ------------------- | ------------------ | ----------------- | -------------------- |
-| 🔘 جمع کل: 280 ساعت | 🔺 بیشترین: 4 ساعت | 🔻 کمترین: 0 ساعت | 📈 میانگین: 1.6 ساعت |
+| Total               | Maximum            | Minimum             | Average              |
+| ------------------- | ------------------ | ------------------- | -------------------- |
+| 🔘 جمع کل: 285 ساعت | 🔺 بیشترین: 4 ساعت | 🔻 کمترین: 0.1 ساعت | 📈 میانگین: 1.6 ساعت |
 <!-- SerializedQuery END -->
 </div>
 
