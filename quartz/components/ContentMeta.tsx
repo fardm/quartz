@@ -68,7 +68,7 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
             {segmentsElements}
           </p>
 
-          {/* نماش تصویر */}
+          {/* Display image */}
           {fileData.frontmatter?.image && (
             <div style={{ marginTop: "10px" }}>
               <img

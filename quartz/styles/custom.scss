@@ -24,9 +24,9 @@
         font-size: 0.9rem;
     }
     
-    #toc-content ul {
-        max-height: 400px;
-    }
+    // #toc-content ul {
+    //     max-height: 400px;
+    // }
     
     
 
@@ -74,7 +74,7 @@
         padding-top: 10px;
         padding-left: 10px;
         font-size: 0.95rem;
-        max-height: 250px;
+        // max-height: 250px;
     }
 
     ul.overflow:after,ol.overflow:after {
@@ -561,15 +561,8 @@ blockquote {
 
     // جستجو
     .search {
-        // max-width: none;
-        width: fit-content;
-        max-width: fit-content;
+        max-width: none;
     }
-
-    .search>#search-icon {
-        width: fit-content;
-    }
-    
 
     // دارک مود
     .darkmode {

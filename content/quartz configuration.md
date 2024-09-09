@@ -141,9 +141,9 @@ image: example.png
 <br/> <br/>
 
 ## ۲) صفحه بندی
-در حالت عادی عنوان صفحه در سایدبار سمت چپ قرار گرفته و در سایدبار سمت راست گراف‌، فهرست و بک لینک. این ترتیب برای ما که از زبان فارسی استفاده می کنیم مناسب نیست. بهتر است برعکس باشد. یعنی عنوان صفحه سمت راست و باقی موارد سمت چپ باشد.
+در حالت عادی عنوان صفحه در سایدبار سمت چپ قرار گرفته و در سایدبار سمت راست گراف‌، فهرست و بک لینک قرار دارند. این ترتیب برای ما که از زبان فارسی استفاده می کنیم مناسب نیست. بهتر است برعکس باشد. یعنی عنوان صفحه سمت راست و باقی موارد سمت چپ باشند.
 
-تنظیم این موارد در فایل `quartz.layout.ts` انجام می شود. در نهایت من از این ترتیب استفاده کردم:
+تنظیم این موارد در فایل `quartz.layout.ts` انجام می شود. در نهایت من از این ترتیب استفاده کردم. فهرست مطاب را هم در حالت موبایل قبل از متن بدنه قرار دادم:
 ```ts
 beforeBody: [
     Component.ArticleTitle(),
@@ -152,19 +152,20 @@ beforeBody: [
     
   ],
   left: [  
-    Component.Graph({localGraph: {showTags: false,}, globalGraph: {showTags: false,}}),
+    Component.DesktopOnly(Component.Darkmode()),
+    Component.Graph(),
     Component.Backlinks(),  
  
   ],
   right: [
     Component.PageTitle(),
-    Component.Darkmode(),
+    Component.MobileOnly(Component.Darkmode()),
     Component.Search(),    
     Component.DesktopOnly(Component.TableOfContents()),    
   ],
 ```
 
-البته از آنجایی که شکست صفحه از سمت چپ انجام می شود در حالت موبایل یک مشکل ایجاد می شود. عنوان صفحه به انتهای صفحه منتقل شده و گراف و بک لینک ابتدای صفحه قرار می گیرند. برای حل این مشکل کافی است در فایل ... کد زیر را وارد کنیم:
+البته از آنجایی که شکست صفحه از سمت چپ انجام می شود در حالت موبایل یک مشکل ایجاد می شود. عنوان صفحه به انتهای صفحه منتقل شده و گراف و بک لینک ابتدای صفحه قرار می گیرند. برای حل این مشکل کافی است در فایل `custom.scss` کد زیر را وارد کنیم:
 
 <p align="left"><code>custom.scss</code></p>
 
@@ -196,29 +197,16 @@ beforeBody: [
 
     // جستجو
     .search {
-        // max-width: none;
-        width: fit-content;
-        max-width: fit-content;
+        max-width: none;
     }
 
-    .search>#search-icon {
-        width: fit-content;
-    }
-    
     // دارک مود
     .darkmode {
         max-width: fit-content;
     }
 ```
 
-علاوه بر این باکس جتسجو را هم مختصر تر کردم. عبارت جستجو را مخفی کردم تا فقط آیکون ذره بین باقی بماند. در فایل `Search.tsx` کد زیر را در حالت کامنت گذاشتم که نمایش داده نشود. در کد css بالا هم عرض آن را فیت کردم که بخش اضافی آن کامل حذف شود.
-
-<p align="left"><code>Search.tsx</code></p>
-
-```tsx
-<p>{i18n(cfg.locale).components.search.title}</p>
-<div></div>
-```
+البته راه حل دیگری هم وجود دارد. اینکه از هر مورد یک کپی بگیریم و با عبارت MobileOnly و DesktopOnly مشخص کنیم که در حالت موبایل یا دسکتاپ کدام سمت قرار بگیرد. منتها برای بعضی موارد مشکل ایجاد می شود. مثلا گراف ویو فقط در یک حالت کار میکند و در حالت دیگر فقط باکس آن نمایش داده می شود و با کلیک روی آیکون آن گلوبال گراف هم باز نمی شود.
 
 <br/><br/>
 
@@ -379,17 +367,10 @@ if (fileData.slug === "404" || !fileData.slug) { return <></> }
         padding: 12px; 
         font-size: 0.9rem;
     }
-    
-    #toc-content ul {
-        max-height: 360px;
-    }
-    
-    
-
+        
     #toc-content .depth-0 {
         list-style: disc;
         list-style-position: inside;
-
     }
     
     #toc-content .depth-1 {
@@ -424,7 +405,6 @@ if (fileData.slug === "404" || !fileData.slug) { return <></> }
         padding-top: 10px;
         padding-left: 10px;
         font-size: 0.95rem;
-        max-height: 230px;
     }
 
     ul.overflow:after,ol.overflow:after {

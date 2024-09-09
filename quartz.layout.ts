@@ -35,18 +35,18 @@ export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.ArticleTitle(),
     Component.ContentMeta({showReadingTime: false, showComma: false,}),
-    Component.TagList(),
     Component.MobileOnly(Component.TableOfContents()),
     
   ],
   left: [  
+    Component.DesktopOnly(Component.Darkmode()),
     Component.Graph({localGraph: {showTags: false,}, globalGraph: {showTags: false,}}),
     Component.Backlinks(),  
  
   ],
   right: [
     Component.PageTitle(),
-    Component.Darkmode(),
+    Component.MobileOnly(Component.Darkmode()),
     Component.Search(),    
     Component.DesktopOnly(Component.TableOfContents()),    
   ],

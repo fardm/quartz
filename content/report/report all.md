@@ -21,7 +21,7 @@ cssclasses:
 
 | icon | count       | sum          |
 | ---- | ----------- | ------------ |
-| 📚   | 47 جلد کتاب | `10351 صفحه` |
+| 📚   | 48 جلد کتاب | `10487 صفحه` |
 <!-- SerializedQuery END -->
 
 
@@ -75,7 +75,6 @@ cssclasses:
 
 ‌<br/>‌<br/>
 
-
 ## 📚 کتاب 
 
 <!-- QueryToSerialize: table without id ("![](" + cover + ")"), file.name, "`" + pages + " صفحه`" FROM #Book WHERE pages !=null SORT date DESC -->
@@ -83,6 +82,7 @@ cssclasses:
 
 | ("![](" + cover + ")")                                                                                                                                            | file.name                                          | "`" + pages + " صفحه`" |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- | ---------------------- |
+| ![](https://s32.picofile.com/file/8478850484/mr_jicak.jpg)                                                                                                        | مستر جیکاک                                         | `136 صفحه`             |
 | ![](https://s32.picofile.com/file/8478794884/Visual_Hammer.jpg)                                                                                                   | چکش بصری                                           | `183 صفحه`             |
 | ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1512139215i/36696980.jpg)                                               | دروغ‌های مسلح                                      | `344 صفحه`             |
 | ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1354312096i/15858089.jpg)                                               | The Sketchnote Handbook                            | `224 صفحه`             |
@@ -139,38 +139,38 @@ cssclasses:
 <!-- QueryToSerialize: table without id ("![](" + cover + ")"), file.name, "`" + round(length.hours) + " ساعت`" FROM #Course WHERE length !=null SORT date DESC -->
 <!-- SerializedQuery: table without id ("![](" + cover + ")"), file.name, "`" + round(length.hours) + " ساعت`" FROM #Course WHERE length !=null SORT date DESC -->
 
-| ("![](" + cover + ")")                                                                             | file.name                             | "`" + round(length.hours) + " ساعت`" |
-| -------------------------------------------------------------------------------------------------- | ------------------------------------- | ------------------------------------ |
-| ![](https://static.roocket.ir/images/cover/2023/12/1/bfXiSAuUHdHj6jI8sUsQx0j7MdTGRd3zF4O3Lyzc.jpg) | دوره آموزش css                        | `12 ساعت`                            |
-| ![](https://s32.picofile.com/file/8478596484/ensan4.jpg)                                           | روایت انسان (فصل 4)                   | `15 ساعت`                            |
-| ![](https://s32.picofile.com/file/8478596626/karnakon_job.jpg)                                     | دوره جامع طراحی مسیر شغلی             | `11 ساعت`                            |
-| ![](https://s32.picofile.com/file/8478596826/vic.jpg)                                              | فایل صوتی درباره موفقیت و برنامه ریزی | `2 ساعت`                             |
-| ![](https://s32.picofile.com/file/8478596584/grammer.jpg)                                          | کارگاه جامع گرامر                     | `7 ساعت`                             |
-| ![](https://s32.picofile.com/file/8478596792/stable.jpg)                                           | دوره جامع استیبل دیفیوژن              | `20 ساعت`                            |
-| ![](https://s32.picofile.com/file/8478598318/goal_setting.jpg)                                     | دوره صوتی آموزش هدف گذاری             | `8 ساعت`                             |
-| ![](https://s32.picofile.com/file/8478596800/tanz_bank.jpg)                                        | طنز بانک                              | `8 ساعت`                             |
-| ![](https://s32.picofile.com/file/8478596600/karnakon_estekhdam.jpg)                               | چگونه استخدام شویم؟                   | `5 ساعت`                             |
-| ![](https://s32.picofile.com/file/8478596350/7kar.jpg)                                             | هفت کار (معرفی اثربخش)                | `5 ساعت`                             |
-| ![](https://s32.picofile.com/file/8478597842/design.jpg)                                           | خلاقیت در دیزاین                      | `3 ساعت`                             |
-| ![](https://s32.picofile.com/file/8478596476/ensan3.jpg)                                           | روایت انسان (فصل 3)                   | `12 ساعت`                            |
-| ![](https://s32.picofile.com/file/8478596676/leon.jpg)                                             | دوره‌ آموزش نرم‌افزار ایلوستریتور     | `50 ساعت`                            |
-| ![](https://s32.picofile.com/file/8478596342/2D_magic.jpg)                                         | 2D Character Design Magician          | `5 ساعت`                             |
-| ![](https://s32.picofile.com/file/8478596850/worperess_to_hugo.jpg)                                | Migrate from WordPress to Hugo        | `6 ساعت`                             |
-| ![](https://s32.picofile.com/file/8478597826/arezoye_khademi.jpg)                                  | دوره تصویرسازی (آرزوی خادمی)          | `20 ساعت`                            |
-| ![](https://s32.picofile.com/file/8478596442/ensan2.jpg)                                           | روایت انسان (فصل 2)                   | `17 ساعت`                            |
-| ![](https://s32.picofile.com/file/8478596650/khodkhan.jpg)                                         | کارگاه زبان خودخوان                   | `5 ساعت`                             |
-| ![](https://s32.picofile.com/file/8478596818/think.jpg)                                            | دوره صوتی تفکر سیستمی                 | `6 ساعت`                             |
-| ![](https://s32.picofile.com/file/8478596376/audio_in_premiere.jpg)                                | صوت در پریمیر                         | `10 ساعت`                            |
-| ![](https://s32.picofile.com/file/8478596434/ensan1.jpg)                                           | روایت انسان (فصل 1)                   | `15 ساعت`                            |
-| ![](https://s32.picofile.com/file/8478596592/illustrator_for_animate.jpg)                          | Illustration for Animation            | `6 ساعت`                             |
-| ![](https://s32.picofile.com/file/8478597868/frozen.jpg)                                           | دوره طراحی کاراکتر                    | `50 ساعت`                            |
-| ![](https://s32.picofile.com/file/8478596426/doketab_masir.png)                                    | دوکتاب طراحی مسیر زندگی               | `14 ساعت`                            |
-| ![](https://s32.picofile.com/file/8478596768/photophantom.jpg)                                     | فوتوفنتوم - دوره تخصصی فتومونتاژ      | `15 ساعت`                            |
-| ![](https://s32.picofile.com/file/8478596692/masir_asli.jpg)                                       | فایل صوتی افزایش عزت نفس - مسیر اصلی  | `3 ساعت`                             |
-| ![](https://s32.picofile.com/file/8478596734/photophan.jpg)                                        | فوتوفن - آموزش نرم افزار فتوشاپ       | `40 ساعت`                            |
-| ![](https://s32.picofile.com/file/8478596400/doketab_asl.png)                                      | دوکتاب اصل گرایی                      | `12 ساعت`                            |
-| ![](https://s32.picofile.com/file/8478596518/ensan6.jpg)                                           | روایت انسان (فصل 6)                   | `15 ساعت`                            |
-| ![](https://s32.picofile.com/file/8478596492/ensan5.jpg)                                           | روایت انسان (فصل 5)                   | `15 ساعت`                            |
+| ("![](" + cover + ")")                                                    | file.name                             | "`" + round(length.hours) + " ساعت`" |
+| ------------------------------------------------------------------------- | ------------------------------------- | ------------------------------------ |
+| ![](https://s32.picofile.com/file/8478837334/css.jpg)                     | دوره آموزش css                        | `12 ساعت`                            |
+| ![](https://s32.picofile.com/file/8478596484/ensan4.jpg)                  | روایت انسان (فصل 4)                   | `15 ساعت`                            |
+| ![](https://s32.picofile.com/file/8478596626/karnakon_job.jpg)            | دوره جامع طراحی مسیر شغلی             | `11 ساعت`                            |
+| ![](https://s32.picofile.com/file/8478596826/vic.jpg)                     | فایل صوتی درباره موفقیت و برنامه ریزی | `2 ساعت`                             |
+| ![](https://s32.picofile.com/file/8478596584/grammer.jpg)                 | کارگاه جامع گرامر                     | `7 ساعت`                             |
+| ![](https://s32.picofile.com/file/8478596792/stable.jpg)                  | دوره جامع استیبل دیفیوژن              | `20 ساعت`                            |
+| ![](https://s32.picofile.com/file/8478598318/goal_setting.jpg)            | دوره صوتی آموزش هدف گذاری             | `8 ساعت`                             |
+| ![](https://s32.picofile.com/file/8478596800/tanz_bank.jpg)               | طنز بانک                              | `8 ساعت`                             |
+| ![](https://s32.picofile.com/file/8478596600/karnakon_estekhdam.jpg)      | چگونه استخدام شویم؟                   | `5 ساعت`                             |
+| ![](https://s32.picofile.com/file/8478596350/7kar.jpg)                    | هفت کار (معرفی اثربخش)                | `5 ساعت`                             |
+| ![](https://s32.picofile.com/file/8478597842/design.jpg)                  | خلاقیت در دیزاین                      | `3 ساعت`                             |
+| ![](https://s32.picofile.com/file/8478596476/ensan3.jpg)                  | روایت انسان (فصل 3)                   | `12 ساعت`                            |
+| ![](https://s32.picofile.com/file/8478596676/leon.jpg)                    | دوره‌ آموزش نرم‌افزار ایلوستریتور     | `50 ساعت`                            |
+| ![](https://s32.picofile.com/file/8478596342/2D_magic.jpg)                | 2D Character Design Magician          | `5 ساعت`                             |
+| ![](https://s32.picofile.com/file/8478596850/worperess_to_hugo.jpg)       | Migrate from WordPress to Hugo        | `6 ساعت`                             |
+| ![](https://s32.picofile.com/file/8478597826/arezoye_khademi.jpg)         | دوره تصویرسازی (آرزوی خادمی)          | `20 ساعت`                            |
+| ![](https://s32.picofile.com/file/8478596442/ensan2.jpg)                  | روایت انسان (فصل 2)                   | `17 ساعت`                            |
+| ![](https://s32.picofile.com/file/8478596650/khodkhan.jpg)                | کارگاه زبان خودخوان                   | `5 ساعت`                             |
+| ![](https://s32.picofile.com/file/8478596818/think.jpg)                   | دوره صوتی تفکر سیستمی                 | `6 ساعت`                             |
+| ![](https://s32.picofile.com/file/8478596376/audio_in_premiere.jpg)       | صوت در پریمیر                         | `10 ساعت`                            |
+| ![](https://s32.picofile.com/file/8478596434/ensan1.jpg)                  | روایت انسان (فصل 1)                   | `15 ساعت`                            |
+| ![](https://s32.picofile.com/file/8478596592/illustrator_for_animate.jpg) | Illustration for Animation            | `6 ساعت`                             |
+| ![](https://s32.picofile.com/file/8478597868/frozen.jpg)                  | دوره طراحی کاراکتر                    | `50 ساعت`                            |
+| ![](https://s32.picofile.com/file/8478596426/doketab_masir.png)           | دوکتاب طراحی مسیر زندگی               | `14 ساعت`                            |
+| ![](https://s32.picofile.com/file/8478596768/photophantom.jpg)            | فوتوفنتوم - دوره تخصصی فتومونتاژ      | `15 ساعت`                            |
+| ![](https://s32.picofile.com/file/8478596692/masir_asli.jpg)              | فایل صوتی افزایش عزت نفس - مسیر اصلی  | `3 ساعت`                             |
+| ![](https://s32.picofile.com/file/8478596734/photophan.jpg)               | فوتوفن - آموزش نرم افزار فتوشاپ       | `40 ساعت`                            |
+| ![](https://s32.picofile.com/file/8478596400/doketab_asl.png)             | دوکتاب اصل گرایی                      | `12 ساعت`                            |
+| ![](https://s32.picofile.com/file/8478596518/ensan6.jpg)                  | روایت انسان (فصل 6)                   | `15 ساعت`                            |
+| ![](https://s32.picofile.com/file/8478596492/ensan5.jpg)                  | روایت انسان (فصل 5)                   | `15 ساعت`                            |
 <!-- SerializedQuery END -->
 
 ‌<br/>‌<br/>
@@ -458,8 +458,8 @@ cssclasses:
 | ![](https://m.media-amazon.com/images/M/MV5BZmY5YmMwZWEtMDIyOC00NWMyLWE3NWQtYWMzNWRhMzQ2NWJmXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_SX300.jpg)                 | Double King                            | `10 دقیقه`                      |
 | ![](https://m.media-amazon.com/images/M/MV5BYzI4YmZlMDktNzUzNC00ZTRiLTkzZmMtMTU1YjEwNjYyZjE1XkEyXkFqcGdeQXVyNTU1ODI5NjI@._V1_SX300.jpg)                 | Walter                                 | `7 دقیقه`                       |
 | ![](https://m.media-amazon.com/images/M/MV5BMTdmY2NkNzktZjIwMS00ZDg2LWFmYWMtMjg3MGY5MmI5ZmZmXkEyXkFqcGdeQXVyMTQxMjgwNzc@._V1_SX300.jpg)                 | Timber                                 | `6 دقیقه`                       |
-| ![](https://m.media-amazon.com/images/M/MV5BYjRmYjMwYzEtNTBmZS00NDBiLWJhZTctZjJhYjJmNmNhNDNkXkEyXkFqcGdeQXVyMTUyMzYxMzU@._V1_SX300.jpg)                 | Some Thing                             | `7 دقیقه`                       |
 | ![](https://m.media-amazon.com/images/M/MV5BNzYzNjM2MzQtMzQ5Zi00MDFmLWJjNDktYzQxYmY0NGMyYmFjXkEyXkFqcGdeQXVyODY5OTI0NDc@._V1_SX300.jpg)                 | The Angler                             | `14 دقیقه`                      |
+| ![](https://m.media-amazon.com/images/M/MV5BYjRmYjMwYzEtNTBmZS00NDBiLWJhZTctZjJhYjJmNmNhNDNkXkEyXkFqcGdeQXVyMTUyMzYxMzU@._V1_SX300.jpg)                 | Some Thing                             | `7 دقیقه`                       |
 | ![](https://m.media-amazon.com/images/M/MV5BMjA2Njc2NzkyMV5BMl5BanBnXkFtZTgwNjE3NzgyNzE@._V1_SX300.jpg)                                                 | Snack Attack                           | `5 دقیقه`                       |
 | ![](https://m.media-amazon.com/images/M/MV5BNTk2MjhlNTAtYmI3Yi00ZGRlLTgxMTQtZWU1Zjg2M2NmZTdiXkEyXkFqcGdeQXVyMjI1NzEwNg@@._V1_SX300.jpg)                 | Scrambled                              | `7 دقیقه`                       |
 | ![](https://m.media-amazon.com/images/M/MV5BNmIyNmE4Y2MtNDUxMS00ZjQyLThkNDItMmMwMTNiNDk1NzQ0XkEyXkFqcGdeQXVyMTA5MTg3NzY@._V1_SX300.jpg)                 | Leaving Home                           | `7 دقیقه`                       |
