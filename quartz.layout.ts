@@ -36,28 +36,19 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta({showReadingTime: false, showComma: false,}),
     Component.TagList(),
+    Component.MobileOnly(Component.TableOfContents()),
     
   ],
   left: [  
-    Component.MobileOnly(Component.PageTitle()),  
-    Component.MobileOnly(Component.Spacer()),
-    Component.MobileOnly(Component.Darkmode()),
-    Component.Search(),     
-    Component.DesktopOnly(Component.TableOfContents()), 
-    Component.DesktopOnly(Component.Backlinks()),  
+    Component.Graph({localGraph: {showTags: false,}, globalGraph: {showTags: false,}}),
+    Component.Backlinks(),  
  
   ],
   right: [
-    Component.DesktopOnly(Component.PageTitle()),
-    Component.DesktopOnly(Component.Darkmode()),
-    Component.Graph({localGraph: {
-    showTags: false,
-  }, globalGraph: {
-    showTags: false,
-  }}),
-    Component.MobileOnly(Component.Spacer()),
-    Component.MobileOnly(Component.Backlinks()),
-    
+    Component.PageTitle(),
+    Component.Darkmode(),
+    Component.Search(),    
+    Component.DesktopOnly(Component.TableOfContents()),    
   ],
 }
 

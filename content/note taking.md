@@ -16,12 +16,11 @@ cssclasses:
 		}
 </style>
 
-00
 
-<!-- QueryToSerialize: table without id EmbededCover, "[[" + file.name + "|" + title + "]]" as title FLATTEN choice(typeof(image)="link", embed(link(choice(typeof(image)="link", image, this.file.link))), "![](https://ifard.ir/img/noimage.svg)") AS EmbededCover WHERE draft = false AND parent = [[note taking|📝 یادداشت برداری]] SORT hierarchy ASC -->
-<!-- SerializedQuery: table without id EmbededCover, "[[" + file.name + "|" + title + "]]" as title FLATTEN choice(typeof(image)="link", embed(link(choice(typeof(image)="link", image, this.file.link))), "![](https://ifard.ir/img/noimage.svg)") AS EmbededCover WHERE draft = false AND parent = [[note taking|📝 یادداشت برداری]] SORT hierarchy ASC -->
+<!-- QueryToSerialize: table without id choice(image=null, ![[noimage2.svg]], embed(link(image))), "[[" + file.name + "|" + title + "]]" WHERE draft = false AND parent = [[note taking|📝 یادداشت برداری]] SORT hierarchy ASC -->
+<!-- SerializedQuery: table without id choice(image=null, ![[noimage2.svg]], embed(link(image))), "[[" + file.name + "|" + title + "]]" WHERE draft = false AND parent = [[note taking|📝 یادداشت برداری]] SORT hierarchy ASC -->
 
-| EmbededCover                                              | title                                                                      |
+| choice(image=null, ![[noimage2.svg]], embed(link(image))) | "[[" + file.name + "\|" + title + "]]"                                     |
 | --------------------------------------------------------- | -------------------------------------------------------------------------- |
 | ![[img/cover-dgarden.svg\|cover-dgarden.svg]]             | [[digital garden\|یادداشت‌برداری با روش دیجیتال گاردن]]                    |
 | ![[img/cover-note-min.webp\|cover-note-min.webp]]         | [[note taking techniques\|تکنیک های یادداشت برداری]]                       |

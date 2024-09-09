@@ -63,14 +63,27 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
       const segmentsElements = segments.map((segment) => <span>{segment}</span>)
 
       return (
-        <p show-comma={options.showComma} class={classNames(displayClass, "content-meta")}>
-          {segmentsElements}
-        </p>
+        <>
+          <p show-comma={options.showComma} class={classNames(displayClass, "content-meta")}>
+            {segmentsElements}
+          </p>
+
+          {/* نماش تصویر */}
+          {fileData.frontmatter?.image && (
+            <div style={{ marginTop: "10px" }}>
+              <img
+                src={`/img/${fileData.frontmatter.image}`}
+                alt="Note Image"
+                style={{ maxWidth: "100%", height: "auto", display: "block" }}
+              />
+            </div>
+          )}
+        </>
       )
-    } else {
+      } else {
       return null
-    }
-  }
+      }
+      }
 
   ContentMetadata.css = style
 

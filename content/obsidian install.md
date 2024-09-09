@@ -6,14 +6,14 @@ date: 2024-04-07
 draft: false
 tags: 
 status: 🌿درختچه
-image: "[[cover-install.svg]]"
+image: cover-install.svg
 parent: "[[obsidian|🔮 نرم‌افزار ابسیدین]]"
 hierarchy: "2"
 ---
-![[cover-install.svg]]
+
 در این یادداشت بعد از نصب و راه‌اندازی نرم‌افزار علاوه بر آشنایی با رابط کاربری برنامه، یاد می‌گیریم چطور یک یادداشت جدید بنویسیم و از امکانات نرم‌افزار برای ویرایش و قالب‌بندی نوشته‌ها استفاده کنیم.
 
- آموزش نصب و راه اندازی نرم افزار ابسیدین را می توانید در [این ویدئو](https://www.aparat.com/v/b36w7z1) مشاهده کنید:
+آموزش نصب و راه اندازی نرم افزار ابسیدین را می توانید در [این ویدئو](https://www.aparat.com/v/b36w7z1) مشاهده کنید:
 
 <style>.h_iframe-aparat_embed_frame{position:relative;}.h_iframe-aparat_embed_frame .ratio{display:block;width:100%;height:auto;}.h_iframe-aparat_embed_frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;}</style><div class="h_iframe-aparat_embed_frame"><span style="display: block;padding-top: 57%"></span><iframe src="https://www.aparat.com/video/video/embed/videohash/b36w7z1/vt/frame?recom=self"  allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe></div>
 

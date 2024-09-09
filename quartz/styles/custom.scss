@@ -22,11 +22,10 @@
         border: 1px solid var(--lightgray);
         padding: 12px; 
         font-size: 0.9rem;
-        background-color: #80808017;
     }
     
     #toc-content ul {
-        max-height: 360px;
+        max-height: 400px;
     }
     
     
@@ -59,6 +58,12 @@
         opacity: .45;
     }
 
+    @media (max-width: 1510px) {
+        .mobile-only.toc {
+            display: block;
+        }
+    }
+
  
 // بک لینک
     .backlinks>ul {
@@ -69,8 +74,7 @@
         padding-top: 10px;
         padding-left: 10px;
         font-size: 0.95rem;
-        background-color: #80808017;
-        max-height: 230px;
+        max-height: 250px;
     }
 
     ul.overflow:after,ol.overflow:after {
@@ -215,14 +219,6 @@ blockquote {
     background-color: #5960cf0a;
     padding: 1px 20px 1px 20px;
     border-radius: 10px;
-}
-
-
-
-// جستجو
-
-.search {
-    max-width: none;
 }
 
 
@@ -532,4 +528,50 @@ blockquote {
         mix-blend-mode: normal;
     }
 
+
+
+
+// صفحه بندی
+    // ریسپانسیو
+
+    @media (max-width: 1510px) {
+        .page>#quartz-body {
+            flex-direction: column-reverse;
+        }
+    }
+
+    @media (max-width: 1510px) {
+        .page>#quartz-body .sidebar.left {
+            align-items: normal;
+            flex-direction: column;
+        }
+    }
+
+    @media (max-width: 1510px) {
+        .page>#quartz-body .sidebar.right>* {
+            min-width: fit-content;
+        }
+    }
+
+    @media (max-width: 1510px) {
+        .page>#quartz-body .sidebar.right {
+            align-items: center;
+        }
+    }
+
+    // جستجو
+    .search {
+        // max-width: none;
+        width: fit-content;
+        max-width: fit-content;
+    }
+
+    .search>#search-icon {
+        width: fit-content;
+    }
     
+
+    // دارک مود
+    .darkmode {
+        max-width: fit-content;
+    }
