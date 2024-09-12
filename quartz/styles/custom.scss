@@ -168,6 +168,7 @@
         content: "پانوشت‌ها";
         visibility: visible;
         display: block;
+            
     }
 
 
@@ -228,6 +229,11 @@ blockquote {
     // اینورت رنگ تصاویر 
     [saved-theme="dark"] img.invert {
         filter: invert(1);
+    }
+
+    // بک گراند برای حالت دارک تصاویر کاور
+    [saved-theme="dark"] .cover-bg {
+        background-color: #a5a5a526;
     }
 
     // وسطچین کردن تصاویر
@@ -538,22 +544,17 @@ blockquote {
         .page>#quartz-body {
             flex-direction: column-reverse;
         }
-    }
 
-    @media (max-width: 1510px) {
         .page>#quartz-body .sidebar.left {
             align-items: normal;
             flex-direction: column;
+            gap: 1em;
         }
-    }
 
-    @media (max-width: 1510px) {
         .page>#quartz-body .sidebar.right>* {
             min-width: fit-content;
         }
-    }
 
-    @media (max-width: 1510px) {
         .page>#quartz-body .sidebar.right {
             align-items: center;
             flex-wrap: nowrap;
@@ -569,3 +570,5 @@ blockquote {
     .darkmode {
         max-width: fit-content;
     }
+
+    

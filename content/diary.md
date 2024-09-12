@@ -8,6 +8,7 @@ tags:
 cssclasses:
   - card-g
   - c-3
+  - c16-9
 ---
 <style>
 	.giscus {
