@@ -10,9 +10,113 @@ image:
 tags: 
 cssclasses:
 ---
-### 👨‍🏫 دوره‌
-### 🏋️‍♂️ ورزش
 
+
+
+
+🏋️‍♂️ زرد
+
+🏋🏻 سفید
+
+🏋🏼 تیره
+
+🏋🏽 تیره تر
+
+🏋🏾 خیلی تیره
+
+🏋🏿 سیاه
+
+
+
+
+
+💙 آبی
+
+💙 blue
+
+
+<h2>💙 هدینگ</h2>
+
+
+
+<br/><br/>
+## ایموجی
+👩‍💻 م
+
+🎈 م
+
+🙏 م
+
+🍂 م
+
+⭐ م
+
+🌱 م
+
+🌿 م
+
+🌳 م
+
+🍿 م
+
+✨ م
+
+📺 م
+
+🎬 م
+
+⌛ م
+
+📚 م
+
+🎥 م
+
+⏱ م
+
+🔮 م
+
+🔄 م
+
+---
+🎨م
+
+🧿م
+
+🧩م
+
+🔒م
+
+🔗م
+
+🧲م
+
+🧮م
+
+🔍م
+
+🔎م
+
+📕م
+
+📖م
+
+📁م
+
+📅م
+
+📆م
+
+🗓م
+
+
+
+
+
+
+
+
+
+👩‍💻 برنامه نویس
 
 
 
@@ -166,3 +270,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
 ## بررسی نهایی
 از اونجای که مسیریابی spa فعاله این اسکریپت درست اجرا نمیشه و برای اعمال شدنش کاربر باید صفحه رو رفرش کنه. 
+
+
+
+> [!quote] iranica
+> In the **Aʿyān al-šiʿa** Amin remarked (IX, p. 183) that Majlesi’s merits notwithstanding, his writings needed revision, as they indiscriminately mixed useful and worthless material (Ar. _al-ḡaṯṯ wa’l-samin_ lit. “the meagre and the fat”), and his interpretations of the traditions were often precipitate.  Amin also disapproved of the fanaticism (_ʿaṣabiya_) with which people spoke about Majlesi.
+> 
+> >[!file]- ترجمه
+> > در کتاب "اعیان الشیعه"، امین بیان کرد (جلد 9، صفحه 183) که علیرغم محسنات مجلسى، نوشته‌های او نیاز به بازنگری داشتند، زیرا او به طور بی‌رویه مطالب مفید و بی‌ارزش را با هم آمیخته بود (عربی: الغث و السمين، به معنای "ناب و ناخالص") و تفسیرهای او از روایات اغلب عجولانه بود. امین همچنین از تعصب (عربی: عصبیة) که مردم درباره مجلسی صحبت می‌کردند، ناراضی بود.

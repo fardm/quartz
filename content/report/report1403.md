@@ -27,7 +27,7 @@ cssclasses:
 
 | icon | count       | sum         |
 | ---- | ----------- | ----------- |
-| 📚   | 21 جلد کتاب | `3868 صفحه` |
+| 📚   | 22 جلد کتاب | `4060 صفحه` |
 <!-- SerializedQuery END -->
 
 
@@ -64,7 +64,7 @@ cssclasses:
 
 | icon | count           | sum         |
 | ---- | --------------- | ----------- |
-| 🍿   | 32 فیلم و سریال | `81.3 ساعت` |
+| 🍿   | 35 فیلم و سریال | `87.1 ساعت` |
 <!-- SerializedQuery END -->
 
 
@@ -82,7 +82,7 @@ cssclasses:
 
 | icon   | "`" + length(filter(rows, (r) => r.🏋️‍♂️exercise = true)) + " روز`" | "ورزش کردم" |
 | ------ | -------------------------------------------------------------------- | ----------- |
-| 🏋️‍♂️ | `134 روز`                                                            | ورزش کردم   |
+| 🏋️‍♂️ | `137 روز`                                                            | ورزش کردم   |
 <!-- SerializedQuery END -->
 
 
@@ -92,7 +92,7 @@ cssclasses:
 
 | icon | "`" + round(sum(rows.📚reading)) + " پومودورو`" | "مطالعه کردم" |
 | ---- | ----------------------------------------------- | ------------- |
-| 📖   | `222 پومودورو`                                  | مطالعه کردم   |
+| 📖   | `227 پومودورو`                                  | مطالعه کردم   |
 <!-- SerializedQuery END -->
 
 <!-- QueryToSerialize: TABLE WITHOUT ID "📱" as icon, "`" + round(sum(rows.📱social)) + " ساعت`", "در سوشال‌مدیا بودم" FROM #journal WHERE file.name >= ("2024-03-20") AND file.name <= ("2025-03-20") GROUP BY "" -->
@@ -100,7 +100,7 @@ cssclasses:
 
 | icon | "`" + round(sum(rows.📱social)) + " ساعت`" | "در سوشال‌مدیا بودم" |
 | ---- | ------------------------------------------ | -------------------- |
-| 📱   | `290 ساعت`                                 | در سوشال‌مدیا بودم   |
+| 📱   | `293 ساعت`                                 | در سوشال‌مدیا بودم   |
 <!-- SerializedQuery END -->
 
 
@@ -108,7 +108,6 @@ cssclasses:
 
 
 <br/><br/>
-
 
 ## بخش اول: مصرف محتوا
 
@@ -118,29 +117,30 @@ cssclasses:
 <!-- QueryToSerialize: table without id ("![](" + cover + ")"), file.name, "`" + pages + " صفحه`" FROM #Book WHERE date >= date("2024-03-20") AND date <= date("2025-03-20") SORT date DESC -->
 <!-- SerializedQuery: table without id ("![](" + cover + ")"), file.name, "`" + pages + " صفحه`" FROM #Book WHERE date >= date("2024-03-20") AND date <= date("2025-03-20") SORT date DESC -->
 
-| ("![](" + cover + ")")                                                                                               | file.name                | "`" + pages + " صفحه`" |
-| -------------------------------------------------------------------------------------------------------------------- | ------------------------ | ---------------------- |
-| ![](https://s32.picofile.com/file/8478850484/mr_jicak.jpg)                                                           | مستر جیکاک               | `136 صفحه`             |
-| ![](https://s32.picofile.com/file/8478794884/Visual_Hammer.jpg)                                                      | چکش بصری                 | `183 صفحه`             |
-| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1512139215i/36696980.jpg)  | دروغ‌های مسلح            | `344 صفحه`             |
-| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1354312096i/15858089.jpg)  | The Sketchnote Handbook  | `224 صفحه`             |
-| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1595319091i/54622169.jpg)  | دیگر اخبار نخوانید       | `152 صفحه`             |
-| ![](https://s32.picofile.com/file/8478581668/khone_khoda.jpg)                                                        | خون خدا                  | `105 صفحه`             |
-| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1508160297i/36422557.jpg)  | اتوپرتره                 | `92 صفحه`              |
-| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1694938610i/162656853.jpg) | چرا ملت ها شکست میخورند؟ | `536 صفحه`             |
-| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1700136134i/252025.jpg)    | ابن مشغله                | `112 صفحه`             |
-| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1715779752i/178539.jpg)    | نشت نشا                  | `80 صفحه`              |
-| ![](https://s32.picofile.com/file/8478581650/Indispensable.jpg)                                                      | مهره حیاتی               | `293 صفحه`             |
-| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1518194023i/8177701.jpg)   | نفحات نفت                | `230 صفحه`             |
-| ![](https://s32.picofile.com/file/8478581626/as_keteb.jpg)                                                           | از کتاب                  | `395 صفحه`             |
-| ![](https://s32.picofile.com/file/8478581634/design_your_life.jpg)                                                   | زندگی خود را طراحی کنید  | `260 صفحه`             |
-| ![](https://s32.picofile.com/file/8478581676/masir_shoghli.jpg)                                                      | مسیر شغلی                | `92 صفحه`              |
-| ![](https://s32.picofile.com/file/8478581692/shoghle_morede_alagheh.jpg)                                             | شغل مورد علاقه           | `170 صفحه`             |
-| ![](https://s32.picofile.com/file/8478581684/shib.jpg)                                                               | شیب                      | `65 صفحه`              |
-| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1459158688i/29635204.jpg)  | در ستایش بطالت           | `36 صفحه`              |
-| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1596902578i/54579528.jpg)  | در ستایش اتلاف وقت       | `102 صفحه`             |
-| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1709043680i/171942.jpg)    | بوف کور                  | `95 صفحه`              |
-| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1525192368i/13646602.jpg)  | میم و آن دیگران          | `166 صفحه`             |
+| ("![](" + cover + ")")                                                                                               | file.name                             | "`" + pages + " صفحه`" |
+| -------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | ---------------------- |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1477218519i/22050315.jpg)  | هفت روایت خصوصی از زندگی سید موسی صدر | `192 صفحه`             |
+| ![](https://s32.picofile.com/file/8478850484/mr_jicak.jpg)                                                           | مستر جیکاک                            | `136 صفحه`             |
+| ![](https://s32.picofile.com/file/8478794884/Visual_Hammer.jpg)                                                      | چکش بصری                              | `183 صفحه`             |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1512139215i/36696980.jpg)  | دروغ‌های مسلح                         | `344 صفحه`             |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1354312096i/15858089.jpg)  | The Sketchnote Handbook               | `224 صفحه`             |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1595319091i/54622169.jpg)  | دیگر اخبار نخوانید                    | `152 صفحه`             |
+| ![](https://s32.picofile.com/file/8478581668/khone_khoda.jpg)                                                        | خون خدا                               | `105 صفحه`             |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1508160297i/36422557.jpg)  | اتوپرتره                              | `92 صفحه`              |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1694938610i/162656853.jpg) | چرا ملت ها شکست میخورند؟              | `536 صفحه`             |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1700136134i/252025.jpg)    | ابن مشغله                             | `112 صفحه`             |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1715779752i/178539.jpg)    | نشت نشا                               | `80 صفحه`              |
+| ![](https://s32.picofile.com/file/8478581650/Indispensable.jpg)                                                      | مهره حیاتی                            | `293 صفحه`             |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1518194023i/8177701.jpg)   | نفحات نفت                             | `230 صفحه`             |
+| ![](https://s32.picofile.com/file/8478581626/as_keteb.jpg)                                                           | از کتاب                               | `395 صفحه`             |
+| ![](https://s32.picofile.com/file/8478581634/design_your_life.jpg)                                                   | زندگی خود را طراحی کنید               | `260 صفحه`             |
+| ![](https://s32.picofile.com/file/8478581676/masir_shoghli.jpg)                                                      | مسیر شغلی                             | `92 صفحه`              |
+| ![](https://s32.picofile.com/file/8478581692/shoghle_morede_alagheh.jpg)                                             | شغل مورد علاقه                        | `170 صفحه`             |
+| ![](https://s32.picofile.com/file/8478581684/shib.jpg)                                                               | شیب                                   | `65 صفحه`              |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1459158688i/29635204.jpg)  | در ستایش بطالت                        | `36 صفحه`              |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1596902578i/54579528.jpg)  | در ستایش اتلاف وقت                    | `102 صفحه`             |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1709043680i/171942.jpg)    | بوف کور                               | `95 صفحه`              |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1525192368i/13646602.jpg)  | میم و آن دیگران                       | `166 صفحه`             |
 <!-- SerializedQuery END -->
 
 ‌<br/>‌<br/>
@@ -213,7 +213,7 @@ cssclasses:
 
 | icon | count   | sum         |
 | ---- | ------- | ----------- |
-| 🎬   | 13 فیلم | `25.5 ساعت` |
+| 🎬   | 15 فیلم | `29.7 ساعت` |
 <!-- SerializedQuery END -->
 
 
@@ -230,7 +230,7 @@ cssclasses:
 
 | icon | count     | sum        |
 | ---- | --------- | ---------- |
-| 🎈   | 1 انیمیشن | `1.6 ساعت` |
+| 🎈   | 2 انیمیشن | `3.3 ساعت` |
 <!-- SerializedQuery END -->
 
 
@@ -250,6 +250,8 @@ cssclasses:
 
 | ("![](" + cover + ")")                                                                                                                  | file.name                | "`" + length.minute + " دقیقه`" |
 | --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ | ------------------------------- |
+| ![](https://m.media-amazon.com/images/M/MV5BODExZmE2ZWItYTIzOC00MzI1LTgyNTktMDBhNmFhY2Y4OTQ3XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg) | Dog Day Afternoon        | `125 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BODE0NTcxNTQzNF5BMl5BanBnXkFtZTcwMzczOTIzMw@@._V1_SX300.jpg)                                 | 310 to Yuma              | `122 دقیقه`                     |
 | ![](https://m.media-amazon.com/images/M/MV5BMjAyNTU5OTcxOV5BMl5BanBnXkFtZTcwMDEyNjM2MQ@@._V1_SX300.jpg)                                 | 21                       | `123 دقیقه`                     |
 | ![](https://m.media-amazon.com/images/M/MV5BM2M1MmVhNDgtNmI0YS00ZDNmLTkyNjctNTJiYTQ2N2NmYzc2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg) | Taxi Driver              | `114 دقیقه`                     |
 | ![](https://m.media-amazon.com/images/M/MV5BMzliZDk0NjctNjhlOC00MWEyLWI3OWYtNjA5ZDYxMTMzNTc5XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg) | The Big Lebowski         | `117 دقیقه`                     |
@@ -286,6 +288,7 @@ cssclasses:
 
 | ("![](" + cover + ")")                                                                                                                  | file.name  | "`" + round(length.hours) + " ساعت`" |
 | --------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ------------------------------------ |
+| ![](https://m.media-amazon.com/images/M/MV5BMzQxNjM5NzkxNV5BMl5BanBnXkFtZTcwMzg5NDMwMg@@._V1_SX300.jpg)                                 | Coraline   | `2 ساعت`                             |
 | ![](https://m.media-amazon.com/images/M/MV5BMGRkZThmYzEtYjQxZC00OWEzLThjYjAtYzFkMjY0NGZkZWI4XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg) | Persepolis | `2 ساعت`                             |
 <!-- SerializedQuery END -->
 
@@ -334,7 +337,9 @@ cssclasses:
 
 ## بخش دوم: ردیابی عادت
 
-### 🏋️‍♂️ ورزش
+
+### 🏋🏻 ورزش
+
 
 <div class="full">
 <!-- QueryToSerialize: TABLE "✅ " + length(filter(rows, (r) => r.🏋️‍♂️exercise = true)) + " روز ورزش کردم" as true, "❌ " + length(filter(rows, (r) => r.🏋️‍♂️exercise = false)) + " روز ورزش نکردم" as false FROM #journal WHERE file.name >= ("2024-03-20") AND file.name <= ("2025-03-20") GROUP BY "" -->
@@ -342,7 +347,7 @@ cssclasses:
 
 | "" | true                | false               |
 | -- | ------------------- | ------------------- |
-|    | ✅ 134 روز ورزش کردم | ❌ 43 روز ورزش نکردم |
+|    | ✅ 137 روز ورزش کردم | ❌ 43 روز ورزش نکردم |
 <!-- SerializedQuery END -->
 
 </div>
@@ -358,7 +363,7 @@ cssclasses:
 
 | Total            | Maximum         | Minimum        | Average           |
 | ---------------- | --------------- | -------------- | ----------------- |
-| 🔘 جمع کل: 222 پ | 🔺 بیشترین: 7 پ | 🔻 کمترین: 0 پ | 📈 میانگین: 1.3 پ |
+| 🔘 جمع کل: 227 پ | 🔺 بیشترین: 7 پ | 🔻 کمترین: 0 پ | 📈 میانگین: 1.3 پ |
 <!-- SerializedQuery END -->
 </div>
 
@@ -374,7 +379,7 @@ cssclasses:
 
 | Total               | Maximum            | Minimum             | Average              |
 | ------------------- | ------------------ | ------------------- | -------------------- |
-| 🔘 جمع کل: 290 ساعت | 🔺 بیشترین: 4 ساعت | 🔻 کمترین: 0.1 ساعت | 📈 میانگین: 1.6 ساعت |
+| 🔘 جمع کل: 293 ساعت | 🔺 بیشترین: 4 ساعت | 🔻 کمترین: 0.1 ساعت | 📈 میانگین: 1.6 ساعت |
 <!-- SerializedQuery END -->
 </div>
 

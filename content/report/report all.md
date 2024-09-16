@@ -12,6 +12,8 @@ cssclasses:
   - card-s
 ---
 
+
+
 ## در یک نگاه
 
 <div class="overview-3">
@@ -21,7 +23,7 @@ cssclasses:
 
 | icon | count       | sum          |
 | ---- | ----------- | ------------ |
-| 📚   | 48 جلد کتاب | `10487 صفحه` |
+| 📚   | 49 جلد کتاب | `10679 صفحه` |
 <!-- SerializedQuery END -->
 
 
@@ -41,7 +43,7 @@ cssclasses:
 
 | icon | count     | sum         |
 | ---- | --------- | ----------- |
-| 🎙   | 32 پادکست | `76.5 ساعت` |
+| 🎙   | 32 پادکست | `77.7 ساعت` |
 <!-- SerializedQuery END -->
 
 
@@ -57,9 +59,9 @@ cssclasses:
 <!-- QueryToSerialize: TABLE WITHOUT ID "🍿" as icon, length(rows) + " فیلم و سریال" as count, "`" + round(sum(rows.length.hours),1) + " ساعت`" as sum FROM #Movie WHERE rating !=null GROUP BY "" -->
 <!-- SerializedQuery: TABLE WITHOUT ID "🍿" as icon, length(rows) + " فیلم و سریال" as count, "`" + round(sum(rows.length.hours),1) + " ساعت`" as sum FROM #Movie WHERE rating !=null GROUP BY "" -->
 
-| icon | count            | sum          |
-| ---- | ---------------- | ------------ |
-| 🍿   | 155 فیلم و سریال | `799.9 ساعت` |
+| icon | count            | sum        |
+| ---- | ---------------- | ---------- |
+| 🍿   | 157 فیلم و سریال | `804 ساعت` |
 <!-- SerializedQuery END -->
 
 
@@ -82,6 +84,7 @@ cssclasses:
 
 | ("![](" + cover + ")")                                                                                                                                            | file.name                                          | "`" + pages + " صفحه`" |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- | ---------------------- |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1477218519i/22050315.jpg)                                               | هفت روایت خصوصی از زندگی سید موسی صدر              | `192 صفحه`             |
 | ![](https://s32.picofile.com/file/8478850484/mr_jicak.jpg)                                                                                                        | مستر جیکاک                                         | `136 صفحه`             |
 | ![](https://s32.picofile.com/file/8478794884/Visual_Hammer.jpg)                                                                                                   | چکش بصری                                           | `183 صفحه`             |
 | ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1512139215i/36696980.jpg)                                               | دروغ‌های مسلح                                      | `344 صفحه`             |
@@ -182,7 +185,7 @@ cssclasses:
 
 | ("![](" + cover + ")")                                                                                                                                     | file.name                              | "`" + length.minute + " دقیقه`" |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- | ------------------------------- |
-| ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/amirmousavi_yprnuq.jpg)                                                                      | گفتگو با امیر موسوی تور لیدر           | `60 دقیقه`                      |
+| ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/amirmousavi_yprnuq.jpg)                                                                      | گفتگو با امیر موسوی تور لیدر           | `128 دقیقه`                     |
 | ![](https://assets.pippa.io/shows/623ee6e745754c001233a890/1714562705175-493bcfd80fd419fd3ac250ec8eb4aeee.jpeg)                                            | حسین کلهر                              | `70 دقیقه`                      |
 | ![](https://assets.pippa.io/shows/623ee6e745754c001233a890/1723832715268-786aa403-420d-4f81-a6e5-ea92f8349905.jpeg)                                        | درباره‌ی جادی                          | `115 دقیقه`                     |
 | ![](https://s32.picofile.com/file/8478577776/%D8%AC%D8%A7%D9%81%DA%A9%D8%B1%DB%8C_%D9%81%D8%B5%D9%84_20.jpg)                                               | جافکری فصل 20                          | `143 دقیقه`                     |
@@ -200,8 +203,8 @@ cssclasses:
 | ![](https://s3.castbox.fm/8b/a4/6b/c98e8fe7297860325375927ba84fcbd45c_scaled_v1_400.jpg)                                                                   | گفت و گو با محمدرضا شعبانعلی           | `320 دقیقه`                     |
 | ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/_-_-__jbzrzh.jpg)                                                                            | گفت و گو با هادی شجاری                 | `128 دقیقه`                     |
 | ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/photo_2022-10-04_22-40-58_9qsqgk.jpg)                                                        | گفت و گو با پوریا عالمی                | `180 دقیقه`                     |
-| ![](https://s3.castbox.fm/c8/00/6e/34b30664ce6fea0eda96b92f3be28bce66_scaled_v1_400.jpg)                                                                   | گفت و گو با نیما قاضی                  | `225 دقیقه`                     |
 | ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/1_ge2up5.jpg)                                                                                | گفت و گو با مصطفی الهیاری              | `148 دقیقه`                     |
+| ![](https://s3.castbox.fm/c8/00/6e/34b30664ce6fea0eda96b92f3be28bce66_scaled_v1_400.jpg)                                                                   | گفت و گو با نیما قاضی                  | `225 دقیقه`                     |
 | ![](https://s32.picofile.com/file/8478578350/%D8%A7%D8%B3%D8%A8_%D8%AA%D8%A7%D8%B1%DB%8C%DA%A9.jpg)                                                        | بحثی درباره‌ی کتاب اسب تاریک           | `80 دقیقه`                      |
 | ![](https://s3.castbox.fm/a6/ab/97/c7af0b443edb047897cf099a8c5cdc7aa5_scaled_v1_400.jpg)                                                                   | گفت و گو با حامد بیدی                  | `146 دقیقه`                     |
 | ![](https://s32.picofile.com/file/8478577750/%D8%AC%D8%A7%D9%81%DA%A9%D8%B1%DB%8C_%D9%81%D8%B5%D9%84_15.jpg)                                               | جافکری فصل 15                          | `290 دقیقه`                     |
@@ -228,8 +231,8 @@ cssclasses:
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------- |
 | ![](https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/9e003b0a822daba702608136e73f7be001b6b2f2_2880x1620.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82w=640)                            | تاریخ بصری دانش بشر                                                       | `13 دقیقه`                      |
 | ![](https://s32.picofile.com/file/8478604018/entekhabat.jpg)                                                                                                                                               | آدمیزاد و انتخاب                                                          | `240 دقیقه`                     |
-| ![](https://s32.picofile.com/file/8478603950/amirkhani.jpg)                                                                                                                                                | گفت و گوی میلاد دخانچی و رضا امیرخانی - آینده سیاسی ایران و مسئله جانشینی | `93 دقیقه`                      |
 | ![](https://static.cdn.asset.aparat.com/avt/43530379-2965-b__6265.jpg)                                                                                                                                     | گفت و گوی ملکیان و مکری - مسئله اراده و جبر                               | `105 دقیقه`                     |
+| ![](https://s32.picofile.com/file/8478603950/amirkhani.jpg)                                                                                                                                                | گفت و گوی میلاد دخانچی و رضا امیرخانی - آینده سیاسی ایران و مسئله جانشینی | `93 دقیقه`                      |
 | ![](https://static.cdn.asset.aparat.cloud/avt/58975576-9466-l__8149.jpg?width=900&quality=90&secret=pzo294U3PY-dnGDjwvRVHA)                                                                                | وبینار نویسنده کارآفرین                                                   | `65 دقیقه`                      |
 | ![](https://s32.picofile.com/file/8478604084/design.jpg)                                                                                                                                                   | قوانین دیزاین                                                             | `80 دقیقه`                      |
 | ![](https://s32.picofile.com/file/8478604000/draw.jpg)                                                                                                                                                     | چگونه نقاشی بکشیم تا بیشتر به خاطر بسپاریم                                | `16 دقیقه`                      |
@@ -261,7 +264,7 @@ cssclasses:
 
 | icon | count   | sum          |
 | ---- | ------- | ------------ |
-| 🎬   | 82 فیلم | `183.9 ساعت` |
+| 🎬   | 84 فیلم | `188.1 ساعت` |
 <!-- SerializedQuery END -->
 
 
@@ -278,7 +281,7 @@ cssclasses:
 
 | icon | count     | sum         |
 | ---- | --------- | ----------- |
-| 🎈   | 7 انیمیشن | `11.8 ساعت` |
+| 🎈   | 8 انیمیشن | `13.5 ساعت` |
 <!-- SerializedQuery END -->
 
 
@@ -299,6 +302,8 @@ cssclasses:
 
 | ("![](" + cover + ")")                                                                                                                          | file.name                             | "`" + length.minute + " دقیقه`" |
 | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | ------------------------------- |
+| ![](https://m.media-amazon.com/images/M/MV5BODExZmE2ZWItYTIzOC00MzI1LTgyNTktMDBhNmFhY2Y4OTQ3XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg)         | Dog Day Afternoon                     | `125 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BODE0NTcxNTQzNF5BMl5BanBnXkFtZTcwMzczOTIzMw@@._V1_SX300.jpg)                                         | 310 to Yuma                           | `122 دقیقه`                     |
 | ![](https://m.media-amazon.com/images/M/MV5BMjAyNTU5OTcxOV5BMl5BanBnXkFtZTcwMDEyNjM2MQ@@._V1_SX300.jpg)                                         | 21                                    | `123 دقیقه`                     |
 | ![](https://m.media-amazon.com/images/M/MV5BM2M1MmVhNDgtNmI0YS00ZDNmLTkyNjctNTJiYTQ2N2NmYzc2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg)         | Taxi Driver                           | `114 دقیقه`                     |
 | ![](https://m.media-amazon.com/images/M/MV5BMzliZDk0NjctNjhlOC00MWEyLWI3OWYtNjA5ZDYxMTMzNTc5XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg)         | The Big Lebowski                      | `117 دقیقه`                     |
@@ -423,6 +428,7 @@ cssclasses:
 
 | ("![](" + cover + ")")                                                                                                                  | file.name   | "`" + round(length.hours) + " ساعت`" |
 | --------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ------------------------------------ |
+| ![](https://m.media-amazon.com/images/M/MV5BMzQxNjM5NzkxNV5BMl5BanBnXkFtZTcwMzg5NDMwMg@@._V1_SX300.jpg)                                 | Coraline    | `2 ساعت`                             |
 | ![](https://m.media-amazon.com/images/M/MV5BMGRkZThmYzEtYjQxZC00OWEzLThjYjAtYzFkMjY0NGZkZWI4XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg) | Persepolis  | `2 ساعت`                             |
 | ![](https://m.media-amazon.com/images/M/MV5BZTQyNTU0MDktYTFkYi00ZjNhLWE2ODctMzBkM2U1ZTk3YTMzXkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_SX300.jpg) | Luca        | `2 ساعت`                             |
 | ![](https://m.media-amazon.com/images/M/MV5BZGE1MDg5M2MtNTkyZS00MTY5LTg1YzUtZTlhZmM1Y2EwNmFmXkEyXkFqcGdeQXVyNjA3OTI0MDc@._V1_SX300.jpg) | Soul        | `2 ساعت`                             |
@@ -509,8 +515,8 @@ cssclasses:
 | ![](https://s32.picofile.com/file/8478551868/%D9%84%D8%A7%D8%AA%D8%A7%D8%B1%DB%8C%D9%86%D9%88.jpg)                                                          | لاتارینو                  | `76 دقیقه`                      |
 | ![](https://s32.picofile.com/file/8478551876/%D8%AC%D9%88%D8%A7%D9%86_%D9%85%D8%B1%DA%AF.jpg)                                                               | جوان مرگ                  | `86 دقیقه`                      |
 | ![](https://s32.picofile.com/file/8478551900/%D8%A8%D8%B1%D8%A7%DB%8C_%D9%BE%D8%B3_%D8%A7%D8%B2_%D9%85%D8%B1%DA%AF%D9%85.jpg)                               | برای پس از مرگم           | `70 دقیقه`                      |
-| ![](https://s32.picofile.com/file/8478552126/%DA%A9%D9%88%D8%AF%D8%AA%D8%A7%DB%8C_%D8%AE%D8%B2%D9%86%D8%AF%D9%87_%D8%AF%D8%B1_%D8%B3%D9%BE%D8%A7%D9%87.jpg) | کودتای خزنده در سپاه      | `47 دقیقه`                      |
 | ![](https://s32.picofile.com/file/8478551884/%D9%82%D9%85%D8%A7%D8%B1.jpg)                                                                                  | قمار                      | `75 دقیقه`                      |
+| ![](https://s32.picofile.com/file/8478552126/%DA%A9%D9%88%D8%AF%D8%AA%D8%A7%DB%8C_%D8%AE%D8%B2%D9%86%D8%AF%D9%87_%D8%AF%D8%B1_%D8%B3%D9%BE%D8%A7%D9%87.jpg) | کودتای خزنده در سپاه      | `47 دقیقه`                      |
 | ![](https://s32.picofile.com/file/8478552118/%D8%AC%D8%A7%D9%85_%D8%B2%D9%87%D8%B1.jpg)                                                                     | جام زهر                   | `56 دقیقه`                      |
 | ![](https://s32.picofile.com/file/8478552100/%D8%A8%D9%87%D8%AA%D8%A7%D9%86_%D8%A8%D8%B1%D8%A7%DB%8C_%D8%AD%D9%81%D8%B8_%D9%86%D8%B8%D8%A7%D9%85.jpg)       | بهتان برای حفظ نظام       | `150 دقیقه`                     |
 | ![](https://s32.picofile.com/file/8478551842/%D8%A7%D8%AA%D8%A7%D9%82_%D8%AC%D9%86%DA%AF.jpg)                                                               | اتاق جنگ                  | `86 دقیقه`                      |

@@ -10,6 +10,8 @@ cssclasses:
   - c-3
   - c16-9
 ---
+
+
 <style>
 	.giscus {
 		display: none;
@@ -26,7 +28,7 @@ cssclasses:
 | ![[img/cover-install.svg\|cover-install.svg]]            | [[obsidian install\|آموزش نصب و راه اندازی نرم افزار ابسیدین]]     |
 | ![[img/cover-habit.svg\|cover-habit.svg]]                | [[habit tracker in obsidian\|ساخت هبیت ترکر در نرم افزار ابسیدین]] |
 | ![[img/cover-publish.svg\|cover-publish.svg]]            | [[obsidian publish\|انتشار رایگان یادداشت‌های ابسیدین]]            |
-| ![[img/ollama.svg\|ollama.svg]]                          | [[ollama in obsidian\|استفاده از مدل‌های اولاما در ابسیدین]]       |
+| ![[img/ollama.svg\|ollama.svg]]                          | [[ollama in obsidian\|راهنمای استفاده از Ollama در ابسیدین]]       |
 | ![[img/cover-quartz.webp\|cover-quartz.webp]]            | [[quartz configuration\|تنظیمات من برای کوارتز]]                   |
 | ![[img/cover-dataview.png\|cover-dataview.png]]          | [[dataview plugin\|نمونه های کاربردی پلاگین دیتاویو]]              |
 | ![[noimage.svg\|noimage.svg]]                            | [[add remove properties\|حذف و اضافه دسته جمعی پراپرتی]]           |
