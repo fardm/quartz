@@ -8,7 +8,8 @@ status: 🍂 زودگذر
 parent: 
 hierarchy: 
 image: 
-tags: 
+tags:
+  - AI
 description: 
 number headings: first-level 1, max 6, 1.1
 ---
