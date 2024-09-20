@@ -17,6 +17,7 @@ cssclasses:
 
 <br/>
 
+
 ## در یک نگاه
 
 <br/>
@@ -64,7 +65,7 @@ cssclasses:
 
 | icon | count           | sum         |
 | ---- | --------------- | ----------- |
-| 🍿   | 35 فیلم و سریال | `87.1 ساعت` |
+| 🍿   | 36 فیلم و سریال | `88.7 ساعت` |
 <!-- SerializedQuery END -->
 
 
@@ -82,7 +83,7 @@ cssclasses:
 
 | icon   | "`" + length(filter(rows, (r) => r.🏋️‍♂️exercise = true)) + " روز`" | "ورزش کردم" |
 | ------ | -------------------------------------------------------------------- | ----------- |
-| 🏋️‍♂️ | `137 روز`                                                            | ورزش کردم   |
+| 🏋️‍♂️ | `141 روز`                                                            | ورزش کردم   |
 <!-- SerializedQuery END -->
 
 
@@ -100,7 +101,7 @@ cssclasses:
 
 | icon | "`" + round(sum(rows.📱social)) + " ساعت`" | "در سوشال‌مدیا بودم" |
 | ---- | ------------------------------------------ | -------------------- |
-| 📱   | `293 ساعت`                                 | در سوشال‌مدیا بودم   |
+| 📱   | `295 ساعت`                                 | در سوشال‌مدیا بودم   |
 <!-- SerializedQuery END -->
 
 
@@ -197,8 +198,8 @@ cssclasses:
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------- |
 | ![](https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/9e003b0a822daba702608136e73f7be001b6b2f2_2880x1620.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82w=640) | تاریخ بصری دانش بشر                                                       | `13 دقیقه`                      |
 | ![](https://s32.picofile.com/file/8478604018/entekhabat.jpg)                                                                                                                    | آدمیزاد و انتخاب                                                          | `240 دقیقه`                     |
-| ![](https://static.cdn.asset.aparat.com/avt/43530379-2965-b__6265.jpg)                                                                                                          | گفت و گوی ملکیان و مکری - مسئله اراده و جبر                               | `105 دقیقه`                     |
 | ![](https://s32.picofile.com/file/8478603950/amirkhani.jpg)                                                                                                                     | گفت و گوی میلاد دخانچی و رضا امیرخانی - آینده سیاسی ایران و مسئله جانشینی | `93 دقیقه`                      |
+| ![](https://static.cdn.asset.aparat.com/avt/43530379-2965-b__6265.jpg)                                                                                                          | گفت و گوی ملکیان و مکری - مسئله اراده و جبر                               | `105 دقیقه`                     |
 | ![](https://static.cdn.asset.aparat.cloud/avt/58975576-9466-l__8149.jpg?width=900&quality=90&secret=pzo294U3PY-dnGDjwvRVHA)                                                     | وبینار نویسنده کارآفرین                                                   | `65 دقیقه`                      |
 <!-- SerializedQuery END -->
 
@@ -230,7 +231,7 @@ cssclasses:
 
 | icon | count     | sum        |
 | ---- | --------- | ---------- |
-| 🎈   | 2 انیمیشن | `3.3 ساعت` |
+| 🎈   | 3 انیمیشن | `4.9 ساعت` |
 <!-- SerializedQuery END -->
 
 
@@ -283,13 +284,14 @@ cssclasses:
 
 #### انیمیشن
 
-<!-- QueryToSerialize: table without id ("![](" + cover + ")"), file.name, "`" + round(length.hours) + " ساعت`" FROM #Movie WHERE type = "animation" AND date >= date("2024-03-20") AND date <= date("2025-03-20") SORT date DESC -->
-<!-- SerializedQuery: table without id ("![](" + cover + ")"), file.name, "`" + round(length.hours) + " ساعت`" FROM #Movie WHERE type = "animation" AND date >= date("2024-03-20") AND date <= date("2025-03-20") SORT date DESC -->
+<!-- QueryToSerialize: table without id ("![](" + cover + ")"), file.name, "`" + length.minute + " دقیقه`" FROM #Movie WHERE type = "animation" AND date >= date("2024-03-20") AND date <= date("2025-03-20") SORT date DESC -->
+<!-- SerializedQuery: table without id ("![](" + cover + ")"), file.name, "`" + length.minute + " دقیقه`" FROM #Movie WHERE type = "animation" AND date >= date("2024-03-20") AND date <= date("2025-03-20") SORT date DESC -->
 
-| ("![](" + cover + ")")                                                                                                                  | file.name  | "`" + round(length.hours) + " ساعت`" |
-| --------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ------------------------------------ |
-| ![](https://m.media-amazon.com/images/M/MV5BMzQxNjM5NzkxNV5BMl5BanBnXkFtZTcwMzg5NDMwMg@@._V1_SX300.jpg)                                 | Coraline   | `2 ساعت`                             |
-| ![](https://m.media-amazon.com/images/M/MV5BMGRkZThmYzEtYjQxZC00OWEzLThjYjAtYzFkMjY0NGZkZWI4XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg) | Persepolis | `2 ساعت`                             |
+| ("![](" + cover + ")")                                                                                                                  | file.name    | "`" + length.minute + " دقیقه`" |
+| --------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------- |
+| ![](https://m.media-amazon.com/images/M/MV5BYTc1MDQ3NjAtOWEzMi00YzE1LWI2OWUtNjQ0OWJkMzI3MDhmXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg) | Inside Out 2 | `96 دقیقه`                      |
+| ![](https://m.media-amazon.com/images/M/MV5BMzQxNjM5NzkxNV5BMl5BanBnXkFtZTcwMzg5NDMwMg@@._V1_SX300.jpg)                                 | Coraline     | `100 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMGRkZThmYzEtYjQxZC00OWEzLThjYjAtYzFkMjY0NGZkZWI4XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg) | Persepolis   | `96 دقیقه`                      |
 <!-- SerializedQuery END -->
 
 ‌<br/>‌<br/>
@@ -347,7 +349,7 @@ cssclasses:
 
 | "" | true                | false               |
 | -- | ------------------- | ------------------- |
-|    | ✅ 137 روز ورزش کردم | ❌ 43 روز ورزش نکردم |
+|    | ✅ 141 روز ورزش کردم | ❌ 44 روز ورزش نکردم |
 <!-- SerializedQuery END -->
 
 </div>
@@ -363,7 +365,7 @@ cssclasses:
 
 | Total            | Maximum         | Minimum        | Average           |
 | ---------------- | --------------- | -------------- | ----------------- |
-| 🔘 جمع کل: 227 پ | 🔺 بیشترین: 7 پ | 🔻 کمترین: 0 پ | 📈 میانگین: 1.3 پ |
+| 🔘 جمع کل: 227 پ | 🔺 بیشترین: 7 پ | 🔻 کمترین: 0 پ | 📈 میانگین: 1.2 پ |
 <!-- SerializedQuery END -->
 </div>
 
@@ -379,7 +381,7 @@ cssclasses:
 
 | Total               | Maximum            | Minimum             | Average              |
 | ------------------- | ------------------ | ------------------- | -------------------- |
-| 🔘 جمع کل: 293 ساعت | 🔺 بیشترین: 4 ساعت | 🔻 کمترین: 0.1 ساعت | 📈 میانگین: 1.6 ساعت |
+| 🔘 جمع کل: 295 ساعت | 🔺 بیشترین: 4 ساعت | 🔻 کمترین: 0.1 ساعت | 📈 میانگین: 1.6 ساعت |
 <!-- SerializedQuery END -->
 </div>
 

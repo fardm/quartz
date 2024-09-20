@@ -59,9 +59,9 @@ cssclasses:
 <!-- QueryToSerialize: TABLE WITHOUT ID "🍿" as icon, length(rows) + " فیلم و سریال" as count, "`" + round(sum(rows.length.hours),1) + " ساعت`" as sum FROM #Movie WHERE rating !=null GROUP BY "" -->
 <!-- SerializedQuery: TABLE WITHOUT ID "🍿" as icon, length(rows) + " فیلم و سریال" as count, "`" + round(sum(rows.length.hours),1) + " ساعت`" as sum FROM #Movie WHERE rating !=null GROUP BY "" -->
 
-| icon | count            | sum        |
-| ---- | ---------------- | ---------- |
-| 🍿   | 157 فیلم و سریال | `804 ساعت` |
+| icon | count            | sum          |
+| ---- | ---------------- | ------------ |
+| 🍿   | 159 فیلم و سریال | `807.3 ساعت` |
 <!-- SerializedQuery END -->
 
 
@@ -172,8 +172,8 @@ cssclasses:
 | ![](https://s32.picofile.com/file/8478596692/masir_asli.jpg)              | فایل صوتی افزایش عزت نفس - مسیر اصلی  | `3 ساعت`                             |
 | ![](https://s32.picofile.com/file/8478596734/photophan.jpg)               | فوتوفن - آموزش نرم افزار فتوشاپ       | `40 ساعت`                            |
 | ![](https://s32.picofile.com/file/8478596400/doketab_asl.png)             | دوکتاب اصل گرایی                      | `12 ساعت`                            |
-| ![](https://s32.picofile.com/file/8478596518/ensan6.jpg)                  | روایت انسان (فصل 6)                   | `15 ساعت`                            |
 | ![](https://s32.picofile.com/file/8478596492/ensan5.jpg)                  | روایت انسان (فصل 5)                   | `15 ساعت`                            |
+| ![](https://s32.picofile.com/file/8478596518/ensan6.jpg)                  | روایت انسان (فصل 6)                   | `15 ساعت`                            |
 <!-- SerializedQuery END -->
 
 ‌<br/>‌<br/>
@@ -203,8 +203,8 @@ cssclasses:
 | ![](https://s3.castbox.fm/8b/a4/6b/c98e8fe7297860325375927ba84fcbd45c_scaled_v1_400.jpg)                                                                   | گفت و گو با محمدرضا شعبانعلی           | `320 دقیقه`                     |
 | ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/_-_-__jbzrzh.jpg)                                                                            | گفت و گو با هادی شجاری                 | `128 دقیقه`                     |
 | ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/photo_2022-10-04_22-40-58_9qsqgk.jpg)                                                        | گفت و گو با پوریا عالمی                | `180 دقیقه`                     |
-| ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/1_ge2up5.jpg)                                                                                | گفت و گو با مصطفی الهیاری              | `148 دقیقه`                     |
 | ![](https://s3.castbox.fm/c8/00/6e/34b30664ce6fea0eda96b92f3be28bce66_scaled_v1_400.jpg)                                                                   | گفت و گو با نیما قاضی                  | `225 دقیقه`                     |
+| ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/1_ge2up5.jpg)                                                                                | گفت و گو با مصطفی الهیاری              | `148 دقیقه`                     |
 | ![](https://s32.picofile.com/file/8478578350/%D8%A7%D8%B3%D8%A8_%D8%AA%D8%A7%D8%B1%DB%8C%DA%A9.jpg)                                                        | بحثی درباره‌ی کتاب اسب تاریک           | `80 دقیقه`                      |
 | ![](https://s3.castbox.fm/a6/ab/97/c7af0b443edb047897cf099a8c5cdc7aa5_scaled_v1_400.jpg)                                                                   | گفت و گو با حامد بیدی                  | `146 دقیقه`                     |
 | ![](https://s32.picofile.com/file/8478577750/%D8%AC%D8%A7%D9%81%DA%A9%D8%B1%DB%8C_%D9%81%D8%B5%D9%84_15.jpg)                                               | جافکری فصل 15                          | `290 دقیقه`                     |
@@ -231,8 +231,8 @@ cssclasses:
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------- |
 | ![](https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/9e003b0a822daba702608136e73f7be001b6b2f2_2880x1620.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82w=640)                            | تاریخ بصری دانش بشر                                                       | `13 دقیقه`                      |
 | ![](https://s32.picofile.com/file/8478604018/entekhabat.jpg)                                                                                                                                               | آدمیزاد و انتخاب                                                          | `240 دقیقه`                     |
-| ![](https://static.cdn.asset.aparat.com/avt/43530379-2965-b__6265.jpg)                                                                                                                                     | گفت و گوی ملکیان و مکری - مسئله اراده و جبر                               | `105 دقیقه`                     |
 | ![](https://s32.picofile.com/file/8478603950/amirkhani.jpg)                                                                                                                                                | گفت و گوی میلاد دخانچی و رضا امیرخانی - آینده سیاسی ایران و مسئله جانشینی | `93 دقیقه`                      |
+| ![](https://static.cdn.asset.aparat.com/avt/43530379-2965-b__6265.jpg)                                                                                                                                     | گفت و گوی ملکیان و مکری - مسئله اراده و جبر                               | `105 دقیقه`                     |
 | ![](https://static.cdn.asset.aparat.cloud/avt/58975576-9466-l__8149.jpg?width=900&quality=90&secret=pzo294U3PY-dnGDjwvRVHA)                                                                                | وبینار نویسنده کارآفرین                                                   | `65 دقیقه`                      |
 | ![](https://s32.picofile.com/file/8478604084/design.jpg)                                                                                                                                                   | قوانین دیزاین                                                             | `80 دقیقه`                      |
 | ![](https://s32.picofile.com/file/8478604000/draw.jpg)                                                                                                                                                     | چگونه نقاشی بکشیم تا بیشتر به خاطر بسپاریم                                | `16 دقیقه`                      |
@@ -281,7 +281,7 @@ cssclasses:
 
 | icon | count     | sum         |
 | ---- | --------- | ----------- |
-| 🎈   | 8 انیمیشن | `13.5 ساعت` |
+| 🎈   | 9 انیمیشن | `15.1 ساعت` |
 <!-- SerializedQuery END -->
 
 
@@ -421,21 +421,23 @@ cssclasses:
 <!-- SerializedQuery END -->
 
 ‌<br/>‌<br/>
+
 ### انیمیشن
 
-<!-- QueryToSerialize: table without id ("![](" + cover + ")"), file.name, "`" + round(length.hours) + " ساعت`" FROM #Movie WHERE type = "animation" SORT date DESC -->
-<!-- SerializedQuery: table without id ("![](" + cover + ")"), file.name, "`" + round(length.hours) + " ساعت`" FROM #Movie WHERE type = "animation" SORT date DESC -->
+<!-- QueryToSerialize: table without id ("![](" + cover + ")"), file.name, "`" + length.minute + " دقیقه`" FROM #Movie WHERE type = "animation" SORT date DESC -->
+<!-- SerializedQuery: table without id ("![](" + cover + ")"), file.name, "`" + length.minute + " دقیقه`" FROM #Movie WHERE type = "animation" SORT date DESC -->
 
-| ("![](" + cover + ")")                                                                                                                  | file.name   | "`" + round(length.hours) + " ساعت`" |
-| --------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ------------------------------------ |
-| ![](https://m.media-amazon.com/images/M/MV5BMzQxNjM5NzkxNV5BMl5BanBnXkFtZTcwMzg5NDMwMg@@._V1_SX300.jpg)                                 | Coraline    | `2 ساعت`                             |
-| ![](https://m.media-amazon.com/images/M/MV5BMGRkZThmYzEtYjQxZC00OWEzLThjYjAtYzFkMjY0NGZkZWI4XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg) | Persepolis  | `2 ساعت`                             |
-| ![](https://m.media-amazon.com/images/M/MV5BZTQyNTU0MDktYTFkYi00ZjNhLWE2ODctMzBkM2U1ZTk3YTMzXkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_SX300.jpg) | Luca        | `2 ساعت`                             |
-| ![](https://m.media-amazon.com/images/M/MV5BZGE1MDg5M2MtNTkyZS00MTY5LTg1YzUtZTlhZmM1Y2EwNmFmXkEyXkFqcGdeQXVyNjA3OTI0MDc@._V1_SX300.jpg) | Soul        | `2 ساعت`                             |
-| ![](https://m.media-amazon.com/images/M/MV5BMTMzODU0NTkxMF5BMl5BanBnXkFtZTcwMjQ4MzMzMw@@._V1_SX300.jpg)                                 | Ratatouille | `2 ساعت`                             |
-| ![](https://m.media-amazon.com/images/M/MV5BOTMyMjEyNzIzMV5BMl5BanBnXkFtZTgwNzIyNjU0NzE@._V1_SX300.jpg)                                 | Zootopia    | `2 ساعت`                             |
-| ![](https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_SX300.jpg) | Coco        | `2 ساعت`                             |
-| ![](https://m.media-amazon.com/images/M/MV5BOTgxMDQwMDk0OF5BMl5BanBnXkFtZTgwNjU5OTg2NDE@._V1_SX300.jpg)                                 | Inside Out  | `2 ساعت`                             |
+| ("![](" + cover + ")")                                                                                                                  | file.name    | "`" + length.minute + " دقیقه`" |
+| --------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------- |
+| ![](https://m.media-amazon.com/images/M/MV5BYTc1MDQ3NjAtOWEzMi00YzE1LWI2OWUtNjQ0OWJkMzI3MDhmXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg) | Inside Out 2 | `96 دقیقه`                      |
+| ![](https://m.media-amazon.com/images/M/MV5BMzQxNjM5NzkxNV5BMl5BanBnXkFtZTcwMzg5NDMwMg@@._V1_SX300.jpg)                                 | Coraline     | `100 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMGRkZThmYzEtYjQxZC00OWEzLThjYjAtYzFkMjY0NGZkZWI4XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg) | Persepolis   | `96 دقیقه`                      |
+| ![](https://m.media-amazon.com/images/M/MV5BZTQyNTU0MDktYTFkYi00ZjNhLWE2ODctMzBkM2U1ZTk3YTMzXkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_SX300.jpg) | Luca         | `95 دقیقه`                      |
+| ![](https://m.media-amazon.com/images/M/MV5BZGE1MDg5M2MtNTkyZS00MTY5LTg1YzUtZTlhZmM1Y2EwNmFmXkEyXkFqcGdeQXVyNjA3OTI0MDc@._V1_SX300.jpg) | Soul         | `100 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMTMzODU0NTkxMF5BMl5BanBnXkFtZTcwMjQ4MzMzMw@@._V1_SX300.jpg)                                 | Ratatouille  | `111 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BOTMyMjEyNzIzMV5BMl5BanBnXkFtZTgwNzIyNjU0NzE@._V1_SX300.jpg)                                 | Zootopia     | `108 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_SX300.jpg) | Coco         | `105 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BOTgxMDQwMDk0OF5BMl5BanBnXkFtZTgwNjU5OTg2NDE@._V1_SX300.jpg)                                 | Inside Out   | `95 دقیقه`                      |
 <!-- SerializedQuery END -->
 
 ‌<br/>‌<br/>
@@ -470,8 +472,8 @@ cssclasses:
 | ![](https://m.media-amazon.com/images/M/MV5BNTk2MjhlNTAtYmI3Yi00ZGRlLTgxMTQtZWU1Zjg2M2NmZTdiXkEyXkFqcGdeQXVyMjI1NzEwNg@@._V1_SX300.jpg)                 | Scrambled                              | `7 دقیقه`                       |
 | ![](https://m.media-amazon.com/images/M/MV5BNmIyNmE4Y2MtNDUxMS00ZjQyLThkNDItMmMwMTNiNDk1NzQ0XkEyXkFqcGdeQXVyMTA5MTg3NzY@._V1_SX300.jpg)                 | Leaving Home                           | `7 دقیقه`                       |
 | ![](https://m.media-amazon.com/images/M/MV5BMDM2ZGI2YzQtYjRlYS00MmM3LThmYjktNWZkMzQ5NDRlYjdiXkEyXkFqcGdeQXVyNzMwOTY2NTI@._V1_SX300.jpg)                 | Kutoja                                 | `7 دقیقه`                       |
-| ![](https://m.media-amazon.com/images/M/MV5BZGI4MWFhYzEtY2NlMi00ZWIzLTkwNjQtN2RlYWEzODI5NTY5XkEyXkFqcGdeQXVyOTQ4MDE3MDQ@._V1_SX300.jpg)                 | Benigni                                | `8 دقیقه`                       |
 | ![](https://m.media-amazon.com/images/M/MV5BN2EzY2JkM2EtODk2NC00MWIyLWFkYWMtNjk2N2ZjODg1ZjZjXkEyXkFqcGdeQXVyOTg3MjcwMjg@._V1_SX300.jpg)                 | An Object at Rest                      | `6 دقیقه`                       |
+| ![](https://m.media-amazon.com/images/M/MV5BZGI4MWFhYzEtY2NlMi00ZWIzLTkwNjQtN2RlYWEzODI5NTY5XkEyXkFqcGdeQXVyOTQ4MDE3MDQ@._V1_SX300.jpg)                 | Benigni                                | `8 دقیقه`                       |
 | ![](https://m.media-amazon.com/images/M/MV5BOTQwNDcyZjUtMmZhNi00MmYwLWEwNGYtYjU2NGE1OGJiOWY0XkEyXkFqcGdeQXVyNzMwOTY2NTI@._V1_SX300.jpg)                 | Alarm                                  | `9 دقیقه`                       |
 | ![](https://m.media-amazon.com/images/M/MV5BNDY2NzBiZjQtODFmYi00Y2JkLTliNjAtYTQxNDMxNTEzNDFhXkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_SX300.jpg)                 | Purl                                   | `8 دقیقه`                       |
 | ![](https://m.media-amazon.com/images/M/MV5BOWMzMDcxNjAtYTk5OC00ZTUyLTgxMGQtYmM3M2E5MWM5YzAxXkEyXkFqcGdeQXVyMzM4NjcxOTc@._V1_SX300.jpg)                 | Runaway                                | `4 دقیقه`                       |
@@ -515,8 +517,8 @@ cssclasses:
 | ![](https://s32.picofile.com/file/8478551868/%D9%84%D8%A7%D8%AA%D8%A7%D8%B1%DB%8C%D9%86%D9%88.jpg)                                                          | لاتارینو                  | `76 دقیقه`                      |
 | ![](https://s32.picofile.com/file/8478551876/%D8%AC%D9%88%D8%A7%D9%86_%D9%85%D8%B1%DA%AF.jpg)                                                               | جوان مرگ                  | `86 دقیقه`                      |
 | ![](https://s32.picofile.com/file/8478551900/%D8%A8%D8%B1%D8%A7%DB%8C_%D9%BE%D8%B3_%D8%A7%D8%B2_%D9%85%D8%B1%DA%AF%D9%85.jpg)                               | برای پس از مرگم           | `70 دقیقه`                      |
-| ![](https://s32.picofile.com/file/8478551884/%D9%82%D9%85%D8%A7%D8%B1.jpg)                                                                                  | قمار                      | `75 دقیقه`                      |
 | ![](https://s32.picofile.com/file/8478552126/%DA%A9%D9%88%D8%AF%D8%AA%D8%A7%DB%8C_%D8%AE%D8%B2%D9%86%D8%AF%D9%87_%D8%AF%D8%B1_%D8%B3%D9%BE%D8%A7%D9%87.jpg) | کودتای خزنده در سپاه      | `47 دقیقه`                      |
+| ![](https://s32.picofile.com/file/8478551884/%D9%82%D9%85%D8%A7%D8%B1.jpg)                                                                                  | قمار                      | `75 دقیقه`                      |
 | ![](https://s32.picofile.com/file/8478552118/%D8%AC%D8%A7%D9%85_%D8%B2%D9%87%D8%B1.jpg)                                                                     | جام زهر                   | `56 دقیقه`                      |
 | ![](https://s32.picofile.com/file/8478552100/%D8%A8%D9%87%D8%AA%D8%A7%D9%86_%D8%A8%D8%B1%D8%A7%DB%8C_%D8%AD%D9%81%D8%B8_%D9%86%D8%B8%D8%A7%D9%85.jpg)       | بهتان برای حفظ نظام       | `150 دقیقه`                     |
 | ![](https://s32.picofile.com/file/8478551842/%D8%A7%D8%AA%D8%A7%D9%82_%D8%AC%D9%86%DA%AF.jpg)                                                               | اتاق جنگ                  | `86 دقیقه`                      |
