@@ -6,7 +6,7 @@ date: 2024-09-12
 draft: false
 status: 🍂 زودگذر
 parent: "[[ai|🧠 هوش مصنوعی]]"
-order: 
+order: "99"
 image: 
 tags:
   - AI

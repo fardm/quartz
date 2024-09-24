@@ -6,7 +6,7 @@ date: 2024-09-17
 draft: false
 status: 🌱نهال
 parent: "[[ai|🧠 هوش مصنوعی]]"
-order: 
+order: "10"
 image: 
 tags:
   - AI
