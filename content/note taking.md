@@ -17,8 +17,8 @@ cssclasses:
 </style>
 
 
-<!-- QueryToSerialize: table without id choice(image=null, ![[noimage.svg]], embed(link(image))), "[[" + file.name + "|" + title + "]]" WHERE draft = false AND parent = [[note taking|📝 یادداشت برداری]] SORT hierarchy ASC -->
-<!-- SerializedQuery: table without id choice(image=null, ![[noimage.svg]], embed(link(image))), "[[" + file.name + "|" + title + "]]" WHERE draft = false AND parent = [[note taking|📝 یادداشت برداری]] SORT hierarchy ASC -->
+<!-- QueryToSerialize: table without id choice(image=null, ![[noimage.svg]], embed(link(image))), "[[" + file.name + "|" + title + "]]" WHERE draft = false AND parent = [[note taking|📝 یادداشت برداری]] SORT order ASC -->
+<!-- SerializedQuery: table without id choice(image=null, ![[noimage.svg]], embed(link(image))), "[[" + file.name + "|" + title + "]]" WHERE draft = false AND parent = [[note taking|📝 یادداشت برداری]] SORT order ASC -->
 
 | choice(image=null, ![[noimage.svg]], embed(link(image)))  | "[[" + file.name + "\|" + title + "]]"                                     |
 | --------------------------------------------------------- | -------------------------------------------------------------------------- |

@@ -6,7 +6,7 @@ date: 2024-09-06
 draft: false
 status: 🌿درختچه
 parent: "[[obsidian|🔮 نرم‌افزار ابسیدین]]"
-hierarchy: "4"
+order: "4"
 image: cover-publish.svg
 tags:
 ---

@@ -7,7 +7,7 @@ draft: false
 tags: 
 status: 🌿درختچه
 parent: "[[obsidian|🔮 نرم‌افزار ابسیدین]]"
-hierarchy: "9"
+order: "9"
 image: cover-quartz.webp
 ---
 
@@ -872,13 +872,13 @@ cssclasses: card-g c-3
 draft: false
 image: cover-review.svg
 parent: "[[نرم‌افزار ابسیدین]]"
-hierarchy: "1"
+order: "1"
 ---
 ```
 
 سپس با دستور زیر آن ها را استخراج می کنم. اگر یادداشت تصویر داشته باشد همان را نمایش می دهد. اگر نداشته باشد یک تصویر خالی ([[noimage.svg]]) نشان می دهد.
 ```md
-<!-- QueryToSerialize: table without id choice(image=null, ![[noimage.svg]], embed(link(image))), "[[" + file.name + "|" + title + "]]" From note WHERE draft = false AND parent = [[نرم‌افزار ابسیدین]] SORT hierarchy ASC -->
+<!-- QueryToSerialize: table without id choice(image=null, ![[noimage.svg]], embed(link(image))), "[[" + file.name + "|" + title + "]]" From note WHERE draft = false AND parent = [[نرم‌افزار ابسیدین]] SORT order ASC -->
 ```
 
 

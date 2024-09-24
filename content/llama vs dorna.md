@@ -5,15 +5,15 @@ aliases:
 date: 2024-09-12
 draft: false
 status: 🍂 زودگذر
-parent: 
-hierarchy: 
+parent: "[[ai|🧠 هوش مصنوعی]]"
+order: 
 image: 
 tags:
   - AI
 description: 
 number headings: first-level 1, max 6, 1.1
 ---
-**یادداشت والد:** [[ollama in obsidian|استفاده از مدل‌های اولاما در ابسیدین]]
+**یادداشت والد:** [[ollama|استفاده از مدل‌های اولاما در ابسیدین]]
 
 مدل [llama3](https://huggingface.co/meta-llama/Meta-Llama-3-8B)  یک مدل زبانی بزرگ است که توسط شرکت متا توسعه داده شده است. یک مدل دیگر هم هست به اسم [dorna-llama3](https://huggingface.co/PartAI/Dorna-Llama3-8B-Instruct) که توسط «مرکز تحقیقات هوش مصنوعی پارت» بر روی داده های فارسی آموزش داده شده.([+](https://partdp.ai/blog/dorna/))
 

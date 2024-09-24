@@ -7,7 +7,7 @@ draft: false
 tags: 
 status: 🌱نهال
 parent: "[[obsidian|🔮 نرم‌افزار ابسیدین]]"
-hierarchy: "998"
+order: "998"
 cssclasses:
   - fill-table
 image: cover-dataview.png

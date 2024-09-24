@@ -6,7 +6,6 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [
-    Component.TagList(),
     Component.Comments({
       provider: 'giscus',
       options: {
@@ -57,16 +56,15 @@ export const defaultContentPageLayout: PageLayout = {
  
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
+  beforeBody: [Component.Breadcrumbs({rootName: "خانه",}), Component.ArticleTitle(), Component.ContentMeta()],
   left: [
-    Component.MobileOnly(Component.PageTitle()),
-    Component.MobileOnly(Component.Spacer()),
-    Component.MobileOnly(Component.Darkmode()),
-    Component.Search(), 
+    Component.DesktopOnly(Component.Darkmode()),
+    Component.Graph({localGraph: {}, globalGraph: {}}),
+    Component.Backlinks(),  
   ],
   right: [
-    Component.DesktopOnly(Component.PageTitle()),    
-    Component.DesktopOnly(Component.Darkmode()),  
-    Component.Graph(),  
+    Component.PageTitle(),
+    Component.MobileOnly(Component.Darkmode()),
+    Component.Search(),
   ],
 }
