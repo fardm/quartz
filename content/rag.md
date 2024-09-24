@@ -2,6 +2,7 @@
 title: رویکرد Retrieval Augmented Generation (RAG)
 aliases:
   - رویکرد Retrieval Augmented Generation (RAG)
+  - RAG
 date: 2024-09-17
 draft: false
 status: 🌱نهال
