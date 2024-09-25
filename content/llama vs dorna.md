@@ -3,6 +3,7 @@ title: مقایسه مدل llama3 با مدل dorna
 aliases:
   - مقایسه مدل llama3 با مدل dorna
 date: 2024-09-12
+lastmod: 2024-09-25
 draft: false
 status: 🍂 زودگذر
 parent: "[[ai|🧠 هوش مصنوعی]]"
@@ -10,8 +11,6 @@ order: "99"
 image: 
 tags:
   - AI
-description: 
-number headings: first-level 1, max 6, 1.1
 ---
 **یادداشت والد:** [[ollama|استفاده از مدل‌های اولاما در ابسیدین]]
 

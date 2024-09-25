@@ -2,9 +2,7 @@
 title: 📝 یادداشت برداری
 aliases:
   - 📝 یادداشت برداری
-date: 2024-05-25
 draft: false
-tags: 
 cssclasses:
   - card-g
   - c-3

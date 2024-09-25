@@ -2,9 +2,7 @@
 title: 🧠 هوش مصنوعی
 aliases:
   - 🧠 هوش مصنوعی
-date: 2024-09-23
 draft: false
-tags: 
 cssclasses:
   - card-g
   - c-3

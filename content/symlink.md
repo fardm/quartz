@@ -3,6 +3,7 @@ title: لینک نمادین(Symbolic Link)
 aliases:
   - لینک نمادین
 date: 2024-08-29
+lastmod: 2024-09-20
 draft: false
 status: 🌱نهال
 parent: 
