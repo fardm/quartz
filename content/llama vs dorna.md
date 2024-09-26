@@ -4,7 +4,7 @@ aliases:
   - مقایسه مدل llama3 با مدل dorna
 date: 2024-09-12
 lastmod: 2024-09-25
-draft: false
+draft: true
 status: 🍂 زودگذر
 parent: "[[ai|🧠 هوش مصنوعی]]"
 order: "99"
