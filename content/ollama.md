@@ -56,7 +56,7 @@ tags:
 <br/>
 
 > [!question] آیا مدل‌ها از زبان فارسی پشتیبانی می کنند؟
-> بله، بعضی از مدل‌ها از زبان فارسی پشتیبانی می‌کنند و اگر پرامپت فارسی بنویسید پاسخ شما را به زبان فارسی می‌نویسند. مدل [llama3.1](https://ollama.com/library/llama3.1) و  [gemma2](https://ollama.com/library/gemma2) نسبتا خوب است. مدل [qwen2](https://ollama.com/library/qwen2) هم معمولی است. مدل [command r plus](https://ollama.com/library/command-r-plus) هم ظاهرا پشتیبانی خوبی دارد.
+> بله، بعضی از مدل‌ها از زبان فارسی پشتیبانی می‌کنند و اگر پرامپت فارسی بنویسید پاسخ شما را به زبان فارسی می‌نویسند. مدل [llama3.1](https://ollama.com/library/llama3.1) و  [gemma2](https://ollama.com/library/gemma2) نسبتا خوب است. مدل [qwen2](https://ollama.com/library/qwen2) هم معمولی است. مدل [command r plus](https://ollama.com/library/command-r-plus) هم عملکرد خوبی دارد.
 > 
 > یک مدل هم هست به اسم [dorna-llama3](https://ollama.com/partai/dorna-llama3) که توسط «مرکز تحقیقات هوش مصنوعی پارت» بر روی داده های فارسی آموزش دیده است.([+](https://partdp.ai/blog/dorna/)) البته توقع نداشته باشید که این مدل بهتر از مدل های دیگر باشد. در حال حاضر مدل llama3.1 عملکرد بسیار بهتری از درنا دارد که روی نسخه 3 آموزش دیده.[^1]
 > 

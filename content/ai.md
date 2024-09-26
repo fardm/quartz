@@ -22,7 +22,6 @@ cssclasses:
 | -------------------------------------------------------- | ---------------------------------------------------- |
 | ![[img/ollama.svg\|ollama.svg]]                          | [[ollama\|راهنمای استفاده از اولاما(Ollama)]]        |
 | ![[noimage.svg\|noimage.svg]]                            | [[rag\|رویکرد Retrieval Augmented Generation (RAG)]] |
-| ![[noimage.svg\|noimage.svg]]                            | [[llama vs dorna\|مقایسه مدل llama3 با مدل dorna]]   |
 <!-- SerializedQuery END -->
 
 
