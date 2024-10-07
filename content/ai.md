@@ -18,10 +18,11 @@ cssclasses:
 <!-- QueryToSerialize: table without id choice(image=null, ![[noimage.svg]], embed(link(image))), "[[" + file.name + "|" + title + "]]" WHERE draft = false AND parent = [[ai|🧠 هوش مصنوعی]] SORT order ASC -->
 <!-- SerializedQuery: table without id choice(image=null, ![[noimage.svg]], embed(link(image))), "[[" + file.name + "|" + title + "]]" WHERE draft = false AND parent = [[ai|🧠 هوش مصنوعی]] SORT order ASC -->
 
-| choice(image=null, ![[noimage.svg]], embed(link(image))) | "[[" + file.name + "\|" + title + "]]"               |
-| -------------------------------------------------------- | ---------------------------------------------------- |
-| ![[img/ollama.svg\|ollama.svg]]                          | [[ollama\|راهنمای استفاده از اولاما(Ollama)]]        |
-| ![[noimage.svg\|noimage.svg]]                            | [[rag\|رویکرد Retrieval Augmented Generation (RAG)]] |
+| choice(image=null, ![[noimage.svg]], embed(link(image))) | "[[" + file.name + "\|" + title + "]]"                       |
+| -------------------------------------------------------- | ------------------------------------------------------------ |
+| ![[noimage.svg\|noimage.svg]]                            | [[image prompt\|کلمات کلیدی برای ساخت تصاویر با هوش مصنوعی]] |
+| ![[img/ollama.svg\|ollama.svg]]                          | [[ollama\|راهنمای استفاده از اولاما(Ollama)]]                |
+| ![[noimage.svg\|noimage.svg]]                            | [[rag\|رویکرد Retrieval Augmented Generation (RAG)]]         |
 <!-- SerializedQuery END -->
 
 

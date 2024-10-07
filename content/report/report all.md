@@ -11,9 +11,6 @@ cssclasses:
   - nowarp2
   - card-s
 ---
-
-
-
 ## در یک نگاه
 
 <div class="overview-3">
@@ -43,7 +40,7 @@ cssclasses:
 
 | icon | count     | sum         |
 | ---- | --------- | ----------- |
-| 🎙   | 32 پادکست | `77.7 ساعت` |
+| 🎙   | 39 پادکست | `93.2 ساعت` |
 <!-- SerializedQuery END -->
 
 
@@ -172,8 +169,8 @@ cssclasses:
 | ![](https://s32.picofile.com/file/8478596692/masir_asli.jpg)              | فایل صوتی افزایش عزت نفس - مسیر اصلی  | `3 ساعت`                             |
 | ![](https://s32.picofile.com/file/8478596734/photophan.jpg)               | فوتوفن - آموزش نرم افزار فتوشاپ       | `40 ساعت`                            |
 | ![](https://s32.picofile.com/file/8478596400/doketab_asl.png)             | دوکتاب اصل گرایی                      | `12 ساعت`                            |
-| ![](https://s32.picofile.com/file/8478596492/ensan5.jpg)                  | روایت انسان (فصل 5)                   | `15 ساعت`                            |
 | ![](https://s32.picofile.com/file/8478596518/ensan6.jpg)                  | روایت انسان (فصل 6)                   | `15 ساعت`                            |
+| ![](https://s32.picofile.com/file/8478596492/ensan5.jpg)                  | روایت انسان (فصل 5)                   | `15 ساعت`                            |
 <!-- SerializedQuery END -->
 
 ‌<br/>‌<br/>
@@ -183,40 +180,47 @@ cssclasses:
 <!-- QueryToSerialize: table without id ("![](" + cover + ")"), file.name, "`" + length.minute + " دقیقه`" FROM #Podcast WHERE length !=null SORT date DESC -->
 <!-- SerializedQuery: table without id ("![](" + cover + ")"), file.name, "`" + length.minute + " دقیقه`" FROM #Podcast WHERE length !=null SORT date DESC -->
 
-| ("![](" + cover + ")")                                                                                                                                     | file.name                              | "`" + length.minute + " دقیقه`" |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- | ------------------------------- |
-| ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/amirmousavi_yprnuq.jpg)                                                                      | گفتگو با امیر موسوی تور لیدر           | `128 دقیقه`                     |
-| ![](https://assets.pippa.io/shows/623ee6e745754c001233a890/1714562705175-493bcfd80fd419fd3ac250ec8eb4aeee.jpeg)                                            | حسین کلهر                              | `70 دقیقه`                      |
-| ![](https://assets.pippa.io/shows/623ee6e745754c001233a890/1723832715268-786aa403-420d-4f81-a6e5-ea92f8349905.jpeg)                                        | درباره‌ی جادی                          | `115 دقیقه`                     |
-| ![](https://s32.picofile.com/file/8478577776/%D8%AC%D8%A7%D9%81%DA%A9%D8%B1%DB%8C_%D9%81%D8%B5%D9%84_20.jpg)                                               | جافکری فصل 20                          | `143 دقیقه`                     |
-| ![](https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/d4/83/59/d4835940-003d-502a-cf95-b1fe1c5c0e24/mza_4199942390305222365.jpg/500x500bb.webp)      | Maggie Appleton's journey to design    | `64 دقیقه`                      |
-| ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/WhatsApp_Image_2022-09-03_at_19_38_29_ckb8ze.jpeg)                                           | گفتگو با امیرحسین قیاسی                | `137 دقیقه`                     |
-| ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/photo_2023-04-20_10-19-47_nrcnm3.jpg)                                                        | گفتگو با ابوطالب حسینی                 | `83 دقیقه`                      |
-| ![](https://s32.picofile.com/file/8478577800/%D8%B5%D8%A7%D9%84%D8%AD_%D8%B3%D8%AE%D9%86%D8%AF%D8%A7%D9%86.jpg)                                            | گفتگو با صالح سخندان                   | `75 دقیقه`                      |
-| ![](https://s32.picofile.com/file/8478577768/%D8%AC%D8%A7%D9%81%DA%A9%D8%B1%DB%8C_%D9%81%D8%B5%D9%84_19.jpg)                                               | جافکری فصل 19                          | `246 دقیقه`                     |
-| ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/41966155_544476649314360_7141092516463378432_n_2_rmuyxu.jpg)                                 | گفت و گو با میلاد نوری                 | `162 دقیقه`                     |
-| ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/Fco0d82XwAUVarm_ra2iuz.jpg)                                                                  | گفت و گو با سعید حسین زاده             | `111 دقیقه`                     |
-| ![](https://s32.picofile.com/file/8478577818/%D8%B9%D8%A7%D8%AF%D9%84_%D8%B7%D8%A7%D9%84%D8%A8%DB%8C_%D8%B4%D8%B9%D8%A8%D8%A7%D9%86%D8%B9%D9%84%DB%8C.jpg) | گپ و گفت محمدرضا شعبانعلی و عادل طالبی | `77 دقیقه`                      |
-| ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/7L7A6419_-_Copy_ztss9g.jpg)                                                                  | گفت و گو با حامد و حسام توکلی          | `120 دقیقه`                     |
-| ![](https://assets.pippa.io/shows/665af3e5650f0e0011134429/665af3ed735ad800126e2cad.jpg)                                                                   | رختکن بازنده‌ها - پوریا عالمی          | `99 دقیقه`                      |
-| ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/E1BmeRiX0AAjmlX_jbz5kx.jpg)                                                                  | گفت و گو با پیمان فخاریان              | `110 دقیقه`                     |
-| ![](https://s3.castbox.fm/8b/a4/6b/c98e8fe7297860325375927ba84fcbd45c_scaled_v1_400.jpg)                                                                   | گفت و گو با محمدرضا شعبانعلی           | `320 دقیقه`                     |
-| ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/_-_-__jbzrzh.jpg)                                                                            | گفت و گو با هادی شجاری                 | `128 دقیقه`                     |
-| ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/photo_2022-10-04_22-40-58_9qsqgk.jpg)                                                        | گفت و گو با پوریا عالمی                | `180 دقیقه`                     |
-| ![](https://s3.castbox.fm/c8/00/6e/34b30664ce6fea0eda96b92f3be28bce66_scaled_v1_400.jpg)                                                                   | گفت و گو با نیما قاضی                  | `225 دقیقه`                     |
-| ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/1_ge2up5.jpg)                                                                                | گفت و گو با مصطفی الهیاری              | `148 دقیقه`                     |
-| ![](https://s32.picofile.com/file/8478578350/%D8%A7%D8%B3%D8%A8_%D8%AA%D8%A7%D8%B1%DB%8C%DA%A9.jpg)                                                        | بحثی درباره‌ی کتاب اسب تاریک           | `80 دقیقه`                      |
-| ![](https://s3.castbox.fm/a6/ab/97/c7af0b443edb047897cf099a8c5cdc7aa5_scaled_v1_400.jpg)                                                                   | گفت و گو با حامد بیدی                  | `146 دقیقه`                     |
-| ![](https://s32.picofile.com/file/8478577750/%D8%AC%D8%A7%D9%81%DA%A9%D8%B1%DB%8C_%D9%81%D8%B5%D9%84_15.jpg)                                               | جافکری فصل 15                          | `290 دقیقه`                     |
-| ![](https://assets.pippa.io/shows/65417dfc6143f1001280fb90/65417e0142acb40012b53b40.png)                                                                   | خلاصه‌ی کتاب اصل‌گرایی                 | `56 دقیقه`                      |
-| ![](https://s3.castbox.fm/93/49/7b/8120e7fa5fcad20b98d17cc23901585384_scaled_v1_400.jpg)                                                                   | خلاصه کتاب گستره                       | `58 دقیقه`                      |
-| ![](https://s32.picofile.com/file/8478577742/%D8%A8%D9%87_%D9%88%D9%82%D8%AA_%D8%AE%D9%88%D8%AF%D8%B4%D9%86%D8%A7%D8%B3%DB%8C.jpg)                         | به وقت خودشناسی                        | `756 دقیقه`                     |
-| ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/3_kcxqn5.jpg)                                                                                | طراحی مسیر شغلی                        | `125 دقیقه`                     |
-| ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/photo_2018-10-20_20-22-56_vfrf3j.jpg)                                                        | گفت و گو با امین آرامش                 | `90 دقیقه`                      |
-| ![](https://s32.picofile.com/file/8478577784/%D8%B3%D8%AE%D9%86%D9%88%D8%B1%D8%A7%D9%86.jpg)                                                               | کمالگرایی                              | `19 دقیقه`                      |
-| ![](https://s32.picofile.com/file/8478577784/%D8%B3%D8%AE%D9%86%D9%88%D8%B1%D8%A7%D9%86.jpg)                                                               | بی حسی                                 | `15 دقیقه`                      |
-| ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/IMG_20220730_153351_-_Copy_h6r4sa.jpg)                                                       | گفت و گو با امیر موسوی جهانگرد         | `160 دقیقه`                     |
-| ![](https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/e6/9c/9a/e69c9aaf-8854-c2aa-95fc-258b71c32a75/mza_12938323960868958472.jpg/500x500bb.webp)     | تکامل فردی و مسیر دستیابی به آن        | `124 دقیقه`                     |
+| ("![](" + cover + ")")                                                                                                                                     | file.name                                               | "`" + length.minute + " دقیقه`" |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- | ------------------------------- |
+| ![](https://s3.castbox.fm/f2/5d/97/5e302f4e6c8b1e446151cd6f90.jpg)                                                                                         | پرسش و پاسخ با دکتر علی خزایی (5 اپیزود)                | `377 دقیقه`                     |
+| ![](https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/ac/e3/21/ace321b3-193c-1423-4c4c-ca46a52951a9/mza_5386946835372024842.png/400x400bb.jpg)       | رادیوگیک – شماره ۱۴۷ – چت جی پی تی                      | `53 دقیقه`                      |
+| ![](https://s3.castbox.fm/5f/2d/17/f23361428f86095c0ad82f589e.jpg)                                                                                         | گفتگو با مهدی آخی درباره مدل‌های زبانی بزرگ             | `144 دقیقه`                     |
+| ![](https://s3.castbox.fm/e6/54/47/822e084ab0a3d37dedb48f2ce9.jpg)                                                                                         | گفتگو با محمدعلی صدرایی - کارشناس پردازش زبان‌های طبیعی | `107 دقیقه`                     |
+| ![](https://s3.castbox.fm/1d/46/aa/191a374baca33d7b14174bf676.jpg)                                                                                         | ایستگاه هوش مصنوعی اپیزود 7-10&12                       | `90 دقیقه`                      |
+| ![](https://s3.castbox.fm/1d/46/aa/191a374baca33d7b14174bf676.jpg)                                                                                         | ایستگاه هوش مصنوعی اپیزود 1-6                           | `90 دقیقه`                      |
+| ![](https://s3.castbox.fm/5e/2b/02/3139eb8577f21408a5e1b281e6067080ed_scaled_v1_400.jpg)                                                                   | گفتگو با سیاوش صفاریان‌پور  ژورنالیست و پادکستر         | `70 دقیقه`                      |
+| ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/amirmousavi_yprnuq.jpg)                                                                      | گفتگو با امیر موسوی تور لیدر                            | `128 دقیقه`                     |
+| ![](https://assets.pippa.io/shows/623ee6e745754c001233a890/1714562705175-493bcfd80fd419fd3ac250ec8eb4aeee.jpeg)                                            | حسین کلهر                                               | `70 دقیقه`                      |
+| ![](https://assets.pippa.io/shows/623ee6e745754c001233a890/1723832715268-786aa403-420d-4f81-a6e5-ea92f8349905.jpeg)                                        | درباره‌ی جادی                                           | `115 دقیقه`                     |
+| ![](https://s32.picofile.com/file/8478577776/%D8%AC%D8%A7%D9%81%DA%A9%D8%B1%DB%8C_%D9%81%D8%B5%D9%84_20.jpg)                                               | جافکری فصل 20                                           | `143 دقیقه`                     |
+| ![](https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/d4/83/59/d4835940-003d-502a-cf95-b1fe1c5c0e24/mza_4199942390305222365.jpg/500x500bb.webp)      | Maggie Appleton's journey to design                     | `64 دقیقه`                      |
+| ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/WhatsApp_Image_2022-09-03_at_19_38_29_ckb8ze.jpeg)                                           | گفتگو با امیرحسین قیاسی                                 | `137 دقیقه`                     |
+| ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/photo_2023-04-20_10-19-47_nrcnm3.jpg)                                                        | گفتگو با ابوطالب حسینی                                  | `83 دقیقه`                      |
+| ![](https://s32.picofile.com/file/8478577800/%D8%B5%D8%A7%D9%84%D8%AD_%D8%B3%D8%AE%D9%86%D8%AF%D8%A7%D9%86.jpg)                                            | گفتگو با صالح سخندان                                    | `75 دقیقه`                      |
+| ![](https://s32.picofile.com/file/8478577768/%D8%AC%D8%A7%D9%81%DA%A9%D8%B1%DB%8C_%D9%81%D8%B5%D9%84_19.jpg)                                               | جافکری فصل 19                                           | `246 دقیقه`                     |
+| ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/41966155_544476649314360_7141092516463378432_n_2_rmuyxu.jpg)                                 | گفت و گو با میلاد نوری                                  | `162 دقیقه`                     |
+| ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/Fco0d82XwAUVarm_ra2iuz.jpg)                                                                  | گفت و گو با سعید حسین زاده                              | `111 دقیقه`                     |
+| ![](https://s32.picofile.com/file/8478577818/%D8%B9%D8%A7%D8%AF%D9%84_%D8%B7%D8%A7%D9%84%D8%A8%DB%8C_%D8%B4%D8%B9%D8%A8%D8%A7%D9%86%D8%B9%D9%84%DB%8C.jpg) | گپ و گفت محمدرضا شعبانعلی و عادل طالبی                  | `77 دقیقه`                      |
+| ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/7L7A6419_-_Copy_ztss9g.jpg)                                                                  | گفت و گو با حامد و حسام توکلی                           | `120 دقیقه`                     |
+| ![](https://assets.pippa.io/shows/665af3e5650f0e0011134429/665af3ed735ad800126e2cad.jpg)                                                                   | رختکن بازنده‌ها - پوریا عالمی                           | `99 دقیقه`                      |
+| ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/E1BmeRiX0AAjmlX_jbz5kx.jpg)                                                                  | گفت و گو با پیمان فخاریان                               | `110 دقیقه`                     |
+| ![](https://s3.castbox.fm/8b/a4/6b/c98e8fe7297860325375927ba84fcbd45c_scaled_v1_400.jpg)                                                                   | گفت و گو با محمدرضا شعبانعلی                            | `320 دقیقه`                     |
+| ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/_-_-__jbzrzh.jpg)                                                                            | گفت و گو با هادی شجاری                                  | `128 دقیقه`                     |
+| ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/photo_2022-10-04_22-40-58_9qsqgk.jpg)                                                        | گفت و گو با پوریا عالمی                                 | `180 دقیقه`                     |
+| ![](https://s3.castbox.fm/c8/00/6e/34b30664ce6fea0eda96b92f3be28bce66_scaled_v1_400.jpg)                                                                   | گفت و گو با نیما قاضی                                   | `225 دقیقه`                     |
+| ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/1_ge2up5.jpg)                                                                                | گفت و گو با مصطفی الهیاری                               | `148 دقیقه`                     |
+| ![](https://s32.picofile.com/file/8478578350/%D8%A7%D8%B3%D8%A8_%D8%AA%D8%A7%D8%B1%DB%8C%DA%A9.jpg)                                                        | بحثی درباره‌ی کتاب اسب تاریک                            | `80 دقیقه`                      |
+| ![](https://s3.castbox.fm/a6/ab/97/c7af0b443edb047897cf099a8c5cdc7aa5_scaled_v1_400.jpg)                                                                   | گفت و گو با حامد بیدی                                   | `146 دقیقه`                     |
+| ![](https://s32.picofile.com/file/8478577750/%D8%AC%D8%A7%D9%81%DA%A9%D8%B1%DB%8C_%D9%81%D8%B5%D9%84_15.jpg)                                               | جافکری فصل 15                                           | `290 دقیقه`                     |
+| ![](https://assets.pippa.io/shows/65417dfc6143f1001280fb90/65417e0142acb40012b53b40.png)                                                                   | خلاصه‌ی کتاب اصل‌گرایی                                  | `56 دقیقه`                      |
+| ![](https://s3.castbox.fm/93/49/7b/8120e7fa5fcad20b98d17cc23901585384_scaled_v1_400.jpg)                                                                   | خلاصه کتاب گستره                                        | `58 دقیقه`                      |
+| ![](https://s32.picofile.com/file/8478577742/%D8%A8%D9%87_%D9%88%D9%82%D8%AA_%D8%AE%D9%88%D8%AF%D8%B4%D9%86%D8%A7%D8%B3%DB%8C.jpg)                         | به وقت خودشناسی                                         | `756 دقیقه`                     |
+| ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/3_kcxqn5.jpg)                                                                                | طراحی مسیر شغلی                                         | `125 دقیقه`                     |
+| ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/photo_2018-10-20_20-22-56_vfrf3j.jpg)                                                        | گفت و گو با امین آرامش                                  | `90 دقیقه`                      |
+| ![](https://s32.picofile.com/file/8478577784/%D8%B3%D8%AE%D9%86%D9%88%D8%B1%D8%A7%D9%86.jpg)                                                               | کمالگرایی                                               | `19 دقیقه`                      |
+| ![](https://s32.picofile.com/file/8478577784/%D8%B3%D8%AE%D9%86%D9%88%D8%B1%D8%A7%D9%86.jpg)                                                               | بی حسی                                                  | `15 دقیقه`                      |
+| ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/IMG_20220730_153351_-_Copy_h6r4sa.jpg)                                                       | گفت و گو با امیر موسوی جهانگرد                          | `160 دقیقه`                     |
+| ![](https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/e6/9c/9a/e69c9aaf-8854-c2aa-95fc-258b71c32a75/mza_12938323960868958472.jpg/500x500bb.webp)     | تکامل فردی و مسیر دستیابی به آن                         | `124 دقیقه`                     |
 <!-- SerializedQuery END -->
 
 ‌<br/>‌<br/>
@@ -472,8 +476,8 @@ cssclasses:
 | ![](https://m.media-amazon.com/images/M/MV5BNTk2MjhlNTAtYmI3Yi00ZGRlLTgxMTQtZWU1Zjg2M2NmZTdiXkEyXkFqcGdeQXVyMjI1NzEwNg@@._V1_SX300.jpg)                 | Scrambled                              | `7 دقیقه`                       |
 | ![](https://m.media-amazon.com/images/M/MV5BNmIyNmE4Y2MtNDUxMS00ZjQyLThkNDItMmMwMTNiNDk1NzQ0XkEyXkFqcGdeQXVyMTA5MTg3NzY@._V1_SX300.jpg)                 | Leaving Home                           | `7 دقیقه`                       |
 | ![](https://m.media-amazon.com/images/M/MV5BMDM2ZGI2YzQtYjRlYS00MmM3LThmYjktNWZkMzQ5NDRlYjdiXkEyXkFqcGdeQXVyNzMwOTY2NTI@._V1_SX300.jpg)                 | Kutoja                                 | `7 دقیقه`                       |
-| ![](https://m.media-amazon.com/images/M/MV5BN2EzY2JkM2EtODk2NC00MWIyLWFkYWMtNjk2N2ZjODg1ZjZjXkEyXkFqcGdeQXVyOTg3MjcwMjg@._V1_SX300.jpg)                 | An Object at Rest                      | `6 دقیقه`                       |
 | ![](https://m.media-amazon.com/images/M/MV5BZGI4MWFhYzEtY2NlMi00ZWIzLTkwNjQtN2RlYWEzODI5NTY5XkEyXkFqcGdeQXVyOTQ4MDE3MDQ@._V1_SX300.jpg)                 | Benigni                                | `8 دقیقه`                       |
+| ![](https://m.media-amazon.com/images/M/MV5BN2EzY2JkM2EtODk2NC00MWIyLWFkYWMtNjk2N2ZjODg1ZjZjXkEyXkFqcGdeQXVyOTg3MjcwMjg@._V1_SX300.jpg)                 | An Object at Rest                      | `6 دقیقه`                       |
 | ![](https://m.media-amazon.com/images/M/MV5BOTQwNDcyZjUtMmZhNi00MmYwLWEwNGYtYjU2NGE1OGJiOWY0XkEyXkFqcGdeQXVyNzMwOTY2NTI@._V1_SX300.jpg)                 | Alarm                                  | `9 دقیقه`                       |
 | ![](https://m.media-amazon.com/images/M/MV5BNDY2NzBiZjQtODFmYi00Y2JkLTliNjAtYTQxNDMxNTEzNDFhXkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_SX300.jpg)                 | Purl                                   | `8 دقیقه`                       |
 | ![](https://m.media-amazon.com/images/M/MV5BOWMzMDcxNjAtYTk5OC00ZTUyLTgxMGQtYmM3M2E5MWM5YzAxXkEyXkFqcGdeQXVyMzM4NjcxOTc@._V1_SX300.jpg)                 | Runaway                                | `4 دقیقه`                       |
