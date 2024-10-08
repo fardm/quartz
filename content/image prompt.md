@@ -2,7 +2,7 @@
 title: کلمات کلیدی برای ساخت تصاویر با هوش مصنوعی
 aliases: 
 date: 2024-10-07
-lastmod: 
+lastmod: 2024-10-08
 draft: false
 status: 🌱نهال
 parent: "[[ai|🧠 هوش مصنوعی]]"
@@ -68,11 +68,11 @@ cssclasses:
 |     | Ambient light       | `نور محیطی`           |
 |     | Diffuse lighting    | `نور پراکنده`         |
 |     | Rim lighting        | `نور لبه`             |
-|     | silhouetting        | `سایه‌نما (سیلوئت)`   |
+|   ![[silhouetting.webp]]  | silhouetting        | `سایه‌نما (سیلوئت)`   |
 |     | Dimly lit           | `کم نور`              |
 |     | Low key             | `نور Low key`         |
 |     | Radiant light rays  | `پرتوهای نور شعاعی`   |
-|     | God rays            | `اشعه خدا`            |
+|   ![[God rays.jpg]]  | God rays            | `اشعه خدا`            |
 |     | Luminescence        | `تابناکی (شب تابی)`   |
 
 
@@ -81,12 +81,12 @@ cssclasses:
 
 |     |                   |                  |
 | --- | ----------------- | ---------------- |
-|     | Natural lighting  | `نور طبیعی`      |
-|     | Overcast lighting | `نور آسمان ابری` |
-|     | sunlight          | `نور آفتاب`      |
-|     | Sunset            | `غروب آفتاب`     |
-|     | Golden hour       | `ساعت طلایی`     |
-|     | Twilight          | `گرگ و میش`      |
+|  ![[Natural lighting.jpg]]   | Natural lighting  | `نور طبیعی`      |
+|  ![[Overcast lighting.jpg]]   | Overcast lighting | `نور آسمان ابری` |
+| ![[sunlight.jpg]]    | sunlight          | `نور آفتاب`      |
+|   ![[Sunset.jpg]]  | Sunset            | `غروب آفتاب`     |
+|  ![[golden hour.webp]]   | Golden hour       | `ساعت طلایی`     |
+|  ![[Twilight.jpg]]   | Twilight          | `گرگ و میش`      |
 
 
 <br/><br/>
@@ -101,12 +101,16 @@ cssclasses:
 |                            |             |             |
 | -------------------------- | ----------- | ----------- |
 | ![[00007-3127658378.webp]] | pixel art   | `پیکسل آرت` |
-|                            | Pixar style |       `پیکسار`      |
+|     ![[Pixar style.jpg]]                       | Pixar style |       `پیکسار`      |
 |                            | Polygon art |        `چندضلعی`     |
 |                            | Surrealist  |       `سورئال`      |
 |                            | Pop-art     |       `پاپ آرت`      |
 |                            | Cubism      |       `کوبیسم`      |
 
+
+سایت
+Unsplash
+National Geographic
 
 <br/><br/>
 
