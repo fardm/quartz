@@ -28,7 +28,7 @@ cssclasses:
 
 | icon | count       | sum         |
 | ---- | ----------- | ----------- |
-| 📚   | 22 جلد کتاب | `4060 صفحه` |
+| 📚   | 23 جلد کتاب | `4476 صفحه` |
 <!-- SerializedQuery END -->
 
 
@@ -45,9 +45,9 @@ cssclasses:
 <!-- QueryToSerialize: TABLE WITHOUT ID "🎙" as icon, length(rows) + " پادکست" as count, "`" + round(sum(rows.length.hours),1) + " ساعت`" as sum FROM #Podcast WHERE date >= date("2024-03-20") AND date <= date("2025-03-20") GROUP BY "" -->
 <!-- SerializedQuery: TABLE WITHOUT ID "🎙" as icon, length(rows) + " پادکست" as count, "`" + round(sum(rows.length.hours),1) + " ساعت`" as sum FROM #Podcast WHERE date >= date("2024-03-20") AND date <= date("2025-03-20") GROUP BY "" -->
 
-| icon | count     | sum       |
-| ---- | --------- | --------- |
-| 🎙   | 19 پادکست | `39 ساعت` |
+| icon | count     | sum         |
+| ---- | --------- | ----------- |
+| 🎙   | 20 پادکست | `42.3 ساعت` |
 <!-- SerializedQuery END -->
 
 
@@ -63,9 +63,9 @@ cssclasses:
 <!-- QueryToSerialize: TABLE WITHOUT ID "🍿" as icon, length(rows) + " فیلم و سریال" as count, "`" + round(sum(rows.length.hours),1) + " ساعت`" as sum FROM #Movie WHERE date >= date("2024-03-20") AND date <= date("2025-03-20") GROUP BY "" -->
 <!-- SerializedQuery: TABLE WITHOUT ID "🍿" as icon, length(rows) + " فیلم و سریال" as count, "`" + round(sum(rows.length.hours),1) + " ساعت`" as sum FROM #Movie WHERE date >= date("2024-03-20") AND date <= date("2025-03-20") GROUP BY "" -->
 
-| icon | count           | sum         |
-| ---- | --------------- | ----------- |
-| 🍿   | 36 فیلم و سریال | `88.7 ساعت` |
+| icon | count           | sum          |
+| ---- | --------------- | ------------ |
+| 🍿   | 42 فیلم و سریال | `101.6 ساعت` |
 <!-- SerializedQuery END -->
 
 
@@ -83,7 +83,7 @@ cssclasses:
 
 | icon   | "`" + length(filter(rows, (r) => r.🏋️‍♂️exercise = true)) + " روز`" | "ورزش کردم" |
 | ------ | -------------------------------------------------------------------- | ----------- |
-| 🏋️‍♂️ | `151 روز`                                                            | ورزش کردم   |
+| 🏋️‍♂️ | `157 روز`                                                            | ورزش کردم   |
 <!-- SerializedQuery END -->
 
 
@@ -93,7 +93,7 @@ cssclasses:
 
 | icon | "`" + round(sum(rows.📚reading)) + " پومودورو`" | "مطالعه کردم" |
 | ---- | ----------------------------------------------- | ------------- |
-| 📖   | `235 پومودورو`                                  | مطالعه کردم   |
+| 📖   | `238 پومودورو`                                  | مطالعه کردم   |
 <!-- SerializedQuery END -->
 
 <!-- QueryToSerialize: TABLE WITHOUT ID "📱" as icon, "`" + round(sum(rows.📱social)) + " ساعت`", "در سوشال‌مدیا بودم" FROM #journal WHERE file.name >= ("2024-03-20") AND file.name <= ("2025-03-20") GROUP BY "" -->
@@ -101,7 +101,7 @@ cssclasses:
 
 | icon | "`" + round(sum(rows.📱social)) + " ساعت`" | "در سوشال‌مدیا بودم" |
 | ---- | ------------------------------------------ | -------------------- |
-| 📱   | `316 ساعت`                                 | در سوشال‌مدیا بودم   |
+| 📱   | `321 ساعت`                                 | در سوشال‌مدیا بودم   |
 <!-- SerializedQuery END -->
 
 
@@ -120,6 +120,7 @@ cssclasses:
 
 | ("![](" + cover + ")")                                                                                               | file.name                             | "`" + pages + " صفحه`" |
 | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | ---------------------- |
+| ![](https://s32.picofile.com/file/8479772334/7habit.jpg)                                                             | هفت عادت مردمان مؤثر                  | `416 صفحه`             |
 | ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1477218519i/22050315.jpg)  | هفت روایت خصوصی از زندگی سید موسی صدر | `192 صفحه`             |
 | ![](https://s32.picofile.com/file/8478850484/mr_jicak.jpg)                                                           | مستر جیکاک                            | `136 صفحه`             |
 | ![](https://s32.picofile.com/file/8478794884/Visual_Hammer.jpg)                                                      | چکش بصری                              | `183 صفحه`             |
@@ -172,12 +173,13 @@ cssclasses:
 
 | ("![](" + cover + ")")                                                                                                                                     | file.name                                               | "`" + length.minute + " دقیقه`" |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- | ------------------------------- |
+| ![](https://assets.pippa.io/shows/623ee6e745754c001233a890/1728667107207-3c654a02-2ad0-4ba5-b5a7-feafab3413e5.jpeg)                                        | امیرعباس عبدالعلی یوتیوبر                               | `110 دقیقه`                     |
+| ![](https://s3.castbox.fm/8f/16/c6/cc4f96cdcb32a1cd888064e1d75d31c9f3_scaled_v1_400.jpg)                                                                   | گفتگو با زوجِ تولیدکنندۀ عسل                            | `84 دقیقه`                      |
 | ![](https://s3.castbox.fm/f2/5d/97/5e302f4e6c8b1e446151cd6f90.jpg)                                                                                         | پرسش و پاسخ با دکتر علی خزایی (5 اپیزود)                | `377 دقیقه`                     |
 | ![](https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/ac/e3/21/ace321b3-193c-1423-4c4c-ca46a52951a9/mza_5386946835372024842.png/400x400bb.jpg)       | رادیوگیک – شماره ۱۴۷ – چت جی پی تی                      | `53 دقیقه`                      |
 | ![](https://s3.castbox.fm/5f/2d/17/f23361428f86095c0ad82f589e.jpg)                                                                                         | گفتگو با مهدی آخی درباره مدل‌های زبانی بزرگ             | `144 دقیقه`                     |
 | ![](https://s3.castbox.fm/e6/54/47/822e084ab0a3d37dedb48f2ce9.jpg)                                                                                         | گفتگو با محمدعلی صدرایی - کارشناس پردازش زبان‌های طبیعی | `107 دقیقه`                     |
-| ![](https://s3.castbox.fm/1d/46/aa/191a374baca33d7b14174bf676.jpg)                                                                                         | ایستگاه هوش مصنوعی اپیزود 7-10&12                       | `90 دقیقه`                      |
-| ![](https://s3.castbox.fm/1d/46/aa/191a374baca33d7b14174bf676.jpg)                                                                                         | ایستگاه هوش مصنوعی اپیزود 1-6                           | `90 دقیقه`                      |
+| ![](https://s3.castbox.fm/1d/46/aa/191a374baca33d7b14174bf676.jpg)                                                                                         | ایستگاه هوش مصنوعی اپیزود 1-10                          | `180 دقیقه`                     |
 | ![](https://s3.castbox.fm/5e/2b/02/3139eb8577f21408a5e1b281e6067080ed_scaled_v1_400.jpg)                                                                   | گفتگو با سیاوش صفاریان‌پور  ژورنالیست و پادکستر         | `70 دقیقه`                      |
 | ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/amirmousavi_yprnuq.jpg)                                                                      | گفتگو با امیر موسوی تور لیدر                            | `128 دقیقه`                     |
 | ![](https://assets.pippa.io/shows/623ee6e745754c001233a890/1714562705175-493bcfd80fd419fd3ac250ec8eb4aeee.jpeg)                                            | حسین کلهر                                               | `70 دقیقه`                      |
@@ -221,7 +223,7 @@ cssclasses:
 
 | icon | count   | sum         |
 | ---- | ------- | ----------- |
-| 🎬   | 15 فیلم | `29.7 ساعت` |
+| 🎬   | 21 فیلم | `42.5 ساعت` |
 <!-- SerializedQuery END -->
 
 
@@ -258,6 +260,12 @@ cssclasses:
 
 | ("![](" + cover + ")")                                                                                                                  | file.name                | "`" + length.minute + " دقیقه`" |
 | --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ | ------------------------------- |
+| ![](https://m.media-amazon.com/images/M/MV5BOTE5MDUxZDUtZWZmZC00NDVmLWFhOGQtNWI2YTc4NzY3MGQ0XkEyXkFqcGc@._V1_SX300.jpg)                 | The Usual Suspects       | `106 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BZGZhZGQ1ZWUtZTZjYS00MDJhLWFkYjctN2ZlYjE5NWYwZDM2XkEyXkFqcGc@._V1_SX300.jpg)                 | Saving Private Ryan      | `169 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BNDg3Y2Q5YzMtMzNlYy00Y2MxLTkwYjctN2RhNDQ2NzczYWU4XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg) | Taste of Cherry          | `95 دقیقه`                      |
+| ![](https://m.media-amazon.com/images/M/MV5BNjI3NjY1Mjg3MV5BMl5BanBnXkFtZTgwMzk5MDQ3MjE@._V1_SX300.jpg)                                 | The Imitation Game       | `114 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BNGRkYTNhOWQtYmI0Ni00MjZhLWJmMzAtMTA2Mjg4NGNiNDU0XkEyXkFqcGc@._V1_SX300.jpg)                 | Léon The Professional    | `110 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMmU5NGJlMzAtMGNmOC00YjJjLTgyMzUtNjAyYmE4Njg5YWMyXkEyXkFqcGc@._V1_SX300.jpg)                 | The Batman               | `176 دقیقه`                     |
 | ![](https://m.media-amazon.com/images/M/MV5BODExZmE2ZWItYTIzOC00MzI1LTgyNTktMDBhNmFhY2Y4OTQ3XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg) | Dog Day Afternoon        | `125 دقیقه`                     |
 | ![](https://m.media-amazon.com/images/M/MV5BODE0NTcxNTQzNF5BMl5BanBnXkFtZTcwMzczOTIzMw@@._V1_SX300.jpg)                                 | 310 to Yuma              | `122 دقیقه`                     |
 | ![](https://m.media-amazon.com/images/M/MV5BMjAyNTU5OTcxOV5BMl5BanBnXkFtZTcwMDEyNjM2MQ@@._V1_SX300.jpg)                                 | 21                       | `123 دقیقه`                     |
@@ -356,7 +364,7 @@ cssclasses:
 
 | "" | true                | false               |
 | -- | ------------------- | ------------------- |
-|    | ✅ 151 روز ورزش کردم | ❌ 49 روز ورزش نکردم |
+|    | ✅ 157 روز ورزش کردم | ❌ 52 روز ورزش نکردم |
 <!-- SerializedQuery END -->
 
 </div>
@@ -372,7 +380,7 @@ cssclasses:
 
 | Total            | Maximum         | Minimum        | Average           |
 | ---------------- | --------------- | -------------- | ----------------- |
-| 🔘 جمع کل: 235 پ | 🔺 بیشترین: 7 پ | 🔻 کمترین: 0 پ | 📈 میانگین: 1.2 پ |
+| 🔘 جمع کل: 238 پ | 🔺 بیشترین: 7 پ | 🔻 کمترین: 0 پ | 📈 میانگین: 1.1 پ |
 <!-- SerializedQuery END -->
 </div>
 
@@ -386,9 +394,9 @@ cssclasses:
 <!-- QueryToSerialize: table without id "🔘 جمع کل: " + round(sum(rows.📱social)) + " ساعت" as Total, "🔺 بیشترین: " + round(max(rows.📱social),1) + " ساعت" as Maximum, "🔻 کمترین: " + round(min(rows.📱social),1) + " ساعت" as Minimum, "📈 میانگین: " + round(sum(rows.📱social) / length(rows), 1) + " ساعت" as Average FROM #journal WHERE file.name >= ("2024-03-20") AND file.name <= ("2025-03-20") GROUP BY "" -->
 <!-- SerializedQuery: table without id "🔘 جمع کل: " + round(sum(rows.📱social)) + " ساعت" as Total, "🔺 بیشترین: " + round(max(rows.📱social),1) + " ساعت" as Maximum, "🔻 کمترین: " + round(min(rows.📱social),1) + " ساعت" as Minimum, "📈 میانگین: " + round(sum(rows.📱social) / length(rows), 1) + " ساعت" as Average FROM #journal WHERE file.name >= ("2024-03-20") AND file.name <= ("2025-03-20") GROUP BY "" -->
 
-| Total               | Maximum            | Minimum             | Average              |
-| ------------------- | ------------------ | ------------------- | -------------------- |
-| 🔘 جمع کل: 316 ساعت | 🔺 بیشترین: 4 ساعت | 🔻 کمترین: 0.1 ساعت | 📈 میانگین: 1.6 ساعت |
+| Total               | Maximum            | Minimum           | Average              |
+| ------------------- | ------------------ | ----------------- | -------------------- |
+| 🔘 جمع کل: 321 ساعت | 🔺 بیشترین: 4 ساعت | 🔻 کمترین: 0 ساعت | 📈 میانگین: 1.5 ساعت |
 <!-- SerializedQuery END -->
 </div>
 
