@@ -2,6 +2,7 @@
 title: گزارش کلی
 aliases: 
 date: 2024-08-29
+lastmod: 2024-10-18
 draft: false
 tags: 
 status: 
@@ -20,7 +21,7 @@ cssclasses:
 
 | icon | count       | sum          |
 | ---- | ----------- | ------------ |
-| 📚   | 50 جلد کتاب | `11199 صفحه` |
+| 📚   | 50 جلد کتاب | `11095 صفحه` |
 <!-- SerializedQuery END -->
 
 
@@ -40,7 +41,7 @@ cssclasses:
 
 | icon | count     | sum         |
 | ---- | --------- | ----------- |
-| 🎙   | 40 پادکست | `96.4 ساعت` |
+| 🎙   | 41 پادکست | `98.2 ساعت` |
 <!-- SerializedQuery END -->
 
 
@@ -58,7 +59,7 @@ cssclasses:
 
 | icon | count            | sum          |
 | ---- | ---------------- | ------------ |
-| 🍿   | 165 فیلم و سریال | `820.1 ساعت` |
+| 🍿   | 166 فیلم و سریال | `821.8 ساعت` |
 <!-- SerializedQuery END -->
 
 
@@ -81,7 +82,7 @@ cssclasses:
 
 | ("![](" + cover + ")")                                                                                                                                            | file.name                                          | "`" + pages + " صفحه`" |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- | ---------------------- |
-| ![](https://s32.picofile.com/file/8479772334/7habit.jpg)                                                                                                          | هفت عادت مردمان مؤثر                               | `520 صفحه`             |
+| ![](https://s32.picofile.com/file/8479772334/7habit.jpg)                                                                                                          | هفت عادت مردمان مؤثر                               | `416 صفحه`             |
 | ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1477218519i/22050315.jpg)                                               | هفت روایت خصوصی از زندگی سید موسی صدر              | `192 صفحه`             |
 | ![](https://s32.picofile.com/file/8478850484/mr_jicak.jpg)                                                                                                        | مستر جیکاک                                         | `136 صفحه`             |
 | ![](https://s32.picofile.com/file/8478794884/Visual_Hammer.jpg)                                                                                                   | چکش بصری                                           | `183 صفحه`             |
@@ -183,8 +184,9 @@ cssclasses:
 
 | ("![](" + cover + ")")                                                                                                                                     | file.name                                               | "`" + length.minute + " دقیقه`" |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- | ------------------------------- |
-| ![](https://assets.pippa.io/shows/623ee6e745754c001233a890/1728667107207-3c654a02-2ad0-4ba5-b5a7-feafab3413e5.jpeg)                                        | امیرعباس عبدالعلی یوتیوبر                               | `110 دقیقه`                     |
+| ![](https://s3.castbox.fm/ce/42/97/f5dd903f2d5ca3e35c00ad4311384765fe_scaled_v1_400.jpg)                                                                   | گفتگو با امیرحسین ناطقی  بنیان‌گذار کوییز آف کینگز      | `110 دقیقه`                     |
 | ![](https://s3.castbox.fm/8f/16/c6/cc4f96cdcb32a1cd888064e1d75d31c9f3_scaled_v1_400.jpg)                                                                   | گفتگو با زوجِ تولیدکنندۀ عسل                            | `84 دقیقه`                      |
+| ![](https://assets.pippa.io/shows/623ee6e745754c001233a890/1728667107207-3c654a02-2ad0-4ba5-b5a7-feafab3413e5.jpeg)                                        | امیرعباس عبدالعلی یوتیوبر                               | `110 دقیقه`                     |
 | ![](https://s3.castbox.fm/f2/5d/97/5e302f4e6c8b1e446151cd6f90.jpg)                                                                                         | پرسش و پاسخ با دکتر علی خزایی (5 اپیزود)                | `377 دقیقه`                     |
 | ![](https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/ac/e3/21/ace321b3-193c-1423-4c4c-ca46a52951a9/mza_5386946835372024842.png/400x400bb.jpg)       | رادیوگیک – شماره ۱۴۷ – چت جی پی تی                      | `53 دقیقه`                      |
 | ![](https://s3.castbox.fm/5f/2d/17/f23361428f86095c0ad82f589e.jpg)                                                                                         | گفتگو با مهدی آخی درباره مدل‌های زبانی بزرگ             | `144 دقیقه`                     |
@@ -285,9 +287,9 @@ cssclasses:
 <!-- QueryToSerialize: TABLE WITHOUT ID "🎈" as icon, length(rows) + " انیمیشن" as count, "`" + round(sum(rows.length.hours),1) + " ساعت`" as sum FROM #Movie WHERE type = "animation" AND length != null GROUP BY "" -->
 <!-- SerializedQuery: TABLE WITHOUT ID "🎈" as icon, length(rows) + " انیمیشن" as count, "`" + round(sum(rows.length.hours),1) + " ساعت`" as sum FROM #Movie WHERE type = "animation" AND length != null GROUP BY "" -->
 
-| icon | count     | sum         |
-| ---- | --------- | ----------- |
-| 🎈   | 9 انیمیشن | `15.1 ساعت` |
+| icon | count      | sum         |
+| ---- | ---------- | ----------- |
+| 🎈   | 10 انیمیشن | `16.8 ساعت` |
 <!-- SerializedQuery END -->
 
 
@@ -310,8 +312,8 @@ cssclasses:
 | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | ------------------------------- |
 | ![](https://m.media-amazon.com/images/M/MV5BOTE5MDUxZDUtZWZmZC00NDVmLWFhOGQtNWI2YTc4NzY3MGQ0XkEyXkFqcGc@._V1_SX300.jpg)                         | The Usual Suspects                    | `106 دقیقه`                     |
 | ![](https://m.media-amazon.com/images/M/MV5BZGZhZGQ1ZWUtZTZjYS00MDJhLWFkYjctN2ZlYjE5NWYwZDM2XkEyXkFqcGc@._V1_SX300.jpg)                         | Saving Private Ryan                   | `169 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BNDg3Y2Q5YzMtMzNlYy00Y2MxLTkwYjctN2RhNDQ2NzczYWU4XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg)         | Taste of Cherry                       | `95 دقیقه`                      |
 | ![](https://m.media-amazon.com/images/M/MV5BNjI3NjY1Mjg3MV5BMl5BanBnXkFtZTgwMzk5MDQ3MjE@._V1_SX300.jpg)                                         | The Imitation Game                    | `114 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BNDg3Y2Q5YzMtMzNlYy00Y2MxLTkwYjctN2RhNDQ2NzczYWU4XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg)         | Taste of Cherry                       | `95 دقیقه`                      |
 | ![](https://m.media-amazon.com/images/M/MV5BNGRkYTNhOWQtYmI0Ni00MjZhLWJmMzAtMTA2Mjg4NGNiNDU0XkEyXkFqcGc@._V1_SX300.jpg)                         | Léon The Professional                 | `110 دقیقه`                     |
 | ![](https://m.media-amazon.com/images/M/MV5BMmU5NGJlMzAtMGNmOC00YjJjLTgyMzUtNjAyYmE4Njg5YWMyXkEyXkFqcGc@._V1_SX300.jpg)                         | The Batman                            | `176 دقیقه`                     |
 | ![](https://m.media-amazon.com/images/M/MV5BODExZmE2ZWItYTIzOC00MzI1LTgyNTktMDBhNmFhY2Y4OTQ3XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg)         | Dog Day Afternoon                     | `125 دقیقه`                     |
@@ -439,17 +441,18 @@ cssclasses:
 <!-- QueryToSerialize: table without id ("![](" + cover + ")"), file.name, "`" + length.minute + " دقیقه`" FROM #Movie WHERE type = "animation" SORT date DESC -->
 <!-- SerializedQuery: table without id ("![](" + cover + ")"), file.name, "`" + length.minute + " دقیقه`" FROM #Movie WHERE type = "animation" SORT date DESC -->
 
-| ("![](" + cover + ")")                                                                                                                  | file.name    | "`" + length.minute + " دقیقه`" |
-| --------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------- |
-| ![](https://m.media-amazon.com/images/M/MV5BYTc1MDQ3NjAtOWEzMi00YzE1LWI2OWUtNjQ0OWJkMzI3MDhmXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg) | Inside Out 2 | `96 دقیقه`                      |
-| ![](https://m.media-amazon.com/images/M/MV5BMzQxNjM5NzkxNV5BMl5BanBnXkFtZTcwMzg5NDMwMg@@._V1_SX300.jpg)                                 | Coraline     | `100 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMGRkZThmYzEtYjQxZC00OWEzLThjYjAtYzFkMjY0NGZkZWI4XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg) | Persepolis   | `96 دقیقه`                      |
-| ![](https://m.media-amazon.com/images/M/MV5BZTQyNTU0MDktYTFkYi00ZjNhLWE2ODctMzBkM2U1ZTk3YTMzXkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_SX300.jpg) | Luca         | `95 دقیقه`                      |
-| ![](https://m.media-amazon.com/images/M/MV5BZGE1MDg5M2MtNTkyZS00MTY5LTg1YzUtZTlhZmM1Y2EwNmFmXkEyXkFqcGdeQXVyNjA3OTI0MDc@._V1_SX300.jpg) | Soul         | `100 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMTMzODU0NTkxMF5BMl5BanBnXkFtZTcwMjQ4MzMzMw@@._V1_SX300.jpg)                                 | Ratatouille  | `111 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BOTMyMjEyNzIzMV5BMl5BanBnXkFtZTgwNzIyNjU0NzE@._V1_SX300.jpg)                                 | Zootopia     | `108 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_SX300.jpg) | Coco         | `105 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BOTgxMDQwMDk0OF5BMl5BanBnXkFtZTgwNjU5OTg2NDE@._V1_SX300.jpg)                                 | Inside Out   | `95 دقیقه`                      |
+| ("![](" + cover + ")")                                                                                                                  | file.name      | "`" + length.minute + " دقیقه`" |
+| --------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ------------------------------- |
+| ![](https://m.media-amazon.com/images/M/MV5BZjM2M2E3YzAtZDJjYy00MDhkLThiYmItOGZhNzQ3NTgyZmI0XkEyXkFqcGc@._V1_SX300.jpg)                 | The Wild Robot | `102 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BYTc1MDQ3NjAtOWEzMi00YzE1LWI2OWUtNjQ0OWJkMzI3MDhmXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg) | Inside Out 2   | `96 دقیقه`                      |
+| ![](https://m.media-amazon.com/images/M/MV5BMzQxNjM5NzkxNV5BMl5BanBnXkFtZTcwMzg5NDMwMg@@._V1_SX300.jpg)                                 | Coraline       | `100 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMGRkZThmYzEtYjQxZC00OWEzLThjYjAtYzFkMjY0NGZkZWI4XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg) | Persepolis     | `96 دقیقه`                      |
+| ![](https://m.media-amazon.com/images/M/MV5BZTQyNTU0MDktYTFkYi00ZjNhLWE2ODctMzBkM2U1ZTk3YTMzXkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_SX300.jpg) | Luca           | `95 دقیقه`                      |
+| ![](https://m.media-amazon.com/images/M/MV5BZGE1MDg5M2MtNTkyZS00MTY5LTg1YzUtZTlhZmM1Y2EwNmFmXkEyXkFqcGdeQXVyNjA3OTI0MDc@._V1_SX300.jpg) | Soul           | `100 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMTMzODU0NTkxMF5BMl5BanBnXkFtZTcwMjQ4MzMzMw@@._V1_SX300.jpg)                                 | Ratatouille    | `111 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BOTMyMjEyNzIzMV5BMl5BanBnXkFtZTgwNzIyNjU0NzE@._V1_SX300.jpg)                                 | Zootopia       | `108 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_SX300.jpg) | Coco           | `105 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BOTgxMDQwMDk0OF5BMl5BanBnXkFtZTgwNjU5OTg2NDE@._V1_SX300.jpg)                                 | Inside Out     | `95 دقیقه`                      |
 <!-- SerializedQuery END -->
 
 ‌<br/>‌<br/>

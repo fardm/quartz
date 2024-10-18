@@ -2,7 +2,7 @@
 title: کلمات کلیدی برای ساخت تصاویر با هوش مصنوعی
 aliases: 
 date: 2024-10-07
-lastmod: 2024-10-08
+lastmod: 2024-10-18
 draft: false
 status: 🌱نهال
 parent: "[[ai|🧠 هوش مصنوعی]]"
@@ -20,15 +20,15 @@ cssclasses:
 ## زاویه دوربین
 <br/>
 
-|                          |            |            |
-| ------------------------ | ---------- | ---------- |
-| ![[ComfyUI_00097_.webp]] | front view | `رو به رو` |
-| ![[ComfyUI_00064_.webp]] | side view  | `نیم رخ`   |
-| ![[ComfyUI_00065_.webp]] | back view  | `از پشت`   |
-| ![[ComfyUI_00089_.webp]] | selfie     | `سلفی`     |
-|  ![[ComfyUI_00636.jpg]]                          | low angle shot / from below               | `از پایین`  |
-| ![[ComfyUI_001348.jpg]]                           | high angle shot / from above / overhead view               | `از بالا`  |
-|   ![[ComfyUI_002348.jpg]]                         | eye level shot               | `هم‌سطح چشم`  |
+|                          |                                              |              |
+| ------------------------ | -------------------------------------------- | ------------ |
+| ![[ComfyUI_00097_.webp]] | front view                                   | `رو به رو`   |
+| ![[ComfyUI_00064_.webp]] | side view                                    | `نیم رخ`     |
+| ![[ComfyUI_00065_.webp]] | back view                                    | `از پشت`     |
+| ![[ComfyUI_00089_.webp]] | selfie                                       | `سلفی`       |
+| ![[ComfyUI_00636.jpg]]   | low angle shot / from below                  | `از پایین`   |
+| ![[ComfyUI_001348.jpg]]  | high angle shot / from above / overhead view | `از بالا`    |
+| ![[ComfyUI_002348.jpg]]  | eye level shot                               | `هم‌سطح چشم` |
 
 <br/><br/>
 
@@ -108,9 +108,6 @@ cssclasses:
 |                            | Cubism      |       `کوبیسم`      |
 
 
-سایت
-Unsplash
-National Geographic
 
 <br/><br/>
 
